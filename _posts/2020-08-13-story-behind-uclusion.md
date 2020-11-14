@@ -4,7 +4,6 @@ title:  "The Story Behind Uclusion"
 author: david
 categories: [ agile, scrum ]
 image: assets/images/Idea_light.jpg
-featured: true
 ---
 
 We founded Uclusion to solve the problem of working on what is most important. Over the years we’ve had many experiences that led us to strongly believe there has to be a better way.
