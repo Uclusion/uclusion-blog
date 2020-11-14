@@ -4,3 +4,8 @@ _site
 .sass-cache
 .jekyll-cache
 Gemfile.lock
+/.idea/modules.xml
+/.idea/uclusion-blog.iml
+/.idea/vcs.xml
+/.idea/workspace.xml
+/.idea/codeStyles/codeStyleConfig.xml
