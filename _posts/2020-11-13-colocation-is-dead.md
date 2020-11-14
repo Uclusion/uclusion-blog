@@ -18,4 +18,17 @@ Unfortunately, this assumption just isn't true. It was possible to paper over th
 problems when it was a few remote workers, but now *nobody* is in the office.
 
 Colocation isn't coming back either. Companies don't have to maintain an expensive
-office, and can hire talent wherever they happen to live. Employees don't have to commute, and have a much wider choice of employers.
+office, and can hire talent wherever they happen to live.
+Employees don't have to commute, and have a much wider choice of employers.
+
+To survive, agile is going to have to adapt, and use tools and flows that work
+across geography and time zones.
+
+Dependence on meetings has to go away and be replaced with smart software that
+notifies the right people at the right times.
+
+Written communication will replace face to face meetings, and structure will need
+to be placed around that communication to keep the signal to noise ratio high.
+
+Fortunately, agile is built on the principle of introspection and adaptation and
+practitioners are well prepared to make the necessary changes.

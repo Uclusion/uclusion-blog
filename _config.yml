@@ -2,7 +2,7 @@
 name: "Uclusion Blog"
 title: "Uclusion Blog"
 description: "Blog for all things Uclusion"
-logo: 'assets/images/logo.svg'
+logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 paginate: 12
 #baseurl: ''
