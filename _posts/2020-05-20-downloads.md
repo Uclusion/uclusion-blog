@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Authenticated S3 Downloads Without Passing Through Lambdas"
+title:  "Authenticated S3 downloads without passing through Lambdas"
 author: ben
 categories: [ engineering, backend ]
 ---
