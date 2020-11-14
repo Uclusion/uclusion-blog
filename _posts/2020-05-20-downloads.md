@@ -4,7 +4,7 @@ title:  "Authenticated S3 Downloads Without Passing Through Lambdas"
 author: ben
 categories: [ engineering, backend ]
 ---
-In my [previous story](https://medium.com/uclusion/uploading-user-files-to-s3-without-passing-through-your-lambdas-90cdd26240d5) I covered how [Uclusion](https://www.uclusion.com/?utm_source=devto&utm_medium=blog&utm_campaign=devs3download) lets users securely upload files to S3 without having to route the upload data through our Lambdas. In this installment, I’ll explain how to do the same when users download files.
+In my [previous story]({{ site.baseurl }}/engineering/backend/2020/05/17/uploads.html) I covered how [Uclusion](https://www.uclusion.com/?utm_source=uclusion&utm_medium=blog&utm_campaign=devs3download) lets users securely upload files to S3 without having to route the upload data through our Lambdas. In this installment, I’ll explain how to do the same when users download files.
 
 Step 1: Block public access from your bucket.
 

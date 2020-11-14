@@ -20,7 +20,7 @@ In graphical terms 1 and 2 look like this:
 
 So far very simple but 3 is where we fall down the rabbit hole. If any single one of your APIs is eventually consistent then answering “Client up to date?” is hard.
 
-[Uclusion](https://www.uclusion.com/?utm_source=devto&utm_medium=blog&utm_campaign=devapi) uses DynamoDB and asynchronous workflows built on DynamoDB streams so of course there is eventually consistent everywhere. Even with a SQL DB you could be reading from a slave or multi-master database where replication lag will be eventually consistent. If you rely on a read immediately following a write returning the data you just wrote then the front end client is dictating back end implementation.
+[Uclusion](https://www.uclusion.com/?utm_source=uclusion&utm_medium=blog&utm_campaign=devapi) uses DynamoDB and asynchronous workflows built on DynamoDB streams so of course there is eventually consistent everywhere. Even with a SQL DB you could be reading from a slave or multi-master database where replication lag will be eventually consistent. If you rely on a read immediately following a write returning the data you just wrote then the front end client is dictating back end implementation.
 
 If because of client space or compute limitations filter, sort and search capabilities must have APIs then run them outside your main transactional database. Otherwise long running queries against the same database requiring lightning fast create and updates is a use case mismatch. So these kinds of querying APIs require eventual consistency as traffic and volume of data scales.
 

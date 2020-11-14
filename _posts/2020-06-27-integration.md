@@ -5,7 +5,7 @@ author: david
 categories: [ engineering, backend ]
 ---
 
-[Uclusion](https://www.uclusion.com/?utm_source=devto&utm_medium=blog&utm_campaign=devwebsockets) is powered by an eventually consistent Rest API and uses WebSockets to inform the client when data changes server side. This means that any integration test that depends on writes happening in a sequence must integrate web sockets into it’s control flow.
+[Uclusion](https://www.uclusion.com/?utm_source=uclusion&utm_medium=blog&utm_campaign=devwebsockets) is powered by an eventually consistent Rest API and uses WebSockets to inform the client when data changes server side. This means that any integration test that depends on writes happening in a sequence must integrate web sockets into it’s control flow.
 
 More specifically, the integration test must integrate web sockets in a way that allows for messages to arrive in any order, and must fuse the WebSocket notification with the standard Promise based control flow that our SDK presents.
 

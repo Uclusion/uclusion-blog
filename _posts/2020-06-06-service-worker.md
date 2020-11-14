@@ -4,7 +4,7 @@ title:  "Gotchas with Service Workers and SPAs"
 author: ben
 categories: [ engineering, ui ]
 ---
-[Uclusion](https://www.uclusion.com/?utm_source=devto&utm_medium=blog&utm_campaign=devservicepwa) is a single page app (SPA), which means the browser doesn’t see very many navigation events while the user is going about their business. Service workers, by default, have the rule that only pages loaded by a service worker will handle their requests via that service worker. These two things combine such that even if you register a service worker on entrance to your SPA, it won’t work until the user hits reload.
+[Uclusion](https://www.uclusion.com/?utm_source=uclusion&utm_medium=blog&utm_campaign=devservicepwa) is a single page app (SPA), which means the browser doesn’t see very many navigation events while the user is going about their business. Service workers, by default, have the rule that only pages loaded by a service worker will handle their requests via that service worker. These two things combine such that even if you register a service worker on entrance to your SPA, it won’t work until the user hits reload.
 
 Additionally, by default, service workers will wait until a page close and page reopen to load a new version of a service worker. This means that unless the user closes your app and comes back in, your new service worker code won’t take effect.
 

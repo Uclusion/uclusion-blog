@@ -4,7 +4,7 @@ title:  "Navigation in React"
 author: david
 categories: [ engineering, ui ]
 ---
-[Uclusion](https://www.uclusion.com/?utm_source=devto&utm_medium=blog&utm_campaign=devnavigation) usually avoids creating our own way of doing things but for React navigation we need absolute control of what was loaded and what not. Out of the box navigation solutions tend to remove from the DOM all but the current page — see for instance this [issue](https://github.com/react-navigation/react-navigation/issues/7140). So at that point the utility offered by most React navigation libraries was too undercut by our need for control. So instead we did something very simple:
+[Uclusion](https://www.uclusion.com/?utm_source=uclusion&utm_medium=blog&utm_campaign=devnavigation) usually avoids creating our own way of doing things but for React navigation we need absolute control of what was loaded and what not. Out of the box navigation solutions tend to remove from the DOM all but the current page — see for instance this [issue](https://github.com/react-navigation/react-navigation/issues/7140). So at that point the utility offered by most React navigation libraries was too undercut by our need for control. So instead we did something very simple:
 
     return (
       <div>

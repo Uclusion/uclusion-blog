@@ -4,7 +4,7 @@ title:  "Capabilities and JWT Security"
 author: ben
 categories: [ engineering, backend ]
 ---
-Security for products like [Uclusion](https://www.uclusion.com/?utm_source=devto&utm_medium=blog&utm_campaign=devcapability), is a tricky beast. You need to provide a robust security model, but you don’t have a lot of wall clock time you can spend validating a request or user experience begins to suffer. This means that whatever scheme you come up has to be fast to verify, and ideally doesn’t require you to make round trips to databases or external resources.
+Security for products like [Uclusion](https://www.uclusion.com/?utm_source=uclusion&utm_medium=blog&utm_campaign=devcapability), is a tricky beast. You need to provide a robust security model, but you don’t have a lot of wall clock time you can spend validating a request or user experience begins to suffer. This means that whatever scheme you come up has to be fast to verify, and ideally doesn’t require you to make round trips to databases or external resources.
 
 Enter the [Capability](https://en.wikipedia.org/wiki/Capability-based_security). Capabilities don’t follow the normal security model where each recipient authenticates the user, and then checks the request against some permission authority (such as a permissions table stored in a DB) to determine if the request can be granted. Instead the user presents a capability containing a permission to the endpoint, the endpoint checks the syntactic structure of the capability, checks that the capability was granted by an authority it trusts, checks the request against the provided capability, and them, if everything matches, performs the action.
 

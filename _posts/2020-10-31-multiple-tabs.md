@@ -9,7 +9,7 @@ We had some problems with multiple tabs that are pretty common:
 * Logout in one tab would not be noticed in the other
 * Sync with the backend would be done independently by all
 
-Being [Uclusion](https://www.uclusion.com/?utm_source=devto&utm_medium=blog&utm_campaign=multitab) we of course used a Uclusion Dialog to decide and the options were:
+Being [Uclusion](https://www.uclusion.com/?utm_source=uclusion&utm_medium=blog&utm_campaign=multitab) we of course used a Uclusion Dialog to decide and the options were:
 * [broadcast-channel](https://www.npmjs.com/package/broadcast-channel) the NPM package
 * [Broadcast channel API](https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API)
 * [Service worker communication](https://felixgerschau.com/how-to-communicate-with-service-workers/#:~:text=Service%20Workers%20can%20intercept%20requests,when%20all%20tabs%20are%20closed)

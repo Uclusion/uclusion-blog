@@ -59,4 +59,4 @@ Similarly Uclusion is not offering a cure but does make best practices easier.
 
 1. Keep your asynchronous collaboration with the requirements and stories and have that online collaboration instead of or at least before calling any meeting.
 
-We really believe there is a better way and hope you will check out [Uclusion for free](https://www.uclusion.com/?utm_source=devto&utm_medium=blog&utm_campaign=devbetterway). Also please visit [#uclusion](https://twitter.com/hashtag/uclusion) to tell us your experience!
+We really believe there is a better way and hope you will check out [Uclusion for free](https://www.uclusion.com/?utm_source=uclusion&utm_medium=blog&utm_campaign=devbetterway). Also please visit [#uclusion](https://twitter.com/hashtag/uclusion) to tell us your experience!
