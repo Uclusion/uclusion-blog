@@ -69,7 +69,7 @@ workflows:
       - compile:
           filters:
             tags:
-              only: /^dev_only.*/
+              only: /^production_only.*/
       - deploy:
           requires:
             - compile
