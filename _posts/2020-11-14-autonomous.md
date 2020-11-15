@@ -7,31 +7,33 @@ image: assets/images/person.jpg
 featured: true
 ---
 
-The idea behind autonomous teamwork is to use meetings and mostly synchronous communication like group chat as a 
-last resort. All the decisions and information necessary to make progress are entered in intelligent software
-that alerts the team to help with a decision, approve a new story, collaborate on requirements, etc.
+The idea behind autonomous teamwork is that employees are highly trained professionals
+whose productivity depends on *being able to focus*.
+Accordingly any meetings or focus breaking communication should be used as an absolute
+last resort.
 
-The reasoning is simple - we want to collaborate with others but we also want to stay focussed as much as 
-possible. The more people that participate in meetings and messaging the less focus is possible.
+For this reason autonomous teamwork delegates the communication overhead of status, planning, implementation decisions
+and new project ideas to software that understands the context.
 
-So instead autonomous teamwork delegates the communication overhead of status, planning, implementation decisions 
-and new project ideas to software that understands the context. As a simple example, if a blocking comment is 
-opened on a story, the story is moved to "blocked" stage, the team is alerted and progress on the story halted.
+As a simple example, if a team member raises a block issue on a story, the *software*, not a *human*
+software must handle alerting the team, exposing the new status, and making sure that
+progress is halted until the issue is resolved.
 
-### There is example after example of agile communication being handled better by a system that understands what is happening.
+### Advancements in agile software can be described as advancements in understanding the need to focus
 
-Of course the blocked example can be accomplished with meetings or messaging but the amount of concentration lost
-by the team will be far greater. If an implementation question is asked about a story and there
-are five options, autonomous teamwork will make it easy for everyone to know the options and who has approved 
-which option and why. Doing that with meetings or messaging will take much, much longer - so long that
-one might be tempted to just decide the implementation by himself.
+A similar approach is taken with implementation decisions. If an implementation question is asked about a story,
+autonomous teamwork  requires adherent software to make it easy for everyone to know the options and who has approved
+which option and why.
+Let me emphasize this again: autonomous teamwork insists that *software handles coordination instead of
+ensuring coordination via meeting*.
 
-The same applies to any team decision. If you need a story approved put it into "Ready to Start" and get
-your team's certainty about whether it should be taken, their reason and their budget for doing it. If you
-get your new story approved while you are working on another story then you won't be slowed down and people 
-don't have to respond in an all at the same time meeting.
+To avoid the need for up front planning meetings, autonomous teamwork asks each participant to begin working
+on a story only if their team has voted on whether it should be taken. Furthermore, to assist the implementer
+in maximizing delivered value, each voter is asked to provide their certainty, a reason behind their vote and an allowable
+"budget" for doing the story. Ideally, each new story is approved *before* the current one is finished,
+but in case it's not the software *must* alert the participant and team that the pool is running dry so they can fix it.
 
-Meetings and messaging will happen anyway since not all communication can be
-structured. **But if we don't make a best attempt at autonomous teamwork first then
-we lose a lot of the benefits of collaboration as the team's work style becomes
-forced towards synchronous and scheduled.**
+By making a best attempt at autonomous teamwork and intelligent software first, we
+get most of the benefits of communication *and dedicated forcus time*. Meetings
+and messaging isn't going to go away, but the investment they represent can be better
+focused on the things that truly need it.
