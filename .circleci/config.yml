@@ -51,7 +51,10 @@ jobs:
 workflows:
   deploy-preview:
     jobs:
-      - compile
+      - compile:
+        filters:
+          tags:
+            only: /^dev_only.*/
       - deploy:
           requires:
             - compile
