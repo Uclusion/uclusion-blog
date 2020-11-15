@@ -1,0 +1,88 @@
+# Javascript Node CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-javascript/ for more details
+#
+version: 2.1
+
+defaults: &defaults
+  working_directory: ~/repo
+  docker:
+    - image: cimg/ruby:2.7
+
+
+jobs:
+ environment:
+      BUNDLE_PATH: ~/repo/vendor/bundle
+  build:
+    <<: *defaults
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - rubygems-v1-{{ checksum "Gemfile.lock" }}
+            - rubygems-v1-fallback
+      - run:
+          name: Bundle Install
+          command: bundle check || bundle install
+      - save_cache:
+          key: rubygems-v1-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+      - run:
+          name: Jekyll build
+          command: bundle exec jekyll build
+      - run:
+          name: HTMLProofer tests
+          command: |
+            bundle exec htmlproofer ./_site \
+              --allow-hash-href \
+              --check-favicon  \
+              --check-html \
+              --disable-external
+      - persist_to_workspace:
+          root: ./
+          paths:
+            - _site
+
+  deploy:
+    <<: *defaults
+    docker:
+      - image: circleci/python:3.7.3
+    environment:
+      S3_BUCKET_NAME
+      - run:
+          name: Sync to S3
+          command: |
+            [ -d ~/.aws ] && echo "Found" || mkdir ~/.aws
+            echo -e "[default]\naws_access_key_id=$aws_access_key_id\naws_secret_access_key=$aws_secret_access_key\n" > ~/.aws/credentials
+            sudo apt-get update
+            sudo apt-get -y -qq install awscli
+            cd ~/repo
+            aws s3 sync --delete _site/ s3://uclusion-blog-${env_name}
+      - run:
+          name: Invalidate Cloud Front cache
+          command: |
+            aws configure set preview.cloudfront true
+            aws cloudfront create-invalidation --distribution-id ${blog_distribution_id}  --paths "/*"
+
+workflows:
+  deploy-preview:
+    jobs:
+      - build
+      - deploy:
+          filters:
+            tags:
+              only: /^dev_only.*/
+            branches:
+              ignore: /.*/
+          context: dev
+  deploy-production:
+    jobs:
+      - build
+      - deploy:
+          filters:
+            tags:
+              only: /^production_only.*/
+            branches:
+              ignore: /.*/
+          context: production
