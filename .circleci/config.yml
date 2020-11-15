@@ -5,7 +5,7 @@ defaults: &defaults
 version: 2.1
 
 jobs:
-  build:
+  compile:
     <<: *defaults
     environment:
       BUNDLE_PATH: ~/repo/vendor/bundle
@@ -51,9 +51,10 @@ jobs:
 workflows:
   deploy-preview:
     jobs:
+      - compile:
       - deploy:
           requires:
-            - build
+            - compile
           filters:
             tags:
               only: /^dev_only.*/
@@ -62,9 +63,10 @@ workflows:
           context: dev
   deploy-production:
     jobs:
+      - compile
       - deploy:
           requires:
-            - build
+            - compile
           filters:
             tags:
               only: /^production_only.*/
