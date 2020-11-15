@@ -7,33 +7,31 @@ image: assets/images/person.jpg
 featured: true
 ---
 
-Colocation in an agile context means that all team members are in the same office.
+The idea behind autonomous teamwork is to use meetings and mostly synchronous communication like group chat as a 
+last resort. All the decisions and information necessary to make progress are entered in intelligent software
+that alerts the team to help with a decision, approve a new story, collaborate on requirements, etc.
 
-Current agile is built on the assumption of colocation and this shows up
-right in the 12 principles:
-`The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.`
+The reasoning is simple - we want to collaborate with others but we also want to stay focussed as much as 
+possible. The more people that participate in meetings and messaging the less focus is possible.
 
-Scrum explicitly assumes colocation, because the most frequent activity
-is a face-to-face meeting, the Standup. Kanban practictioners [sometimes choose](https://www.conjur.org/blog/running-a-kanban-standup-meeting) a daily meet also.
+So instead autonomous teamwork delegates the communication overhead of status, planning, implementation decisions 
+and new project ideas to software that understands the context. As a simple example, if a blocking comment is 
+opened on a story, the story is moved to "blocked" stage, the team is alerted and progress on the story halted.
 
-When the number of remote workers was few it was possible to ignore the problems of insisting on group meetings, but now the 
-assumption that everyone shares a time zone, much less the same office, is difficult to make.
+### There is example after example of agile communication being handled better by a system that understands what is happening.
 
-Colocation, in such an absolute form, isn't coming back either. Companies don't have to maintain an expensive
-office, and can hire talent wherever they happen to live.
-Employees don't have to commute, and have a much wider choice of employers. There will still be plenty of teams
-able to use a scheduled group meeting but insisting on those meetings as the only way will no longer be reasonably flexible.
+Of course the blocked example can be accomplished with meetings or messaging but the amount of concentration lost
+by the team will be far greater. If an implementation question is asked about a story and there
+are five options, autonomous teamwork will make it easy for everyone to know the options and who has approved 
+which option and why. Doing that with meetings or messaging will take much, much longer - so long that
+one might be tempted to just decide the implementation by himself.
 
-Even if you are a completely co-located team the next hire might be remote or the next project require collaboration with a team in
-another time zone. To survive, agile is going to have to adapt, and use tools and flows that work
-across geography and time zones.
+The same applies to any team decision. If you need a story approved put it into "Ready to Start" and get
+your team's certainty about whether it should be taken, their reason and their budget for doing it. If you
+get your new story approved while you are working on another story then you won't be slowed down and people 
+don't have to respond in an all at the same time meeting.
 
-Calling meetings by default has to go away and be replaced with smart software that
-notifies the right people at the right times. Meetings will be held more strategically with the groundwork for the meeting
-already taking place asynchronously.
-
-Written communication will replace the face to face meetings scheduled as part of process, and structure will need
-to be placed around that communication to keep the signal to noise ratio high.
-
-Fortunately, agile is built on the principle of introspection and adaptation and
-practitioners are well prepared to make the necessary changes.
+Meetings and messaging will happen anyway since not all communication can be
+structured. **But if we don't make a best attempt at autonomous teamwork first then
+we lose a lot of the benefits of collaboration as the team's work style becomes
+forced towards synchronous and scheduled.**
