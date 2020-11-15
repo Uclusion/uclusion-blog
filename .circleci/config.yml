@@ -42,7 +42,7 @@ jobs:
             echo -e "[default]\naws_access_key_id=$aws_access_key_id\naws_secret_access_key=$aws_secret_access_key\n" > ~/.aws/credentials
             sudo apt-get update
             sudo apt-get -y -qq install awscli
-            cd ~/repo
+            cd ~/
             aws s3 sync --delete _site/ s3://uclusion-blog-${env_name}
       - run:
           name: Invalidate Cloud Front cache
