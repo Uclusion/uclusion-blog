@@ -51,7 +51,7 @@ jobs:
 workflows:
   deploy-preview:
     jobs:
-      - compile:
+      - compile
       - deploy:
           requires:
             - compile
