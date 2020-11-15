@@ -27,14 +27,6 @@ jobs:
       - run:
           name: Jekyll build
           command: bundle exec jekyll build
-      - run:
-          name: HTMLProofer tests
-          command: |
-            bundle exec htmlproofer ./_site \
-              --allow-hash-href \
-              --check-favicon  \
-              --check-html \
-              --disable-external
       - persist_to_workspace:
           root: ./
           paths:
@@ -63,7 +55,10 @@ jobs:
 workflows:
   deploy-preview:
     jobs:
-      - build
+      - build:
+        filters:
+          tags:
+            only: /^build_dev_only.*/
       - deploy:
           filters:
             tags:
@@ -73,7 +68,10 @@ workflows:
           context: dev
   deploy-production:
     jobs:
-      - build
+      - build:
+        filters:
+          tags:
+            only: /^build_production_only.*/
       - deploy:
           filters:
             tags:
