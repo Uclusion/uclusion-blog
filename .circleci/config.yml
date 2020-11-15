@@ -51,11 +51,9 @@ jobs:
 workflows:
   deploy-preview:
     jobs:
-      - build:
-          filters:
-            tags:
-              only: /^build_dev_only.*/
       - deploy:
+          requires:
+            - build
           filters:
             tags:
               only: /^dev_only.*/
@@ -64,11 +62,9 @@ workflows:
           context: dev
   deploy-production:
     jobs:
-      - build:
-          filters:
-            tags:
-              only: /^build_production_only.*/
       - deploy:
+          requires:
+            - build
           filters:
             tags:
               only: /^production_only.*/
