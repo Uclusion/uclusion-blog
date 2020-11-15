@@ -13,10 +13,6 @@ jobs:
       - image: cimg/ruby:2.7
     steps:
       - checkout
-      - restore_cache:
-          keys:
-            - rubygems-v1-{{ checksum "Gemfile.lock" }}
-            - rubygems-v1-fallback
       - run:
           name: Bundle Install
           command: bundle check || bundle install
