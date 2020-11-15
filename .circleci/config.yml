@@ -57,6 +57,8 @@ workflows:
           filters:
             tags:
               only: /^dev_only.*/
+            branches:
+              ignore: /.*/
       - deploy:
           requires:
             - compile
@@ -72,6 +74,8 @@ workflows:
           filters:
             tags:
               only: /^production_only.*/
+            branches:
+              ignore: /.*/
       - deploy:
           requires:
             - compile
