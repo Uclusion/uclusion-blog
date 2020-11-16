@@ -15,7 +15,7 @@ last resort.
 For this reason autonomous teamwork delegates the communication overhead of status, planning, implementation decisions
 and new project ideas to software that understands the context.
 
-As a simple example, if a team member raises a block issue on a story, the *software*, not a *human in a meeting*,
+As a simple example, if a team member raises a blocking issue on a story, the *software*, not a *human in a meeting*,
  must handle alerting the team, exposing the new status, and making sure that progress is halted until the issue 
  is resolved.
 
