@@ -17,7 +17,7 @@ waterfall that many organizations, even those claiming Scrum, are doing. Their f
 
 Product manager with feature and budget -> 'Shaping' team imagining a solution within budget -> Cycle team executing 'shaped' solution
 
-If you just replace "cycle team" with Sprint team then you can map this onto Scrum as it is frequently practiced. Where 
+If you replace "cycle team" with Sprint team then you can map this onto Scrum as it is frequently practiced. Where 
 the original Scrum paper clearly wanted 'shaping' and Sprinting to be done by one team given a feature and budget 
 mandate, waterfall wants the input to the Sprint team to be a design.
 
