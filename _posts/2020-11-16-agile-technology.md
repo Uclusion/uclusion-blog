@@ -6,7 +6,7 @@ categories: [ agile ]
 ---
 Since many in the agile community are very good at organizing people there is a tendency to approach problems
 exclusively from a social interaction perspective. Let's define better rules and meetings and guide developers to follow
-them. Ironically the skill that many agile practitioners have in this area already creates an 80-20 situation where
+them. Ironically the skill that many agile practitioners have in this area tends to create an 80-20 situation where
 further gains are difficult.
 
 Two technological areas that might still be in a 20-80 rule for an organization are software architecture and choice of 
@@ -19,8 +19,9 @@ more self-contained a team is the faster they will be able to proceed, for insta
 Unfortunately some [agile thinking](https://www.scaledagileframework.com/blog/new-advanced-topic-article-organizing-teams-and-arts-team-topologies-at-scale) 
 is more concerned with business level constructs than whether or not the software is untangled at a technology level.
 
-If for instance you have a platform team and features teams how much less agile are you right away, by design? Had 
-Amazon organized that way then there would not be any AWS - instead of services it would be a platform baked into the 
+If for instance you have a platform team and features teams how much less agile are you right away, by design? The 
+platform and feature teams end up joined at the hip and unable to deliver anything on their own. Had Amazon organized 
+that way then there would be no AWS - instead of services it would be a platform baked into the 
 core of their applications. Ignoring the technology perspective can lead to solutions where autonomous agile 
 development will be very difficult.
 
