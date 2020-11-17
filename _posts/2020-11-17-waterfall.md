@@ -17,11 +17,14 @@ waterfall that many organizations, even those claiming Scrum, are doing. Their f
 
 Product manager with feature and budget -> 'Shaping' team imagining a solution within budget -> Cycle team executing 'shaped' solution
 
-If you replace "cycle team" with Sprint team then you can map this onto Scrum as it is frequently practiced. Where 
+If you replace "cycle team" with Sprint team then you can map this onto Scrum ````as it is frequently practiced. Where 
 the original Scrum paper clearly wanted 'shaping' and Sprinting to be done by one team given a feature and budget 
-mandate, waterfall wants the input to the Sprint team to be a design.
+mandate, waterfall wants the input to development to be a design.
 
-## Why lack of autonomy is a bad idea
+What process you follow while you code is secondary to whether you are autonomous or not. The primary question is 
+how many strings are attached to your budget.
+
+## Lack of autonomy is bad for the product
 
 Let's take that calendar feature from an autonomous teamwork perspective. First the product manager keeps a simple list. 
 One of the line items on the list is "Calendar feature: Past versions of Basecamp had calendars, and only about 10% of 
@@ -43,12 +46,12 @@ might get a fully realized nice calendar. **And that's exactly the result the or
 >headquarters in Armonk, New York allowed the Boca Raton group to operate on its own. The group got the go-ahead to 
 >take unconventional steps such as selecting outside suppliers for its microprocessor and software package.
 
-## Same process for technical features
+## Same process for technical work
 
 In autonomous teamwork whether it's a customer visible feature or some form of technical debt the process is the same: 
 lists of not fully flushed out ideas are converted by agile collaboration. Work is approved via opinions on reasonable 
 budget and further collaborative help is asked for - not imposed.
 
 The fact is that waterfall or not really has nothing to do with whether you follow Scrum ceremonies. Notice that the 
-paper above doesn't discuss any ceremony and is not even assuming its software being developed. *The important part is 
-the level of detail in the hand off from people that can approve budget to those that use the budget.*
+paper above doesn't discuss any ceremony and is not even assuming software development. *The important part 
+is the level of detail in the hand off from people that can approve budget to those that use the budget.*
