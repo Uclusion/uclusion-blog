@@ -4,7 +4,6 @@ title:  "Autonomous Teamwork"
 author: david
 categories: [ agile ]
 image: assets/images/person.jpg
-featured: true
 ---
 
 The idea behind autonomous teamwork is that employees are highly trained professionals

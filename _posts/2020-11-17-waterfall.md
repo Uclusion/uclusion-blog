@@ -3,6 +3,7 @@ layout: post
 title:  "Waterfall and Scrum Are Not Opposites; Waterfall and Autonomous Teamwork Are"
 author: david
 categories: [ agile ]
+featured: true
 ---
 Here's the [original paper on Scrum](https://hbr.org/1986/01/the-new-new-product-development-game) from 1986 and its 
 intention for autonomy:
