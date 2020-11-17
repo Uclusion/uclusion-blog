@@ -17,7 +17,7 @@ waterfall that many organizations, even those claiming Scrum, are doing. Their f
 
 Product manager with feature and budget -> 'Shaping' team imagining a solution within budget -> Cycle team executing 'shaped' solution
 
-If you replace "cycle team" with Sprint team then you can map this onto Scrum ````as it is frequently practiced. Where 
+If you replace "cycle team" with Sprint team then you can map this onto Scrum as it is frequently practiced. Where 
 the original Scrum paper clearly wanted 'shaping' and Sprinting to be done by one team given a feature and budget 
 mandate, waterfall wants the input to development to be a design.
 
@@ -38,8 +38,9 @@ Now some developer reads the list, which is fully available to everyone, and has
 "Let's try integrating fullcalendar.io". If that developer has a tool like Uclusion available to him then he can send 
 an Initiative to measure support.
 
-The important part of this is that in waterfall world you get a crappy, limited calendar. In the autonomous world you 
-might get a fully realized nice calendar. **And that's exactly the result the original paper on Scrum predicts:**
+The important part of this is that in waterfall world you get a crappy, limited calendar pre-designed to avoid all 
+complexities that might or might not be expensive to implement. In the autonomous world you might get a fully realized 
+nice calendar. **And that's exactly the result the original paper on Scrum predicts:**
 
 >This kind of autonomy was evident when IBM developed its personal computer. A small group of engineers began working 
 >on the machine in a converted warehouse in remote Boca Raton, Florida. Except for quarterly corporate reviews, 
