@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Autonomous Teamwork"
+title:  "Autonomous Teamwork and Scrum"
 author: david
 categories: [ agile ]
 image: assets/images/person.jpg
@@ -9,8 +9,8 @@ featured: true
 
 The idea behind autonomous teamwork is that employees are highly trained professionals
 whose productivity depends on *being able to focus*.
-Accordingly any meetings or focus breaking communication should be used as an absolute
-last resort. 
+
+## Accordingly any meetings or focus breaking communication should be used sparingly. 
 
 The below table captures an example of autonomous teamwork applied to Scrum as defined by the 
 [Scrum guide](https://www.scrumguides.org/scrum-guide.html#sprint-planning). Their definition of product backlog is 
@@ -23,7 +23,7 @@ emphasis on up front estimating other than choosing the Sprint Goal.
 |---|---|---|---|
 | Planning - Topic one | The whole Scrum Team then collaborates to define a Sprint Goal that communicates why the Sprint is valuable to stakeholders. |  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  The team will be aware of any Initiatives that were voted favorably and consider them while deciding the Sprint Goal. |
 |  &nbsp; |  &nbsp; |  &nbsp; |  &nbsp; |
-| Planning - Topic two | Through discussion with the Product Owner, the Developers select items from the Product Backlog to include in the current Sprint.|  &nbsp; &nbsp;  | The understanding of the backlog is helped by Workspace level communication that already occurred. |
+| Planning - Topic two | Through discussion with the Product Owner, the Developers select items from the Product Backlog to include in the current Sprint.|  &nbsp; &nbsp;  | Backlog refinement already helped by Workspace level communication. Conclusions of any Workspace Dialogs are discussed. Detailed refinement discouraged. |
 |  &nbsp; |  &nbsp; |  &nbsp; |  &nbsp; |
 | Planning - Topic three | For each selected Product Backlog item, the Developers plan the work necessary to create an Increment that meets the Definition of Done.|  &nbsp; &nbsp;  | Since story creation and approval happens continuously during development, discussion focuses on the Definition of Done as it applies to the Sprint Goal.  |
 |  &nbsp; |  &nbsp; |  &nbsp; |  &nbsp; |
