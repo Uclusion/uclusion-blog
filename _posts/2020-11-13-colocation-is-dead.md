@@ -4,7 +4,6 @@ title:  "Colocation is dead"
 author: ben
 categories: [ agile, scrum ]
 image: assets/images/emptyOffice.jpg
-featured: true
 ---
 
 Colocation in an agile context means *all* team members are in the same office.
