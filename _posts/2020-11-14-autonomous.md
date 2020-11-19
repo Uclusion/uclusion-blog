@@ -19,7 +19,7 @@ in the Workspace description. The Scrum guide also specifies that `Scope may be 
 Product Owner as more is learned.` Autonomous teamwork story creation and approval is continuous so there is no 
 emphasis on up front estimating other than choosing the Sprint Goal.
 
-|  Ceremony&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  Official Description | &nbsp;| Autonomous Teamwork Addition  |
+|  Event&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  Official Description | &nbsp;| Autonomous Teamwork Addition  |
 |---|---|---|---|
 | Planning - Topic one | The whole Scrum Team then collaborates to define a Sprint Goal that communicates why the Sprint is valuable to stakeholders. |  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  The team will be aware of any Initiatives that were voted favorably and consider them while deciding the Sprint Goal. |
 |  &nbsp; |  &nbsp; |  &nbsp; |  &nbsp; |
