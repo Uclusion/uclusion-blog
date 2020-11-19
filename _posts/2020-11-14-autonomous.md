@@ -2,7 +2,7 @@
 layout: post
 title:  "Autonomous Teamwork and Scrum"
 author: david
-categories: [ agile ]
+categories: [ agile, scrum ]
 image: assets/images/person.jpg
 featured: true
 ---
