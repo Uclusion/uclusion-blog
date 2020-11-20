@@ -15,15 +15,15 @@ whose productivity depends on *being able to focus*.
 The below table captures an example of autonomous teamwork applied to Scrum as defined by the 
 [Scrum guide](https://www.scrumguides.org/scrum-guide.html#sprint-planning). Their definition of product backlog is 
 `an emergent, ordered list of what is needed to improve the product.` For autonomous teamwork this list is maintained 
-in the Workspace description. The Scrum guide also specifies that `Scope may be clarified and renegotiated with the 
+in the [Workspace](https://www.uclusion.com/#workspaces) description. The Scrum guide also specifies that `Scope may be clarified and renegotiated with the 
 Product Owner as more is learned.` Autonomous teamwork story creation and approval is continuous so there is no 
 emphasis on up front estimating other than choosing the Sprint Goal.
 
 |  Event&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  Official Description | &nbsp;| Autonomous Teamwork Addition  |
 |---|---|---|---|
-| Planning - Topic one | The whole Scrum Team then collaborates to define a Sprint Goal that communicates why the Sprint is valuable to stakeholders. |  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  The team will be aware of any Initiatives that were voted favorably and consider them while deciding the Sprint Goal. |
+| Planning - Topic one | The whole Scrum Team then collaborates to define a Sprint Goal that communicates why the Sprint is valuable to stakeholders. |  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  The team will be aware of any [Initiatives](https://www.uclusion.com/#initiatives) that were voted favorably and consider them while deciding the Sprint Goal. |
 |  &nbsp; |  &nbsp; |  &nbsp; |  &nbsp; |
-| Planning - Topic two | Through discussion with the Product Owner, the Developers select items from the Product Backlog to include in the current Sprint.|  &nbsp; &nbsp;  | Backlog refinement already helped by Workspace level communication. Conclusions of any Workspace Dialogs are discussed. Detailed refinement discouraged. |
+| Planning - Topic two | Through discussion with the Product Owner, the Developers select items from the Product Backlog to include in the current Sprint.|  &nbsp; &nbsp;  | Backlog refinement already helped by Workspace level communication. Conclusions of any Workspace [Dialogs](https://www.uclusion.com/#dialogs) are discussed. Detailed refinement discouraged. |
 |  &nbsp; |  &nbsp; |  &nbsp; |  &nbsp; |
 | Planning - Topic three | For each selected Product Backlog item, the Developers plan the work necessary to create an Increment that meets the Definition of Done.|  &nbsp; &nbsp;  | Since story creation and approval happens continuously during development, discussion focuses on the Definition of Done as it applies to the Sprint Goal.  |
 |  &nbsp; |  &nbsp; |  &nbsp; |  &nbsp; |
