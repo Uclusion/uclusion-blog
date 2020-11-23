@@ -31,7 +31,7 @@ emphasis on up front estimating other than choosing the Sprint Goal.
 |  &nbsp; |  &nbsp; |  &nbsp; |  &nbsp; |
 |  Daily - throughout day | The Daily Scrum is not the only time Developers are allowed to adjust their plan. They often meet throughout the day for more detailed discussions about adapting or re-planning the rest of the Sprint’s work. |  &nbsp; &nbsp;  | In addition to having the continuous, asynchronous, software assisted form of the daily 15 minute, the team uses Dialogs and Questions with approvable options to help with implementation decisions.  |
 |  &nbsp; |  &nbsp; |  &nbsp; |  &nbsp; |
-|  Review  | The Sprint Review is a working session and the Scrum Team should avoid limiting it to a presentation. | &nbsp; &nbsp; | During the Sprint, when a story is placed In Review the team is alerted and gives feedback using Suggestions and TODOs. The Review focuses on accommodating opinions from outside the team. |
+|  Review  | The Sprint Review is a working session and the Scrum Team should avoid limiting it to a presentation. | &nbsp; &nbsp; | During the Sprint, when a story is placed In Review the team is alerted and gives feedback using Suggestions and TODOs. The Review focuses on [accommodating opinions]({{ site.baseurl }}/agile/2020/11/22/feedback.html) from outside the team. |
 |  &nbsp; |  &nbsp; |  &nbsp; |  &nbsp; |
 |  Retrospective  | The Scrum Team identifies the most helpful changes to improve its effectiveness. | &nbsp; &nbsp; | The team will be aware of any Initiatives or Dialogs on improvement and consider ones with approval or approved options while deciding what changes to make.<br /><br />**If that work is already in progress then this meeting can be cancelled.** |
 |  &nbsp; |  &nbsp; |  &nbsp; |  &nbsp; |
