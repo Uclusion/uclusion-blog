@@ -3,8 +3,6 @@ layout: post
 title:  "Autonomous Teamwork and Scrum"
 author: david
 categories: [ agile, scrum ]
-image: assets/images/person.jpg
-featured: true
 ---
 
 The idea behind autonomous teamwork is that employees are highly trained professionals

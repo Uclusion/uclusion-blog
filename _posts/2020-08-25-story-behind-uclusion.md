@@ -2,7 +2,7 @@
 layout: post
 title:  "The Story Behind Uclusion"
 author: david
-categories: [ agile, scrum ]
+categories: [ agile, startup ]
 image: assets/images/Idea_light.jpg
 ---
 
