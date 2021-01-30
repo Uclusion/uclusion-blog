@@ -7,11 +7,11 @@ image: assets/images/better_notifications_3_bells.png
 featured: true
 ---
 
-Notifications in Uclusion used to be based on a model similar to slack: A notification would tell
+Notifications in Uclusion used to be based on a model similar to Slack: A notification would tell
 you of a change, upon clicking the notification the user is navigated somewhere, and the notification
 would disappear.
 
-This works well for informing you of events, but doens't work well for making sure anything gets done.
+This works well for informing you of events, but doesn't work well for making sure anything gets done.
 To accomplish the latter you need two things:
 1. A notification must be *persistent* until some set of criteria is met. E.G. a notification of a new
 poll has opened should stick around until you've replied to the poll.
@@ -21,7 +21,7 @@ them to make intelligent decisions about what to respond to.
 ### Persistence ###
 Persistence is surprisingly tricky to implement. To do it properly you have think deeply about every
 notification you send out and consider all the possible ways the user could reasonably respond.
-For example, if you have a notification that story was just created (Uclusion does), you can be
+For example, if you have a notification that a story was just created (Uclusion does), you can be
 reasonably certain the user has read the story if they vote for it (there are about 5 other ways too).
 
 Once you know what user actions can retire a notification you now have to *detect* the event happening,
