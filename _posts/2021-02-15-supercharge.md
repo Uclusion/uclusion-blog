@@ -3,7 +3,7 @@ layout: post
 title:  "Let Uclusion Start / Supercharge Your Remote Work"
 author: david
 categories: [ startup, remote ]
-image: assets/images/homeoffice.jpg
+image: assets/images/homeofficeReduced.jpg
 featured: true
 ---
 ### Matching in office collaboration requires more than video conferencing and online white boards
