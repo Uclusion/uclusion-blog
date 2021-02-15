@@ -13,7 +13,7 @@ would disappear.
 
 This works well for informing you of events, but doesn't work well for making sure anything gets done.
 To accomplish the latter you need two things:
-1. A notification must be *persistent* until some set of criteria is met. E.G. a notification of a new
+1. A notification must be *persistent* until some set of criteria is met. E.G. a notification that a new
 poll has opened should stick around until you've replied to the poll.
 2. Notifications should be *prioritized*, and that prioritization should be exposed to the user to enable
 them to make intelligent decisions about what to respond to.
@@ -24,16 +24,16 @@ notification you send out and consider all the possible ways the user could reas
 For example, if you have a notification that a story was just created (Uclusion does), you can be
 reasonably certain the user has read the story if they vote for it (there are about 5 other ways too).
 
-Once you know what user actions can retire a notification you now have to *detect* the event happening,
+Once you know what user actions can retire a notification you now have to *detect* the action happening,
 preferably without littering function calls all over your code.
 
-What we wound up doing was creating DynamoDB stream listener that captured updates on our core model
-objects and fires a series of event handlers to make sure notifications are created or destroyed.
+What we wound up doing was creating DynamoDB stream listeners that captured updates on our core model
+objects and fire a series of event handlers to make sure notifications are created or destroyed.
 
-Here's an except from the stream listener and one of the simplest such handler that fires when a comment is converted into a story
+Here's an except from comment stream listener and one of the simplest such handlers that fires when a comment is converted into a story
 
 
-From the listener attached to the comment stream:
+**From the listener attached to the comment stream:**
 ```
 new_image = unpack_record(record['dynamodb']['NewImage'])
 comment_id = record['dynamodb']['Keys']['id']['S']
@@ -43,7 +43,7 @@ payload = {
             }
 handle_comment_moved(payload)
 ```
-And the handler it calls
+**And the handler it calls**
 ```
 def handle_comment_moved(payload):
     new_image = payload['new_image']
@@ -60,7 +60,7 @@ def handle_comment_moved(payload):
 for notifications that match the correct event type, user, comment, and market
 (market is our name for top level objects since they represent a 'market' of ideas).
 
-Sometimes events create new notifications too, and we insert new rows into the notification DB with `notify`:
+Sometimes actions also create new notifications, hence we insert new rows into the notification DB with `notify`:
 
 ```
 for user_id in response['assigned']:
@@ -71,9 +71,13 @@ for user_id in response['assigned']:
 ### Prioritization ###
 Prioritization is very simple to implement but very hard to make usable. You have to think very carefully about
 why a notification is going out, who it serves, and what happens if it doesn't get responded to. In Uclusion's case
-we made a very simple rubric: Are you preventing anyone else from getting anything done if you don't respond.
+we hew to one question: *Are you preventing anyone else from getting anything done if you don't respond.*
+
+
 If the answer is yes, then we assign the highest priority, RED. If no, then we will assign either YELLOW or BLUE,
 depending on if there's the potential to stop work in the future.
+
+
 For example, someone declaring they've hit a blocking issue is a request for help, and hence is RED, a notification
 that someone has asked a question in your story is YELLOW, while a notice that someone has updated a story you've voted
 for is BLUE.
