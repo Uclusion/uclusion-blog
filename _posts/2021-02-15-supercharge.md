@@ -33,7 +33,9 @@ collaboration tasks like any other task.
 ![swimlane]({{ site.baseurl }}/assets/images/traffordSwimlane.png)
 
 Above we don't just track Trafford's story tasks, we can also see he has 3 critical and 3 delayable 
-*collaboration tasks*. Furthermore our story states are also collaboration states like "Ready for Approval" and 
+*collaboration tasks*. Its not just assigned that shows for a story but all collaborators as well.
+
+Furthermore our story states are also collaboration states like "Ready for Approval" and 
 "Ready for Feedback" shown above but also "Blocked" and "Requires Input" . Our workflow doesn't pre-suppose any meetings. Meetings will happen anyway but using tools that 
 rely soley on them ignores their costs to development.
 
