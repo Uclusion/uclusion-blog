@@ -6,6 +6,14 @@ categories: [ startup, remote ]
 image: assets/images/homeofficeReduced.jpg
 featured: true
 ---
+### How Uclusion can help
+
+Uclusion has the only collaboration tool that puts your bugs, stories, questions, suggestions, tasks and collaboration
+tasks together in one place as equals. But grappling with the new world of asynchronous work can be difficult for any
+organization. **So Uclusion also offers free consulting to help you get started.**
+
+Below are some of the topics we can explain in more detail.
+
 ### Matching in office collaboration requires more than video conferencing and online white boards
 
 When it works in office collaboration is like a Palmolive commercial - "You're soaking in it." The meetings and 
@@ -19,7 +27,7 @@ Once any of these conditions breaks down a team has to re-consider their whole a
 
 The first thought is to *simulate* those conditions. If you can't be in the same place then be in the same place 
 virtually. If the multi-tasking becomes too much then maybe designate some "meeting free" days. If the team is 
-changing membership often - well suck it up.
+changing often - well suck it up.
 
 The problem with simulation is that you likely end up with costs like long commutes or endless meetings but without a 
 lot of the collaboration benefit.
@@ -36,14 +44,19 @@ Above we don't just track Trafford's story tasks, we can also see he has 3 criti
 *collaboration tasks*. Its not just assigned that shows for a story but all collaborators as well.
 
 Furthermore our story states are also collaboration states like "Ready for Approval" and 
-"Ready for Feedback" shown above but also "Blocked" and "Requires Input" . Our workflow doesn't pre-suppose any meetings. Meetings will happen anyway but using tools that 
-rely soley on them ignores their costs to development.
+"Ready for Feedback" shown above but also "Blocked" and "Requires Input" . Our workflow doesn't pre-suppose any 
+meetings. Meetings will happen anyway but using tools that rely soley on them ignores their costs to development.
 
-### How Uclusion can help
+### Backlogs are bad but they are particularly bad for distributed work
 
-Uclusion has the only collaboration tool that puts your bugs, stories, questions, suggestions, tasks and collaboration 
-tasks together in one place as equals. But grappling with the new world of asynchronous work can be difficult for any 
-organization. **So Uclusion also offers free consulting to help you get started.**
+Gathering regularly in one room to discuss an overgrown backlog is a very poor use of time but attempting the same 
+meeting with a distributed team is even worse.
+
+![issues]({{ site.baseurl }}/assets/images/issuesCropped.jpg)
+
+In Uclusion a high priority bug or unassigned story generates a collaboration task to assign it. That notification 
+remains until someone is assigned or the priority of the bug is reduced. If you want instead to discuss whether or not 
+something should be done you can create a suggestion or question with options and collect votes or approvals.
 
 
 
