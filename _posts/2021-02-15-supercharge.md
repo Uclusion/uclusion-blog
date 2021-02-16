@@ -47,16 +47,20 @@ Furthermore our story states are also collaboration states like "Ready for Appro
 "Ready for Feedback" shown above but also "Blocked" and "Requires Input" . Our workflow doesn't pre-suppose any 
 meetings. Meetings will happen anyway but using tools that rely soley on them ignores their costs to development.
 
-### Backlogs are bad but they are particularly bad for distributed work
+### Even one scheduled meeting can disturb the benefits of remote work
 
-Gathering regularly in one room to discuss an overgrown backlog is a very poor use of time but attempting the same 
-meeting with a distributed team is even worse.
+Uclusion attempts an asynchronous workflow for all aspects of development. Closing the last TODO on 
+a "Ready for Feedback" story alerts everyone. Opening a high priority bug or unassigned story generates a 
+collaboration task to assign it.
 
 ![issues]({{ site.baseurl }}/assets/images/issuesCropped.jpg)
 
-In Uclusion a high priority bug or unassigned story generates a collaboration task to assign it. That notification 
-remains until someone is assigned or the priority of the bug is reduced. If you want instead to discuss whether or not 
-something should be done you can create a suggestion or question with options and collect votes or approvals.
+When you are on a [maker's schedule](http://www.paulgraham.com/makersschedule.html) it's vital to keep it 
+empty. If an impromptu meeting, backed by asynchronous preparation, arises that's not the same as already 
+facing a calendar full of meetings from the start of the day.
+
+[Schedule](https://calendly.com/uclusion/walk-through) some time with Uclusion and we can help you introduce these 
+topics to your team.
 
 
 
