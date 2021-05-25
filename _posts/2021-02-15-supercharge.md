@@ -38,22 +38,11 @@ Let's step back a second. For all this talk of socializing the office was never 
 **getting it done**. We know working together is a must, so we need to use technology that treats our 
 collaboration tasks like any other task.
 
-![swimlane]({{ site.baseurl }}/assets/images/traffordSwimlane.png)
-
-Above we don't just track Trafford's story tasks, we can also see he has 3 critical and 3 delayable 
-*collaboration tasks*. Its not just assigned that shows for a story but all collaborators as well.
-
-Furthermore our story states are also collaboration states like "Ready for Approval" and 
-"Ready for Feedback" shown above but also "Blocked" and "Requires Input" . Our workflow doesn't pre-suppose any 
-meetings. Meetings will happen anyway but using tools that rely soley on them ignores their costs to development.
+Meetings will happen anyway but using tools that rely soley on them ignores their costs to development.
 
 ### Even one scheduled meeting can disturb the benefits of remote work
 
-Uclusion attempts an asynchronous workflow for all aspects of development. Closing the last TODO on 
-a "Ready for Feedback" story alerts everyone. Opening a high priority bug or unassigned story generates a 
-collaboration task to assign it.
-
-![issues]({{ site.baseurl }}/assets/images/issuesCropped.jpg)
+Uclusion attempts an asynchronous workflow for all aspects of development. 
 
 When you are on a [maker's schedule](http://www.paulgraham.com/makersschedule.html) it's vital to keep it 
 empty. If an impromptu meeting, backed by asynchronous preparation, arises that's not the same as already 
