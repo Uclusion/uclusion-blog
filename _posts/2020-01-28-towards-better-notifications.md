@@ -3,7 +3,7 @@ layout: post
 title:  "Towards better notifications"
 author: ben
 categories: [ engineering ]
-image: assets/images/better_notifications_3_bells.png
+image: assets/images/notifications.png
 featured: true
 ---
 
@@ -73,66 +73,14 @@ Prioritization is very simple to implement but very hard to make usable. You hav
 why a notification is going out, who it serves, and what happens if it doesn't get responded to. In Uclusion's case
 we hew to one question: *Are you preventing anyone else from getting anything done if you don't respond.*
 
-
 If the answer is yes, then we assign the highest priority, RED. If no, then we will assign either YELLOW or BLUE,
 depending on if there's the potential to stop work in the future.
-
 
 For example, someone declaring they've hit a blocking issue is a request for help, and hence is RED, a notification
 that someone has asked a question in your story is YELLOW, while a notice that someone has updated a story you've voted
 for is BLUE.
 
-As mentioned before, implementation is simple in that we created a LEVEL enum, and tag notifications with it:
-```
-notify(...,..., level=NotificationLevelType.RED.name)
-```
 On the front end we bucketize the notifications based on levels, and then feed each level into a distinct alert box,
-which get represented by 3 indicators on our top bar:
-![Top Bar]({{ site.baseurl }}/assets/images/better_notifications_top_bar.png)
-
-That's done by the code below, which also handles space constraints on mobile:
-```
-function NotificationsContainer (props) {
-
-  const classes = useStyles();
-  const [activeLevel, setActiveLevel] = useState(null);
-  const [messagesState] = useContext(NotificationsContext);
-  const redMessages = levelMessages(messagesState, RED_LEVEL);
-  const yellowMessages = levelMessages(messagesState, YELLOW_LEVEL);
-  const blueMessages = levelMessages(messagesState, BLUE_LEVEL);
-
-  // on small windows we only have room for one, so drop blue and yellow if we have red
-  const showYellowMessages = !_.isEmpty(yellowMessages) && (!isTinyWindow() || _.isEmpty(redMessages));
-  const showBlueMessages = !_.isEmpty(blueMessages) && (!isTinyWindow() || _.isEmpty(redMessages) || _.isEmpty(yellowMessages));
-  return (
-    <React.Fragment>
-      {!_.isEmpty(redMessages) && (
-        <div className={classes.bellButton}>
-          <Notifications
-            level={RED_LEVEL}
-            messages={redMessages}
-            active={activeLevel}
-            setActive={setActiveLevel}/>
-        </div>)}
-      {showYellowMessages && (
-        <div className={classes.bellButton}>
-          <Notifications
-            level={YELLOW_LEVEL}
-            messages={yellowMessages}
-            active={activeLevel}
-            setActive={setActiveLevel}/>
-        </div>)}
-      {showBlueMessages && (
-        <div className={classes.bellButton}>
-          <Notifications
-            level={BLUE_LEVEL}
-            messages={blueMessages}
-            active={activeLevel}
-            setActive={setActiveLevel}/>
-        </div>)}
-    </React.Fragment>
-  );
-}
-```
+which get represented by 3 indicators on our top bar.
 
 As always, if you have questions feel free to drop us a line.
