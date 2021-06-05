@@ -1,55 +1,60 @@
 ---
 layout: post
-title:  "Let Uclusion Start / Supercharge Your Remote Work"
+title:  "Supercharge Your Remote Work"
 author: david
 categories: [ startup, remote ]
 image: assets/images/homeofficeReduced.jpg
 featured: true
 ---
-### How Uclusion can help
+### How Uclusion helps
 
-Uclusion has the only collaboration tool that puts your bugs, stories, questions, suggestions, tasks and collaboration
-tasks together in one place as equals. But grappling with the new world of asynchronous work can be difficult for any
-organization. **So Uclusion also offers free consulting to help you get started.**
+If you want to keep the advantages of remote work it's important to cut down on meetings. If you go to
+all the same meetings then two things can happen:
+1. Your "deep work" comes mostly before and after regular hours. That's still something since you don't have the
+   commute but less than the full promise of remote work.
+2. With all the video conferencing people start to wonder if face to face isn't better.
 
-Below are some of the topics we can explain in more detail.
+So the less meetings the better and this is what Uclusion does for you. Plus the meetings that still 
+happen will be shorter and more focused.
 
-### Matching in office collaboration requires more than video conferencing and online white boards
+We have a lot of material explaining how we reduce meetings but the short answer is that 
+traditional tools don't provide any alternative to meetings. Uclusion does.
 
-When it works in office collaboration is like a Palmolive commercial - "You're soaking in it." The meetings and 
-discussions necessary happen without scheduling or tracking. But that effortless feeling actually comes with some very 
-expensive conditions:
-1. Extreme collocation - same working hours, same location and open space preferred.
-1. Extreme multi-tasking - willingness to drop everything and meet others.
-1. Extreme team consistency - collocating with strangers is not the same.
+### Getting started using Uclusion
 
-Once any of these conditions breaks down a team has to re-consider their whole approach.
+To make the power of collaboration without meetings work for you, you just need one collaborator. The difference 
+between completely solo and not is vast. So if you are working on a side project at work or at home, 
+create a Uclusion Workspace and invite someone to it to help with approvals and reviews. That can 
+make a huge difference cutting down on wasted or sloppy work.
 
-The first thought is to *simulate* those conditions. If you can't be in the same place then be in the same place 
-virtually. If the multi-tasking becomes too much then maybe designate some "meeting free" days. If the team is 
-changing often - well suck it up.
+Another good way to get started with Uclusion is a hackathon or a temporary collaboration between teams. Just like
+remote work, developing software with fewer meetings takes getting used to but the benefits are enormous.
 
-The problem with simulation is that you likely end up with costs like long commutes or endless meetings but without a 
-lot of the collaboration benefit.
 
-### Treat collaboration like work product instead of overhead
+### Introducing your team to Uclusion
 
-Let's step back a second. For all this talk of socializing the office was never about anything more than 
-**getting it done**. We know working together is a must, so we need to use technology that treats our 
-collaboration tasks like any other task.
+Why your boss will love Uclusion:
+   * Visibility into the real state of the project. Having the collaboration happen inside the project
+     management allows Uclusion to show status at a glance.
+   * Finally frees your boss from having to turn down higher priority work in order to avoid disturbing plans made
+     in meetings. Nobody wants to work on lower priorities and now with Uclusion's just in time planning you don't 
+     have to.
 
-Meetings will happen anyway but using tools that rely soley on them ignores their costs to development.
+Why your teammates will love Uclusion:
+  * Whether they work in office or not, meeting driven process isn't fun for your team. Some of it was
+necessary before project management without meetings was available. But now Uclusion has introduced that technology.
+  * Meeting driven process makes getting technical debt addressed all or nothing. If you have a meeting
+with the agenda of deciding a single goal for the next iteration of development and technical debt is 
+    not that goal, then getting any refactoring, infrastructure, etc. done will be a struggle.
+    
+Don't take our word for what happens to remote work without a tool like Uclusion. Here's
+[Atlassian](https://www.atlassian.com/agile/scrum/distributed-scrum) on the subject:
 
-### Even one scheduled meeting can disturb the benefits of remote work
-
-Uclusion attempts an asynchronous workflow for all aspects of development. 
-
-When you are on a [maker's schedule](http://www.paulgraham.com/makersschedule.html) it's vital to keep it 
-empty. If an impromptu meeting, backed by asynchronous preparation, arises that's not the same as already 
-facing a calendar full of meetings from the start of the day.
-
-[Schedule](https://calendly.com/uclusion/walk-through) some time with Uclusion and we can help you introduce these 
-topics to your team.
+> A distributed scrum team can benefit from a solid communication plan that includes:
+* Remote work agreements
+* A way to contact other team members for informal questions  
+* Establish agreements for how meetings should be structured
+* How team members communicate their availability
 
 
 
