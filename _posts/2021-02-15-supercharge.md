@@ -41,8 +41,9 @@ Why your boss will love Uclusion:
      have to.
 
 Why your teammates will love Uclusion:
-  * Whether they work in office or not, meeting driven process isn't fun for your team. Some of it was
-necessary before project management without meetings was available. But now Uclusion has introduced that technology.
+  * Whether they work in office or not, [meeting driven process]({{ site.baseurl }}/agile/scrum/2021/06/07/meeting-driven.html) 
+    isn't fun for your team. Some of it was necessary before project management without meetings was available. But now 
+    Uclusion has introduced that technology.
   * Meeting driven process makes getting technical debt addressed all or nothing. If you have a meeting
 with the agenda of deciding a single goal for the next iteration of development and technical debt is 
     not that goal, then getting any refactoring, infrastructure, etc. done will be a struggle.
