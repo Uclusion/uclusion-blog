@@ -6,8 +6,8 @@ categories: [ agile, scrum ]
 image: assets/images/meetings.jpg
 featured: true
 ---
-Unfortunately, when most decisions require meetings, context switching is just the beginning of the 
-negative consequences.
+When most decisions require meetings, context switching is just the beginning of the 
+consequences.
 
 ### Don't plan software in a meeting
 Requiring an entire team to meet together to create a plan for the next

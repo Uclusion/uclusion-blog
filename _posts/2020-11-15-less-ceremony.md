@@ -4,32 +4,39 @@ title:  "Less Ceremony More Agile"
 author: ben
 image: assets/images/ceremony.jpg
 categories: [ agile ]
+featured: true
 ---
-If you want to be truly effective in today's work environment **no meeting should be scheduled that hasn't been 
-attempted asynchronously first**.
+Scrum is an attempt to do agile software development with meetings. 
+However using meetings limits Scrum's agility.
 
-This is because group meeting time is hard to get, incredibly costly, and must be used as effectively as possible.
+For instance if you have a planning meeting and plan one or two weeks ahead 
+then you are already less agile. So you then try to have a daily meeting to 
+adjust the plan if necessary but even a daily meeting happens only every 24 
+hours so then [Scrum says](https://scrumguides.org/scrum-guide.html#daily-scrum):
 
-Which of these looks like a better use of time?
-1. "Hello, thanks for joining. We have options A, B, and C, with the following justifications..."
-1. "Hello, we need to decide on what we're going to move forward, any ideas?"
+>The Daily Scrum is not the only time Developers are allowed to adjust their plan. They often meet throughout the day for more detailed discussions about adapting or re-planning the rest of the Sprint’s work.
 
-The former is going to be an effective meeting and the latter probably not conclude anything.
+Once you choose meetings as your tool it's a tough rode to stay agile. The 
+meetings attempt to fix a plan are by definition counter to the idea of agile.
 
-Applying this principle to development ceremonies means that the bulk of the work needs to move into agile software and any scheduled meetings just
-concern themselves with follow up.
-For example, your daily Standups can focus on team cohesion, or in depth discussion that usually is relegated to the "parking lot".
+This principle can be applied to development ceremonies in general because
+a planning meeting plans, a daily standup plans and a retrospect is a planning
+meeting for team improvement. The end of sprint demo is a planning meeting
+for corrections that should have been incorporated agiley to make it into 
+the next sprint.
 
-### Isn't asynchronous collaboration more difficult?
+Nor does following Kanban meetings help
+<img src="{{ site.baseurl }}/assets/images/KanbanMeetings.jpg"
+alt="Kanban meetings" style="width: 70%;" />
 
-Many times the information necessary for asynchronous collaboration is already being written down - just scattered
-across group chat, issue trackers, wiki, etc. Other times everything is there but the system it is written in has
-no ability to record opinions. To really put it together means using agile software designed specifically for
-collaboration.
+### Breaking from meeting driven process just requires the right software
 
-### Doesn't our agile process specify the exact ceremonies?
+Many times the information necessary for asynchronous collaboration is already 
+being written down - just scattered across group chat, issue trackers, wiki, 
+etc. Other times everything is there but the system it is written in has
+no ability to record opinions. To really put it together means using agile 
+software designed specifically for project management without meetings.
 
-*No credible agile process exactly specifies the ceremonies*. For the daily standup, scrumguides.org says, `The 
-structure of the meeting is set by the Development Team and can be conducted in different ways if it focuses
-on progress toward the Sprint Goal.` If you are stuck on an island with a conch shell as the only technology then by
-all means pass the shell. If better technology is available then you should avail yourself of it.
+If you are stuck on an island with a conch shell as the only technology then 
+by all means pass the shell. If better technology is available then you should 
+avail yourself of it.

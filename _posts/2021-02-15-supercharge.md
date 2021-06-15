@@ -6,10 +6,9 @@ categories: [ startup, remote ]
 image: assets/images/homeofficeReduced.jpg
 featured: true
 ---
-### How Uclusion helps
+If you want to keep the advantages of remote work it's important to cut down on meetings. 
 
-If you want to keep the advantages of remote work it's important to cut down on meetings. If you go to
-all the same meetings then two things can happen:
+If you go to all the same meetings then two things can happen:
 1. Your "deep work" comes mostly before and after regular hours. That's still something since you don't have the
    commute but less than the full promise of remote work.
 2. With all the video conferencing people start to wonder if face to face isn't better.

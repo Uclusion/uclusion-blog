@@ -332,13 +332,13 @@ span.post-name a,span.post-read-more a:hover {
 .intro {
     background-image:url(../images/SplittingAttention.png);
     background-size:contain;
-    padding: 5rem 0;
-    margin-top:-87px;
+    padding: 1.75rem 0;
+    margin-top: -3rem;
     margin-bottom:3.5rem;
     z-index: 1;
     position: relative;
 }
-.intro .btn {
+.intro.btn {
     background: #fff100;
     border: 0;
     color: #333;
@@ -366,6 +366,8 @@ span.post-name a,span.post-read-more a:hover {
     max-width: 70%;
     margin: 0 auto;
     text-align: center;
+    border: 1px solid white;
+    border-radius: 50px;
 }
 .footer {
 	border-top:1px solid rgba(0,0,0,.05)!important;

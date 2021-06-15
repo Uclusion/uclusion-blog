@@ -4,7 +4,6 @@ title:  "Towards better notifications"
 author: ben
 categories: [ engineering ]
 image: assets/images/notifications.png
-featured: true
 ---
 
 Notifications in Uclusion used to be based on a model similar to Slack: A notification would tell
