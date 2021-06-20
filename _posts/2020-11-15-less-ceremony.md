@@ -39,7 +39,8 @@ zombie mode while the plan executes. If some part of the plan is wrong then
 they just faithfully churn out wasted code.
 
 If the latter then why keep up an expensive pretense of self-governance? You don't
-need the team signed up to a plan - just do old style assignnments.
+need the team signed up to a plan - just do old style assignments *and do them
+without meetings*.
 
 ### Breaking from meeting driven process requires the right software
 
