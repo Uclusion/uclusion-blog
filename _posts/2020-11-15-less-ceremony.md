@@ -41,7 +41,7 @@ they just faithfully churn out wasted code.
 If the latter then why keep up an expensive pretense of self-governance? You don't
 need the team signed up to a plan - just do old style assignnments.
 
-### Breaking from meeting driven process just requires the right software
+### Breaking from meeting driven process requires the right software
 
 Many times the information necessary for asynchronous collaboration is already 
 being written down - just scattered across group chat, issue trackers, wiki, 
