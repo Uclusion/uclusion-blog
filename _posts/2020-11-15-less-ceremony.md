@@ -29,6 +29,18 @@ Nor does following Kanban meetings help
 <img src="{{ site.baseurl }}/assets/images/KanbanMeetings.jpg"
 alt="Kanban meetings" style="width: 70%;" />
 
+### Doesn't getting everyone to sign up to a plan help force it to happen?
+
+Either a development team is paid for and must be applying independent thinking
+or they just need to follow orders. 
+
+If the former then signing up to a plan means the development team runs in 
+zombie mode while the plan executes. If some part of the plan is wrong then 
+they just faithfully churn out wasted code.
+
+If the latter then why keep up an expensive pretense of self-governance? You don't
+need the team signed up to a plan - just do old style assignnments.
+
 ### Breaking from meeting driven process just requires the right software
 
 Many times the information necessary for asynchronous collaboration is already 
