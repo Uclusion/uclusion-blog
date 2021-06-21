@@ -1,14 +1,13 @@
 ---
 layout: post
-title:  "Supercharge Your Remote Work"
+title:  "Supercharge Remote Work"
 author: david
 categories: [ startup, remote ]
 image: assets/images/homeofficeReduced.jpg
 featured: true
 ---
-If you want to keep the advantages of remote work it's important to cut down on meetings. 
+Working remotely and going to all the same meetings as traditional in office doesn't work.
 
-If you go to all the same meetings then two things can happen:
 1. Your "deep work" comes mostly before and after regular hours. That's still something since you don't have the
    commute but less than the full promise of remote work.
 2. With all the video conferencing people start to wonder if face to face isn't better.

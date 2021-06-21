@@ -4,7 +4,6 @@ title:  "Don't Use Meeting Driven Process"
 author: david
 categories: [ agile, scrum ]
 image: assets/images/meetings.jpg
-featured: true
 ---
 When most decisions require meetings, context switching is just the beginning of the 
 consequences.
