@@ -26,6 +26,15 @@ Don't take our word for what happens to remote work without a tool like Uclusion
 * Establish agreements for how meetings should be structured
 * How team members communicate their availability
 
+### Remote meetings can lead to burnout
+The world is not really divided up amongst complete introverts and extroverts.
+Nearly anyone is going to get something out of the social interaction meetings 
+provide even if it doesn't make up for the annoyance of time lost.
+
+But with remote meetings the social boost is lower so the annoyance much greater.
+Plus remote teams are frequently put together with higher productivity goals in
+mind. So keeping the in office meeting structure causes a higher risk of burnout.
+
 ### Getting started using Uclusion
 
 To make the power of collaboration without meetings work for you, you just need one collaborator. The difference 
@@ -35,7 +44,6 @@ make a huge difference cutting down on wasted or sloppy work.
 
 Another good way to get started with Uclusion is a hackathon or a temporary collaboration between teams. Just like
 remote work, developing software with fewer meetings takes getting used to but the benefits are enormous.
-
 
 ### Introducing your team to Uclusion
 
