@@ -18,6 +18,14 @@ happen will be shorter and more focused.
 We have a lot of material explaining how we reduce meetings but the short answer is that 
 traditional tools don't provide any alternative to meetings. Uclusion does.
 
+Don't take our word for what happens to remote work without a tool like Uclusion. Here's
+[Atlassian](https://www.atlassian.com/agile/scrum/distributed-scrum) on the subject:
+> A distributed scrum team can benefit from a solid communication plan that includes:
+* Remote work agreements
+* A way to contact other team members for informal questions
+* Establish agreements for how meetings should be structured
+* How team members communicate their availability
+
 ### Getting started using Uclusion
 
 To make the power of collaboration without meetings work for you, you just need one collaborator. The difference 
@@ -45,15 +53,6 @@ Why your teammates will love Uclusion:
   * Meeting driven process makes getting technical debt addressed all or nothing. If you have a meeting
 with the agenda of deciding a single goal for the next iteration of development and technical debt is 
     not that goal, then getting any refactoring, infrastructure, etc. done will be a struggle.
-    
-Don't take our word for what happens to remote work without a tool like Uclusion. Here's
-[Atlassian](https://www.atlassian.com/agile/scrum/distributed-scrum) on the subject:
-
-> A distributed scrum team can benefit from a solid communication plan that includes:
-* Remote work agreements
-* A way to contact other team members for informal questions  
-* Establish agreements for how meetings should be structured
-* How team members communicate their availability
 
 
 
