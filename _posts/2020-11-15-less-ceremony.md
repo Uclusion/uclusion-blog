@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Less Ceremony More Agile"
+title:  "How Ceremonies Make You Less Agile"
 author: ben
 image: assets/images/ceremony.jpg
 categories: [ agile ]

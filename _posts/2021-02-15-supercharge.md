@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Supercharge Remote Work"
+title:  "How a Distributed Agile Team Should Work"
 author: david
 categories: [ startup, remote ]
 image: assets/images/homeofficeReduced.jpg
