@@ -4,11 +4,13 @@ title:  "Deliver What Your Customer Wants"
 author: david
 categories: [ agile ]
 image: assets/images/unblind.jpg
+featured: true
 ---
 Your agile team has learned to avoid large backlogs and guesstimates but you still
-worry about delivering value. So maybe you've started up a spreadsheet to 
-vote on priorities or have some planning meeting. We believe you must do much better than
-that.
+worry about delivering value.
+
+So maybe you've started up a spreadsheet to vote on priorities or have some 
+planning meeting. We believe you must do much better than that.
 
 ### Funding Process
 Building software is a series of decisions about investments. Whether your team is deciding on a 
