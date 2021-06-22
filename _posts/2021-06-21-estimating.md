@@ -1,118 +1,74 @@
 ---
 layout: post
-title:  "What is Agile Planning?"
+title:  "Deliver What Your Customer Wants"
 author: david
 categories: [ agile ]
 image: assets/images/unblind.jpg
-featured: true
 ---
-Agile and plans are almost opposites. The trick is to make as few assumptions
-about the future as possible.
+Your agile team has learned to avoid large backlogs and guesstimates but you still
+worry about delivering value. So maybe you've started up a spreadsheet to 
+vote on priorities or have some planning meeting. We believe you must do much better than
+that.
 
-Of course agile is not the right approach for every project. For 
-converting a legacy system to newer technology, you might not
-need agile since you know exactly what you are building and only
-worry about unknowns in implementation. (Though even the implementation might force agility;
-imagine after starting you realize Lambdas are a better approach.)
+### Funding Process
+Building software is a series of decisions about investments. Whether your team is deciding on a 
+new initiative or whether to begin a story your process should be the same and meet some basic 
+requirements:
+* Everything associated with the decision should be online and visible to the team
+* Each person's opinion should be fully captured - certainty, budget and reason
+* Investments are point in time - you start or not
+* Decisions made independently - either this is a good idea or not. How the idea ranks against
+other ideas doesn't matter. We're not funding a mediocre idea just because it's surrounded by worse ones.
 
-However, if you do decide to run a project agilely it's important to not 
-unknowingly create detailed plans instead.
+#### Online and visible
+Meetings are not a reasonable way to make these decisions. Imagine you were asked to create your
+stock portfolio in a meeting. Investments are too complex to be decided under meeting conditions.
 
-### Avoiding Large Backlogs
+<img src="{{ site.baseurl }}/assets/images/visible.jpg" alt="Visible" style="width: 45%;" />
 
-When making software delivery plans the first idea might be to write down
-every bit of work you can think of in a story and flush each story out as much 
-as possible. Then you have a backlog that you believe is a roadmap of what
-needs to be done.
+Visibility is equally important for investments. Anyone on the team needs to be able to go back
+at any time and see why this initiative or story made the cut.
 
-There is value in making a very simple list of items that may need to get done.
-The problem comes with how much time you invest into detailing each of those
-items. Creating a detailed plan is the opposite of agile even if you think you
-will revise it later.
+#### Certainty, budget and reason
+It's amazing how many, even large, projects or stories kick off without anyone answering these simple 
+questions.
 
-Maintaining that detailed plan will slow you down and the more time spent, the
-less likely you will be willing to change the plan later.
+*How certain are you that this should be done?*
 
-### Avoiding "Easy" Estimates
+*How much time, upper bound, can we spend on this before it's not worth doing?*
 
-Agile assumes that knowledge of the future is hard to come by. Unfortunately,
-many supposedly agile methodologies use planning techniques that pretend
-the future is fairly easy to guess.
+*What's your reason for your certainty?*
 
-<img src="{{ site.baseurl }}/assets/images/plumbing.jpg"
-alt="Plumbing estimate" style="width: 70%;" />
+All of these questions are vital for the motivation of a team or individual working on the project or 
+story. 
 
-To see why easy estimating is not useful just look at almost any other field
-has to estimate work. For instance, building a new house has a somewhat known cost
-per square foot but repairs are truly agile - you never know what you might find. 
-So many plumbers charge even for coming out. But even the one's that 
-don't aren't going to give you an estimate without going under the house first.
+If certainty is low maybe this shouldn't be done. If it is done the people doing it know to check back 
+frequently if any issues arise.
 
-Estimating software is work. The easy, no sunken costs, no risk estimate is with high
-probability just flat wrong.
+The reasoning behind the certainty is equally vital to feeling a sense of accomplishment.
 
-The better an estimate you want the more you have to pay. Maybe that involves 
-a PoC but for most story estimating it means starting on a story first and 
-only estimating once you have enough information.
+Don't worry that sharing an upper time bound will be misused. It's crucial for knowing whether to start 
+a story or not and for thinking about different implementations. As with all investments there has to be 
+monitoring anyway whether you share a budget or not.
 
-Now you might say, "But I don't want to start a story until I'm sure how
-long it will take." Okay but realize that the time you spend on creating an accurate 
-estimate is overhead. **That effort is better spent first making sure the story will 
-produce value and then monitoring issues during implementation.**
+#### Investments are point in time
+<img src="{{ site.baseurl }}/assets/images/eclipse.jpeg" alt="Eclipse" style="width: 45%;" />
 
-#### Story points voted in a meeting
-Free estimates don't build on each other. If I call 5 plumbers to 
-get an estimate sight unseen, they might all agree, but it doesn't make
-that estimate any more valid.
+It's important there be a cliff beyond which certainty, budget and reason opinions expire - use it or 
+lose it. A good system will have reminders about this cliff built-in, and the opinion can be extended if
+it's creator still believes.
 
-Nor does a meeting give you anywhere near enough time and concentration to 
-do the work to generate more than the free estimate.
+#### Decisions made independently
+Going back to the stock portfolio example you wouldn't invest in a stock with poor earnings just
+because other stock's on a list had worse earnings. Unfortunately that's frequently what happens with 
+prioritizing exercises, the top priorities seem like good choices just because of their relative standing.
 
-#### "Spike" stories
-Frequently Scrum teams will use "spike" stories to get the information so that
-the story can then be estimated in the next meeting.
+This same problems occurs when bundling investments in some way (for fun search on 2008 crisis bundling).
+So if you bundle project or story decisions inside releases or sprints, it becomes much easier for 
+software that delivers less value to hide.
 
-<img src="{{ site.baseurl }}/assets/images/spike.png" alt="Spike" 
-style="width: 40%;" />
+### After Funding
 
-Spike stories are a bad practice. They are funding a story without fully discussing 
-its value. They also encourage spending a lot of time researching all possibilities
-instead of agilely trying one.
-
-Much better to actually start a story based on its value and see how it goes 
-then to muddy the waters with a story that is in between started and not.
-
-#### Project level estimates
-Again you get what you pay for. If you need an accurate project level estimate
-then first go waterfall and specify absolutely everything ahead of time.
-
-If you can live with a back of the envelope estimate then use that but be clear
-about the risk you are taking. There will be more information later and your
-investment strategy in the project might have to change.
-
-#### Status with revised project level estimates
-**The really naive strategy is to create a backlog that represents the entire 
-project, put estimates on the whole backlog and then sum those estimates.**
-Then as stories complete try to use the information about how long those
-stories took to revise the project level estimate.
-
-That's certainly a very expensive way to estimate but also unlikely to get you 
-a more accurate date. The problem is that guessing correctly on story size
-a few times doesn't mean you will guess correctly every time. Or put another way, 
-in software development, counting ten white swans doesn't make the probability less 
-that the next swan is black.
-
-In fact, it's even worse than that because software developers would tend
-to start with the stories with which they are most comfortable. And even if 
-you start with the hardest story first implementation might use a simple
-approach that won't hold up later.
-
-#### What about #NoEstimates?
-Once the true cost of an accurate estimate is taken into account a team
-may decide to use a very inexpensive estimation like number
-of features completed / number of features remaining. So long as everyone is 
-aware of the level of uncertainty then it doesn't violate the principal of 
-agile.
-
-Just don't get fooled into believing you've earned knowledge of the future by 
-making simple guesses.
+The initial investment decision is only the beginning of insuring you deliver value. We have
+more blogs about the rest of the process and of course all of this is embodied in Uclusion - the tool
+for agile project management without all the meetings.
