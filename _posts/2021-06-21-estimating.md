@@ -71,6 +71,12 @@ software that delivers less value to hide.
 
 ### After Funding
 
+**The most important part of an agile funding process is that a blocking issue
+can be raised if something new and troubling is learned.**
+
+A lot of agile project management puts stories on an assembly line to done
+without much consideration for new learning.
+
 The initial investment decision is only the beginning of insuring you deliver value. We have
 more blogs about the rest of the process and of course all of this is embodied in Uclusion - the tool
 for agile project management without all the meetings.
