@@ -17,13 +17,17 @@ hours so then [Scrum says](https://scrumguides.org/scrum-guide.html#daily-scrum)
 >The Daily Scrum is not the only time Developers are allowed to adjust their plan. They often meet throughout the day for more detailed discussions about adapting or re-planning the rest of the Sprint’s work.
 
 Once you choose meetings as your tool it's a tough rode to stay agile. The 
-meetings attempt to fix a plan are by definition counter to the idea of agile.
+meetings attempt to fix a plan are by definition counter to the idea of agile. 
+Some teams even go so far as to attempt to lock down the stories in a sprint -
+meaning they are no longer working on the highest priority.
 
 This principle can be applied to development ceremonies in general because
 a planning meeting plans, a daily standup plans and a retrospect is a planning
 meeting for team improvement. The end of sprint demo is a planning meeting
-for corrections that should have been incorporated agiley to make it into 
-the next sprint.
+for corrections to be scheduled for the next sprint. 
+
+**All of these ceremonies require waiting for the next meeting and then produce plans that 
+get frozen.**
 
 Nor does following Kanban meetings help
 <img src="{{ site.baseurl }}/assets/images/KanbanMeetings.jpg"

@@ -1,66 +1,64 @@
 ---
 layout: post
-title:  "How a Distributed Agile Team Should Work"
+title:  "Uclusion Is the New Standup"
 author: david
 categories: [ startup, remote ]
 image: assets/images/homeofficeReduced.jpg
 featured: true
 ---
-Working remotely and going to all the same meetings as traditional in office doesn't work.
+Working remotely and going to all the same meetings as traditional in office is a bad idea.
 
-1. Your "deep work" comes mostly before and after regular hours. That's still something since you don't have the
-   commute but less than the full promise of remote work.
+1. Tradition communication restricts "deep work" to mostly before and after regular hours. You don't have 
+   the commute but end up with much less than the full promise of remote work.
 2. With all the video conferencing people start to wonder if face to face isn't better.
 
-So the less meetings the better and this is what Uclusion does for you. Plus the meetings that still 
-happen will be shorter and more focused.
-
-We have a lot of material explaining how we reduce meetings but the short answer is that 
-traditional tools don't provide any alternative to meetings. Uclusion does.
-
-Don't take our word for what happens to remote work without a tool like Uclusion. Here's
+Don't take our word for what happens to remote work coupled with traditional communication. Here's
 [Atlassian](https://www.atlassian.com/agile/scrum/distributed-scrum) on the subject:
-> A distributed scrum team can benefit from a solid communication plan that includes:
-* Remote work agreements
-* A way to contact other team members for informal questions
-* Establish agreements for how meetings should be structured
-* How team members communicate their availability
+>A distributed scrum team can benefit from a solid communication plan that includes:
+>* Remote work agreements
+>* A way to contact other team members for informal questions
+>* Establish agreements for how meetings should be structured
+>* How team members communicate their availability
 
-### Remote meetings can lead to burnout
-The world is not really divided up amongst complete introverts and extroverts.
-Nearly anyone is going to get something out of the social interaction meetings 
-provide even if it doesn't make up for the annoyance of time lost.
+Yes "remote work agreements" because what distributed development team morale problem can't be solved by 
+lawyers?
 
-But with remote meetings the social boost is lower so the annoyance much greater.
-Plus remote teams are frequently put together with higher productivity goals in
-mind. So keeping the in office meeting structure causes a higher risk of burnout.
+<img src="{{ site.baseurl }}/assets/images/lawyers.jpg" alt="Lawyers" style="width: 75%;" />
 
-### Getting started using Uclusion
+### Remote Meetings Lead to Burnout
 
-To make the power of collaboration without meetings work for you, you just need one collaborator. The difference 
-between completely solo and not is vast. So if you are working on a side project at work or at home, 
-create a Uclusion Workspace and invite someone to it to help with approvals and reviews. That can 
-make a huge difference cutting down on wasted or sloppy work.
+Introverts or not nearly everyone is going to get something out of the social interaction meetings 
+provide. For many developers it just doesn't make up for the annoyance of wasted time.
 
-Another good way to get started with Uclusion is a hackathon or a temporary collaboration between teams. Just like
-remote work, developing software with fewer meetings takes getting used to but the benefits are enormous.
+But Zooming into a call is not the same as gathering in a room. The annoyance
+of wasting time and context shifting remains, but the social benefit greatly reduces.
 
-### Introducing your team to Uclusion
+Nor does group chat, no matter how many emojis used, really produce togetherness.
 
-Why your boss will love Uclusion:
-   * Visibility into the real state of the project. Having the collaboration happen inside the project
-     management allows Uclusion to show status at a glance.
-   * Finally frees your boss from having to turn down higher priority work in order to avoid disturbing plans made
-     in meetings. Nobody wants to work on lower priorities and now with Uclusion's just in time planning you don't 
-     have to.
+### Only Collaborating to Build Something Together Works
 
-Why your teammates will love Uclusion:
-  * Whether they work in office or not, [meeting driven process]({{ site.baseurl }}/agile/scrum/2021/06/07/meeting-driven.html) 
-    isn't fun for your team. Some of it was necessary before project management without meetings was available. But now 
-    Uclusion has introduced that technology.
-  * Meeting driven process makes getting technical debt addressed all or nothing. If you have a meeting
-with the agenda of deciding a single goal for the next iteration of development and technical debt is 
-    not that goal, then getting any refactoring, infrastructure, etc. done will be a struggle.
+What remote work loses socially it gains in the ability to collaborate. Open offices were a failure
+for collaboration. The noise levels caused many to wear headphones, and most discussions ended up in 
+meeting room offices anyway.
+
+The larger the team the less reasonable in person communication becomes. Unless the communication is
+limited to going around, one by one, a room of engineers standing up. Even for a smaller team it's 
+difficult to simultaneously think and keep up with the meeting.
+
+With the right tool online communication breaks through these limits. Design, review, and helping each
+other with stories can all increase well beyond simple code reviews.
+
+Continual status comes just as a result of communicating through this tool.
+
+### Is Uclusion Right for Our Team?
+
+As we explain traditional [meeting driven process]({{ site.baseurl }}/agile/scrum/2021/06/07/meeting-driven.html) 
+comes with a host of problems. If in addition you are attempting to have some teammates or some work days
+be remote then you need a tool specifically designed for agile project management without all the meetings.
+
+
+
+
 
 
 
