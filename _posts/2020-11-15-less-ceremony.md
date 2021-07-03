@@ -1,59 +1,58 @@
 ---
 layout: post
-title:  "How Ceremonies Make You Less Agile"
+title:  "How Retrospectives Are Ruining Your Health"
 author: ben
 image: assets/images/ceremony.jpg
 categories: [ agile ]
 featured: true
 ---
-Scrum is an attempt to do agile software development with meetings. 
-However using meetings limits Scrum's agility.
+We need less ceremony and more agile.
 
-For instance if you have a planning meeting and plan one or two weeks ahead 
-then you are already less agile. So you then try to have a daily meeting to 
-adjust the plan if necessary but even a daily meeting happens only every 24 
-hours so then [Scrum says](https://scrumguides.org/scrum-guide.html#daily-scrum):
+We work in the fastest paced, the fastest growing, most competitive industry in 
+existence. We face chronic, common problems with architecture, customer access,
+testing strategy and technical debt.
 
->The Daily Scrum is not the only time Developers are allowed to adjust their plan. They often meet throughout the day for more detailed discussions about adapting or re-planning the rest of the Sprint’s work.
+And every software development project is brand new because if it were already
+done, the exact way you are doing it then there would be no point.
 
-Once you choose meetings as your tool it's a tough rode to stay agile. The 
-meetings attempt to fix a plan are by definition counter to the idea of agile. 
-Some teams even go so far as to attempt to lock down the stories in a sprint -
-meaning they are no longer working on the highest priority.
+In the face of this overwhelming need to adapt and innovate we schedule a
+meeting every 2 weeks or so with this agenda:
 
-This principle can be applied to development ceremonies in general because
-a planning meeting plans, a daily standup plans and a retrospect is a planning
-meeting for team improvement. The end of sprint demo is a planning meeting
-for corrections to be scheduled for the next sprint. 
+>The Scrum Team inspects how the last Sprint went with regards to individuals, interactions, processes, tools, and their Definition of Done. Inspected elements often vary with the domain of work. Assumptions that led them astray are identified and their origins explored. The Scrum Team discusses what went well during the Sprint, what problems it encountered, and how those problems were (or were not) solved.
 
-**All of these ceremonies require waiting for the next meeting and then produce plans that 
-get frozen.**
+In an era when there are still [books written](https://www.gsb.stanford.edu/faculty-research/books/dying-paycheck) about
+the dangers of workplace stress, it's good that Scrum recognizes the need for
+improvement enough to have a ceremony.
 
-Nor does following Kanban meetings help
-<img src="{{ site.baseurl }}/assets/images/KanbanMeetings.jpg"
-alt="Kanban meetings" style="width: 70%;" />
+However, we have to do a lot better than a periodic meeting with the agenda of
+let's chat about how it's going and tweak our Definition of Done. Going around
+the room asking how the last 2 weeks went would be laughable if there weren't
+serious overtime, stress and quality of life issues at stake.
 
-### Doesn't getting everyone to sign up to a plan help force it to happen?
+Then, to this already doomed meeting, the Scrum guide adds a time limit.
+>It is timeboxed to a maximum of three hours for a one-month Sprint.
 
-Either a development team is paid for and must be applying independent thinking
-or they just need to follow orders. 
+### How Real Retrospection Works for Developers
+For managers and executives a periodic 3-hour meeting isn't a joke at all.
+Some of them have the skills and time to get an agenda set ahead of 
+such a meeting, create great presentations for the meeting, and the work the
+room to get to yes.
 
-If the former then signing up to a plan means the development team runs in 
-zombie mode while the plan executes. If some part of the plan is wrong then 
-they just faithfully churn out wasted code.
+However, few if any of them would be able to do that at the end of a grueling
+Sprint when everyone just wants to relax a bit before the next iteration. For a developer,
+the format of a retrospective is unnecessarily making things very difficult.
 
-If the latter then why keep up an expensive pretense of self-governance? You don't
-need the team signed up to a plan - just do old style assignments *and do them
-without meetings*.
+<img src="{{ site.baseurl }}/assets/images/practicing-yoga.jpg" alt="Difficult" style="width: 50%;" />
 
-### Breaking from meeting driven process requires the right software
+Developer's need a fully asynchronous system to collect opinions and modify proposals during 
+the Sprint. You frequently see this kind of debate between developers in tickets opened against 
+open source. However, a single developer owns a ticket, so the system handling a team decision must be 
+more complex.
 
-Many times the information necessary for asynchronous collaboration is already 
-being written down - just scattered across group chat, issue trackers, wiki, 
-etc. Other times everything is there but the system it is written in has
-no ability to record opinions. To really put it together means using agile 
-software designed specifically for project management without meetings.
+Should you bring up switching to asynchronous retrospection in your next retrospective? That approach
+might not be effective.
 
-If you are stuck on an island with a conch shell as the only technology then 
-by all means pass the shell. If better technology is available then you should 
-avail yourself of it.
+We suggest starting small by writing your proposal for replacing retrospectives and sending it out
+ahead of your retrospective. Once these kinds of proposals become popular you can check out a tool 
+like Uclusion that asynchronously handles retrospectives and all other kinds of ceremonies.
+
