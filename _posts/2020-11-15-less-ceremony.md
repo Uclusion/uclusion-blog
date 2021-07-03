@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How Retrospectives Are Ruining Your Health"
+title:  "How Retrospectives Are Risking Your Health"
 author: ben
 image: assets/images/ceremony.jpg
 categories: [ agile ]
