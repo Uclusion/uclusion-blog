@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Mandatory Developer Meetings Damage Your Career"
+title:  "Don't Let Mandatory Developer Meetings Suck You In"
 author: david
 categories: [ agile ]
 image: assets/images/blackhole.jpeg
