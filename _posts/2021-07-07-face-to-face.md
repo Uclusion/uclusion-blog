@@ -8,6 +8,7 @@ featured: true
 ---
 Last century's way of doing things isn't just annoying; it's dangerous.
 
+### Anything Made into a Ceremony Sucks
 For instance if a particular organization
 [likes group code review](https://buildingvts.com/how-to-host-a-group-code-review-61345dbc7b98)
 that's fine. Now imagine all software development teams require group code 
@@ -15,9 +16,11 @@ review meetings to fulfill an "agile ceremony".
   * There would be an impact for distributed work, remote work and depending on the 
 time of the meeting, additional rush hour commutes.
   * You would sometimes be blocked waiting for the next group code review meeting.
-  * Work per iteration limited to what can be reviewed in the code review ceremony.
-  * Meeting skills would become more important.
-  * Reviews done in the meeting might suffer from time constraints.
+  * Work per iteration limited to what can be reviewed in the code review ceremony
+  * Meeting skills become more important and some developers might fail to get their code review 
+    onto the agenda.
+  * Reviews done in the meeting suffer from time constraints and group think.
+  * A meeting kills more than just the time it takes - [maker's schedule problem](http://www.paulgraham.com/makersschedule.html)
   * **Code review tools would not exist.**
 
 CI/CD is another example of developers and asynchronous tools used instead of 
@@ -26,6 +29,17 @@ changes now many organizations have automated testing and continuous releases.
 
 Current agile meetings are no different -  exclusively synchronously batch 
 processing project management lacks the flexibility to succeed.
+
+### Clustering Doesn't Help Much
+No meeting Wednesday or scheduling as many mandatory meetings on the same day
+as possible are not really solutions. Back to the code review example, converting an activity 
+that's continuously performed with the help of a tool to one done point in time without help
+will always cause issues.
+
+<img src="{{ site.baseurl }}/assets/images/cluster.jpg" alt="Diverge" style="width: 50%;" />
+
+Only in the case of agile project management you probably have never seen the 
+continuous, tool assisted version so did not fully realize how inadequate meetings are.
 
 ### Mandatory is not Self-Organizing
 The craziness of a forced group code review ceremony doesn't happen because code 
@@ -44,8 +58,8 @@ will still need the right asynchronous tool to explore alternatives.
 each of the above ceremonies represents a different area that can be 
 self-organized as code reviews usually are.
 
-Not self-organizing fails the demands of the future, and the 
-technical and non-technical skills acquired fall behind.
+Not self-organizing fails the demands of the future, and technical and non-technical 
+skills fall behind.
 
 ### Coding *and* Managing
 <img src="{{ site.baseurl }}/assets/images/diverge.jpg" alt="Diverge" style="width: 50%;" />
