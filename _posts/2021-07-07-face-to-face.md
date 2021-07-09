@@ -24,8 +24,8 @@ CI/CD is another example of developers and asynchronous tools used instead of
 meetings. Where once there were regular meetings to approve batches of 
 changes now many organizations have automated testing and continuous releases.
 
-Current agile meetings are no different - last century's guidance to 
-synchronously batch process lacks the flexibility to succeed.
+Current agile meetings are no different -  exclusively synchronously batch 
+processing project management lacks the flexibility to succeed.
 
 ### Mandatory is not Self-Organizing
 The craziness of a forced group code review ceremony doesn't happen because code 
