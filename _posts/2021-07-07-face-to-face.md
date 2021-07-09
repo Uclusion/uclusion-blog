@@ -10,20 +10,18 @@ Last century's way of doing things isn't just annoying; it's dangerous.
 
 For instance if a particular organization
 [likes group code review](https://buildingvts.com/how-to-host-a-group-code-review-61345dbc7b98)
-that's fine. The dangerous part is making it mandatory across organizations and 
-not providing asynchronous tool support. That's the effect of making something 
-an official "ceremony".
-
-Imagine if all software development teams required group code review meetings.
+that's fine. Now imagine all software development teams require group code 
+review meetings to fulfill an "agile ceremony".
   * There would be an impact for distributed work, remote work and depending on the 
 time of the meeting, additional rush hour commutes.
   * You would sometimes be blocked waiting for the next group code review meeting.
-  * Each team would have to be careful not to take on more work than can be
-reviewed in the code review ceremony.
-  * The meeting skills necessary to successfully navigate a group code review
-would become more important.
+  * Work per iteration limited to what can be reviewed in the code review ceremony.
+  * Meeting skills would become more important.
   * Reviews done in the meeting might suffer from time constraints.
   * **Code review tools would not exist.**
+
+Current process driven meetings are no different - last century's guidance to 
+always synchronously batch process lacks the flexibility to succeed.
 
 ### Mandatory is not Self-Organizing
 The craziness of a forced group code review ceremony doesn't happen because code 
@@ -34,15 +32,14 @@ As you can read in our blogs, that's not the case for
 [planning]({{ site.baseurl }}/agile/2021/06/29/planning.html), 
 [retrospective]({{ site.baseurl }}/agile/2020/11/15/less-ceremony.html),
 [daily]({{ site.baseurl }}/startup/remote/2021/02/15/standup.html) and
-[Sprint review]({{ site.baseurl }}/agile/startup/2020/12/04/demo.html) ceremonies.
+[Sprint review]({{ site.baseurl }}/agile/startup/2020/12/04/demo.html) 
+ceremonies. Even if a development team takes all ceremonies as suggestions, they
+will still need the right asynchronous tool to explore alternatives.
 
-Even if a development team takes all ceremonies as suggestions, they will still
-need the right asynchronous tool to explore alternatives.
-
-Being on a team that's not self-organizing causes a multitude of software 
-development career dangers. The projects of passive teams tend to fail, and that
-makes for a toxic environment. Both the technical and non-technical skills 
-acquired in such an environment usually fall short of self-organized peers.
+Being on a team with less self-organizing causes a multitude of career dangers. 
+The projects of passive teams tend to fail, and that makes for a toxic 
+environment. Both the technical and non-technical skills acquired in such an 
+environment usually fall short of self-organized peers.
 
 **Self-organizing is not all or nothing.** With the right tool,
 each of the above ceremonies represents a different area that can be 
