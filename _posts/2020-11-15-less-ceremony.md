@@ -4,7 +4,6 @@ title:  "How Retrospectives Are Risking Your Health"
 author: ben
 image: assets/images/ceremony.jpg
 categories: [ agile ]
-featured: true
 ---
 We need less ceremony and more agile.
 

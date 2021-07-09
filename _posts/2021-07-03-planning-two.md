@@ -3,7 +3,7 @@ layout: post
 title:  "How Planning Meetings Can Endanger Your Software Developer Career - Part Two"
 author: david
 categories: [ agile ]
-image: assets/images/typewriter.jpg
+image: assets/images/meetings.jpg
 ---
 This one gets wonky. 
 
