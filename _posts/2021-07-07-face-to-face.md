@@ -20,8 +20,12 @@ time of the meeting, additional rush hour commutes.
   * Reviews done in the meeting might suffer from time constraints.
   * **Code review tools would not exist.**
 
-Current process driven meetings are no different - last century's guidance to 
-always synchronously batch process lacks the flexibility to succeed.
+CI/CD is another example of developers and asynchronous tools used instead of 
+meetings. Where once there were regular meetings to approve batches of 
+changes now many organizations have automated testing and continuous releases.
+
+Current agile meetings are no different - last century's guidance to 
+synchronously batch process lacks the flexibility to succeed.
 
 ### Mandatory is not Self-Organizing
 The craziness of a forced group code review ceremony doesn't happen because code 
@@ -36,16 +40,14 @@ As you can read in our blogs, that's not the case for
 ceremonies. Even if a development team takes all ceremonies as suggestions, they
 will still need the right asynchronous tool to explore alternatives.
 
-Being on a team with less self-organizing causes a multitude of career dangers. 
-The projects of passive teams tend to fail, and that makes for a toxic 
-environment. Both the technical and non-technical skills acquired in such an 
-environment usually fall short of self-organized peers.
-
 **Self-organizing is not all or nothing.** With the right tool,
 each of the above ceremonies represents a different area that can be 
 self-organized as code reviews usually are.
 
-### Coding and Managing
+Not self-organizing fails the demands of the future, and the 
+technical and non-technical skills acquired fall behind.
+
+### Coding *and* Managing
 <img src="{{ site.baseurl }}/assets/images/diverge.jpg" alt="Diverge" style="width: 50%;" />
 
 You can have your technical skills and greater responsibility as well, but
