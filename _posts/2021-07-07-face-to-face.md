@@ -17,10 +17,10 @@ review meetings to fulfill an "agile ceremony".
 time of the meeting, additional rush hour commutes.
   * You would sometimes be blocked waiting for the next group code review meeting.
   * Work per iteration limited to what can be reviewed in the code review ceremony
-  * Meeting skills become more important and some developers might fail to get their code review 
-    onto the agenda.
+  * Meeting skills more important, and some developers fail to make the agenda.
   * Reviews done in the meeting suffer from time constraints and group think.
   * A meeting kills more than just the time it takes - [maker's schedule problem](http://www.paulgraham.com/makersschedule.html)
+  * Entire team must know what everyone else is doing!
   * **Code review tools would not exist.**
 
 CI/CD is another example of developers and asynchronous tools used instead of 
