@@ -20,7 +20,7 @@ time of the meeting, additional rush hour commutes.
   * Meeting skills more important, and some developers fail to make the agenda.
   * Reviews done in the meeting suffer from time constraints and group think.
   * A meeting kills more than just the time it takes - [maker's schedule problem](http://www.paulgraham.com/makersschedule.html)
-  * Entire team must know what everyone else is doing!
+  * Entire team must know what everyone else is doing in detail!
   * **Code review tools would not exist.**
 
 CI/CD is another example of developers and asynchronous tools used instead of 
