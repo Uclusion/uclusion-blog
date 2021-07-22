@@ -34,12 +34,22 @@ does innovation in a hackathon.
 These extraordinary efforts will achieve improvement but not _continuous_ improvement. For continuous improvement,
 you need some effort outside feature factory project management all the time, sustainably.
 
-## Pick the Tools and Process that Work
-You're looking for a process and tools for initiative approval and organizing work among a group of peers. We don't
-think [scheduled meetings]({{ site.baseurl }}/agile/2021/07/07/face-to-face.html) will cut it.
+## What about the Boss?
+If you are the boss then we recommend dropping 
+[meeting driven process](({{ site.baseurl }}/agile/2021/07/07/face-to-face.html)) for all the team's work. If you are
+not the boss then we recommend starting by replacing retrospectives with something that works. Here's how you negotiate
+that:
+* Scrum recommends a `three hours for a one-month Sprint` retrospective. That's basically a work day (who codes after
+  a three hour meeting?) and let's conservatively throw in another day for whatever was supposed to come out of that 
+  meeting.
+* Ask to drop retrospectives but allow people 2 days a month (one day a two-week Sprint) for improvement as they see 
+  fit.
 
-You will of course end up calling meetings from time to time, but your project management tool should be designed to
-work without them as much as possible. Good luck! We at Uclusion are rooting for you (and we've also spent years
-bootstrapping the tool you need into existence).
+## Pick the Tools and Process that Work
+You're looking for a process and tools for initiative approval and organizing work among a group of peers. You may 
+have meetings from time to time, but your project management tool should be designed to work without them as much as 
+possible. 
+
+Good luck! We at Uclusion are rooting for you (and we've spent years bootstrapping a tool to help you into existence).
 
 
