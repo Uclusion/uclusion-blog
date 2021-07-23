@@ -31,10 +31,11 @@ everything at the wall takes too long - though it's better than not seeing what 
 
 Wrestling control away from PMs and giving the keys to the kingdom to engineering likely gets the flip side of 
 feature factories, gold-plated infrastructure. Here the engineering team builds wonderfully ingenious architectures 
-that don't really serve much purpose.
+that don't really serve much purpose. We've all seen them - libraries built ignoring open source, fail over strategies
+to solve end of the world events, or seven layers of caching to solve a non-existent performance problem.
 
-What feature factories and gold-plating have in common is that they are both the product of top-down 
-development or decisions made without much internal feedback.
+What feature factories and gold-plating have in common is that they are based on the ideas of the few approved without 
+much feedback.
 
 ## Self-Organizing for Technical Debt and Innovation
 Not _all_ decisions can be made top-down; it simply doesn't scale. That's why VCs loosely couple with startups, 
@@ -50,9 +51,13 @@ organizations this means a single engineer, skunk works style, does the heavy li
 These extraordinary efforts will achieve improvement but not _continuous_ improvement. For continuous improvement,
 you need some effort all the time, sustainably.
 
-## What about the Boss?
-If you are the boss then we recommend dropping 
-[meeting driven process]({{ site.baseurl }}/agile/2021/07/07/face-to-face.html) for all the team's work. If you are
+### Mandatory Meetings are not Self-Organizing
+We have a [blog on that]({{ site.baseurl }}/agile/2021/07/07/face-to-face.html) as well. The short answer though is
+that self-organizing cannot be introduced top-down. It can be encouraged. You can make it a principle of your
+organization. But mandating _how_ to self-organize is like telling people who to vote for to promote democracy!
+
+### What about the Boss?
+If you are the boss then we recommend discussing with your team what process and tools might best serve them. If you are
 not the boss then we recommend starting by replacing retrospectives with something that works. Here's how you negotiate
 that:
 * Scrum recommends a `three hours for a one-month Sprint` retrospective. That's basically a work day (who codes after
