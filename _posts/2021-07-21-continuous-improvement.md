@@ -16,16 +16,19 @@ retrospectives that probably go nowhere!
 Here's why they go nowhere:
 1. Anything prioritized with feature stories will lose. Like Google's famous 
    [20% project](https://en.wikipedia.org/wiki/20%25_Project), you need this work on its own track.
-2. No off the shelf, overhead meeting filled process is going to cut it for continuous improvement. How easy it would 
+2. No overhead centered, meeting filled process is going to cut it for continuous improvement. How easy it would 
    be if that worked!
    
 Unfortunately, the results of failing at self-organizing are pretty dire.
 
 ## Feature Factories and Gold-Plated Infrastructure
 John Cutlefish's description of a [feature factory](https://cutle.fish/blog/12-signs-youre-working-in-a-feature-factory) 
-is very accurate. The tools for data driven decisions that his employer sells are cool but won't get you to continuous 
-improvement by themselves. You need more than data to make technical debt decisions and innovation by throwing 
-everything at the wall takes too long - though it's better than not seeing what sticks.
+is very accurate. Though the tools for data driven decisions that his employer sells won't get you to 
+continuous improvement by themselves. You need more than data to make technical debt decisions and innovation by 
+throwing everything at the wall takes too long.
+
+What John doesn't mention is that feature factories leave developers in an untenable situation. **They work harder 
+and harder but can't move the needle forward on their product and so ultimately are blamed for failure.**
 
 Wrestling control away from PMs and giving the keys to the kingdom to engineering likely gets the flip side of 
 feature factories, gold-plated infrastructure. Here the engineering team builds wonderfully ingenious architectures 
