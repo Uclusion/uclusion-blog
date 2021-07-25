@@ -1,25 +1,23 @@
 ---
 layout: post
-title:  "Self-Organizing for Continuous Improvement"
+title:  "Continuous Improvement"
 author: ben
 image: assets/images/bad-architecture.jpg
 categories: [ agile ]
 featured: true
 ---
-Organizing software engineering is hard. Even successful organizations like 
-[PagerDuty](https://www.pagerduty.com/blog/scaling-engineering-org) struggle.
+Even [successful organizations](https://www.pagerduty.com/blog/scaling-engineering-org) struggle to organize software 
+engineering - causing ordinary developers stress and career damage. 
 
-We humbly suggest that, if you are a software developer on a team that holds traditional retrospectives or any other
-form of self-organizing, this mess is partially on you. You have a mandate to continuously improve, and your team 
-hasn't adopted the tools, process or mindset to make it happen.
-
-Otherwise, why are you still painfully sitting through retrospectives that probably go nowhere!
+However, if you are a software developer on a team that holds traditional retrospectives or any other form of 
+self-organizing, you have a mandate to continuously improve. So why are you still painfully sitting through 
+retrospectives that probably go nowhere!
 
 Here's why they go nowhere:
 1. Anything prioritized with feature stories will lose. Like Google's famous 
    [20% project](https://en.wikipedia.org/wiki/20%25_Project), you need this work on its own track.
-2. No off the shelf, meeting filled process is going to cut it for continuous improvement. How easy it would be if
-that worked!
+2. No off the shelf, overhead meeting filled process is going to cut it for continuous improvement. How easy it would 
+   be if that worked!
    
 Unfortunately, the results of failing at self-organizing are pretty dire.
 
@@ -48,13 +46,16 @@ You absolutely can build a new product top down but **improving it requires more
 organizations this means a single engineer, skunk works style, does the heavy lifting for technical debt, there's a
 'tech debt month', or a team does innovation in a hackathon.
 
-These extraordinary efforts will achieve improvement but not _continuous_ improvement. For continuous improvement,
-you need some effort all the time, sustainably.
+These extraordinary efforts will achieve only temporary improvement, a brief respite from the stress. For _continuous_ 
+improvement, you need some effort all the time, sustainably.
 
 ### Mandatory Meetings are not Self-Organizing
 We have a [blog on that]({{ site.baseurl }}/agile/2021/07/07/face-to-face.html) as well. The short answer though is
 that self-organizing cannot be introduced top-down. It can be encouraged. You can make it a principle of your
-organization. But mandating _how_ to self-organize is like telling people who to vote for to promote democracy!
+organization. 
+
+But mandating _how_ to self-organize is like telling people who to vote for to promote democracy! Few people feel
+responsibility for the results of a process forced on them.
 
 ### What about the Boss?
 If you are the boss then we recommend discussing with your team what process and tools might best serve them. If you are
@@ -68,8 +69,8 @@ that:
 
 ## Pick the Tools and Process that Work
 You're looking for a process and tools for initiative approval and organizing work among a group of peers. You may 
-have meetings from time to time, but your project management tool should be designed to work without them as much as 
-possible. 
+have meetings from time to time, but your project management tool should be designed to make sure you don't waste
+those meetings on overhead. 
 
 Good luck! We at Uclusion are rooting for you (and we've spent years bootstrapping a tool to help you into existence).
 
