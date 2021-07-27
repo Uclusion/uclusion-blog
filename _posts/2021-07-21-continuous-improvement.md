@@ -34,7 +34,7 @@ Mandatory meetings don't result in self-organized work as we explain in
 organization but mandating _how_ to self-organize is like telling people who to vote for to promote democracy! Few 
 people feel responsibility for the results of a process forced on them.
 
-## Failing to Improve matters
+## Failing to Improve Matters
 Even [successful organizations](https://www.pagerduty.com/blog/scaling-engineering-org) struggle to organize software 
 engineering - causing ordinary developers stress and career damage. 
 
