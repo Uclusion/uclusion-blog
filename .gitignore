@@ -4,6 +4,7 @@ _site
 .sass-cache
 .jekyll-cache
 Gemfile.lock
+.idea
 /.idea/modules.xml
 /.idea/uclusion-blog.iml
 /.idea/vcs.xml
