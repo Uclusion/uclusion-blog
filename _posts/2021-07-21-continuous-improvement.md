@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Reclaim Your Retro!"
+title:  "One person making all the decisions will fail even if you are that person."
 author: ben
 image: assets/images/bad-architecture.jpg
 categories: [ agile ]
@@ -12,7 +12,15 @@ To make that work your project management / communications tool must help avoid 
 
 **Now for the long bit.**
 
-## Why Retrospective Meetings Don't Work
+## Why One Person Making All Decisions Fails
+1. Too stressful and stress causes poor decision-making.
+2. Unlikely one person has all the technical and domain knowledge necessary.
+3. Slippery slope - the less other people are involved the more likely they are to devolve into garbage in, garbage out mode.
+
+The solution is self-organizing and everyone more involved. Unfortunately the standard practice of calling meetings to
+promote self-organizing won't work.
+
+## Why Retrospective Meetings Fail
 1. Anything prioritized alongside feature stories will lose the prioritization battle, as they don't directly make money. 
 2. Making decisions by team meeting is too expensive for the limited time available. You need one meeting to set the 
 agenda, a second to decide on priorities, a third to approve implementations, a fourth for review and a fifth to 
@@ -24,7 +32,7 @@ organization but mandating _how_ to self-organize is as autocratic as it gets.
 As a result most retros become about chatting about the last iteration instead of getting improvement stories assigned 
 and done.
 
-## Why Ad Hoc Efforts Are Doomed to Fail
+## Why Ad Hoc Efforts Fail
 Process debt is “a sub-optimal activity or process that might have short-term benefits, but generates a negative 
 impact in the medium-long term”. 
 
