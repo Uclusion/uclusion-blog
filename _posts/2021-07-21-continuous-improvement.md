@@ -49,8 +49,8 @@ to pay of some process debt interest, but nobody's life really improves.
 
 ## Pick the Tools and Process that Work
 You need process and tools for approving and organizing work among a group of peers, that _don't take much time._ 
-You may have meetings occasionally, but the heavy lifting has to come from a project management tool designed to make 
-sure you don't waste those meetings on overhead and poorly defined agendas.
+You may have meetings occasionally, but you need a project management tool designed to make sure you don't waste those 
+meetings on overhead and poorly defined agendas.
 
 Incidentally, you don't have to write it yourself. At Uclusion we've spent years bootstrapping just such a tool to help 
 you.
