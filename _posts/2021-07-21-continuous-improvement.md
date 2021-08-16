@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "One person making all the decisions will fail even if you are that person."
+title:  "Reclaim Your Retro!"
 author: ben
 image: assets/images/bad-architecture.jpg
 categories: [ agile ]
@@ -11,14 +11,6 @@ featured: true
 To make that work your project management / communications tool must help avoid meeting overhead.
 
 **Now for the long bit.**
-
-## Why One Person Making All Decisions Fails
-1. Too stressful and stress causes poor decision-making.
-2. Unlikely one person has all the technical and domain knowledge necessary.
-3. Slippery slope - the less other people are involved the more likely they are to devolve into garbage in, garbage out mode.
-
-The solution is self-organizing and everyone more involved. Unfortunately the standard practice of calling meetings to
-promote self-organizing won't work.
 
 ## Why Retrospective Meetings Fail
 1. Anything prioritized alongside feature stories will lose the prioritization battle, as they don't directly make money. 
