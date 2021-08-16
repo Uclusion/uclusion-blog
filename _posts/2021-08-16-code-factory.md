@@ -6,7 +6,7 @@ image: assets/images/code-factory.jpg
 categories: [ agile ]
 featured: true
 ---
-Factory work is optimized to product goods designed elsewhere. 
+Factory work is optimized to produce goods designed elsewhere. 
 
 In software development a code factory shouldn't be confused with a sweat shop; it's not about the number of hours per 
 day spent coding. How do you know if you work in a code factory?
