@@ -27,14 +27,15 @@ trends and top-down choice.
 about taking the decision of being done away from developers. <br/><br/>MVP is the least work necessary to get further feedback 
 but code factory MVPs are really about trying to push the decision-making onto customers. 
 Unfortunately, "This is crap." is not useful feedback.
-8. **Fungible developers** - developer decision-making muscle and domain knowledge stays under-developed or becomes 
-atrophied so everyone is equally replaceable
-9. **Developer career paths limited** - code factories don't offer many paths forward for developers unless they become 
+7. **Fungible developers and pseudo teams** - developer decision-making muscle and domain knowledge stays under-developed 
+or becomes atrophied so everyone is equally replaceable. <br/><br/>You may work on a team but the only opinion that
+matters to you is your manager, team lead, product manager or chief architect - depending on the situation.
+8. **Developer career paths limited** - code factories don't offer many paths forward for developers unless they become 
 managers.
-10. **Skills are not transferable** - code factories typically have their own way of doing things that's out of
+9. **Skills are not transferable** - code factories typically have their own way of doing things that's out of
 touch with the latest technology and methodologies. How out of touch depends on how long the code factory has been 
 operating.
-11. **High risk of burnout even if comfortable** - your code factory might have a great or fully remote environment,
+10. **High risk of burnout even if comfortable** - your code factory might have a great or fully remote environment,
 pay well and have friendly management. For many developers, long term none of that will matter unless they feel 
 validation that they are making a difference.
 
