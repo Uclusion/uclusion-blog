@@ -22,8 +22,9 @@ learn from mistakes but code factories don't operate that way.
 4. **Gold plated external ideas and over customization** - big customer asks and legal requirements from outside the 
 organization are especially shiny even if nobody really wants them. <br/><br/>APIs are much looser and configuration much more 
 complex than they should be because detailed analysis doesn't come top down.
-5. **Crappy project management** - Out of the box methodology and report heavy tools are frequently chosen by external 
-trends and top-down choice.
+5. **Crappy project management and top-down assignments** - Out of the box methodology and report heavy tools are 
+frequently chosen by external trends and top-down choice. <br/><br/>Modern code factories may self-organize story level 
+assignment but rarely allow developers to choose projects even within the same organization.
 6. **Deadline theater and fake MVPs** - top-down projects have hard deadlines that are then usually pushed. Its more 
 about taking the decision of being done away from developers. <br/><br/>MVP is the least work necessary to get further feedback 
 but code factory MVPs are really about trying to push the decision-making onto customers. 
