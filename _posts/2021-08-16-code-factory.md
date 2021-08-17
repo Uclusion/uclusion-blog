@@ -17,7 +17,8 @@ a code factory?
 out in hack-a-thons. There may even be a lot of code produced this way but all without the support of front door 
 process, tools and reward mechanisms.
 3. **Lots of fire fighting and poor infrastructure** - solving immediate problems is seen as more valuable than 
-preventing future ones since no trust required.
+preventing future ones since no trust required. Trust is built by allowing developers to take decisions and potentially 
+learn from mistakes but code factories don't operate that way.
 4. **Gold plated external ideas and over customization** - big customer asks and legal requirements from outside the 
 organization are especially shiny even if nobody really wants them. <br/><br/>APIs are much looser and configuration much more 
 complex than they should be because detailed analysis doesn't come top down.
@@ -30,8 +31,9 @@ Unfortunately, "This is crap." is not useful feedback.
 7. **Fungible developers and pseudo teams** - developer decision-making muscle and domain knowledge stays under-developed 
 or becomes atrophied so everyone is equally replaceable. <br/><br/>You may work on a team but the only opinion that
 matters to you is your manager, team lead, product manager or chief architect - depending on the situation.
-8. **Developer career paths limited** - code factories don't offer many paths forward for developers unless they become 
-managers.
+8. **Developer career paths limited and gangs** - code factories don't offer many paths forward for developers unless 
+they become managers. <br/><br/>Since there are reduced opportunities to prove yourself, relationships based on 
+reporting structure and proximity play a larger role.
 9. **Skills are not transferable** - code factories typically have their own way of doing things that's out of
 touch with the latest technology and methodologies. How out of touch depends on how long the code factory has been 
 operating.
