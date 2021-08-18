@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ten Signs You Work in a Code Factory"
+title:  "Six Signs You Work in a Code Factory"
 author: david
 image: assets/images/code-factory.jpg
 categories: [ agile ]
@@ -12,38 +12,34 @@ Factories are optimized to produce goods designed elsewhere. In software develop
 confused with a sweat shop; it's not about the number of hours per day spent coding. How do you know if you work in 
 a code factory?
 
-1. **You don't know reasons** - limited access to customers, closed door meetings, everything need to know etc.
-2. **Backdoor bottom-up ideas** - developer ideas are snuck in skunk works, hidden inside top-down projects or churned
-out in hack-a-thons. There may even be a lot of code produced this way but all without the support of front door 
-process, tools and reward mechanisms.
-3. **Lots of fire fighting and poor infrastructure** - solving immediate problems is seen as more valuable than 
-preventing future ones since no trust required. Trust is built by allowing developers to take decisions and potentially 
-learn from mistakes but code factories don't operate that way.
-4. **Gold plated external ideas and over customization** - big customer asks and legal requirements from outside the 
-organization are especially shiny even if nobody really wants them. <br/><br/>APIs are much looser and configuration much more 
-complex than they should be because detailed analysis doesn't come top down.
-5. **Crappy project management and top-down assignments** - Out of the box methodology and report heavy tools are 
-frequently chosen by external trends and top-down choice. <br/><br/>Modern code factories may self-organize story level 
-assignment but rarely allow developers to choose projects even within the same organization.
-6. **Deadline theater and fake MVPs** - top-down projects have hard deadlines that are then usually pushed. Its more 
-about taking the decision of being done away from developers. <br/><br/>MVP is the least work necessary to get further feedback 
-but code factory MVPs are really about trying to push the decision-making onto customers. 
-Unfortunately, "This is crap." is not useful feedback.
-7. **Fungible developers and pseudo teams** - developer decision-making muscle and domain knowledge stays under-developed 
-or becomes atrophied so everyone is equally replaceable. <br/><br/>You may work on a team but the only opinion that
-matters to you is your manager, team lead, product manager or chief architect - depending on the situation.
-8. **Developer career paths limited and gangs** - code factories don't offer many paths forward for developers unless 
+1. **Unexplained reasons** - limited access to customers, closed door meetings, everything need to know etc.
+2. **Trouble changing things** - developer ideas maybe snuck in skunk works, hidden inside top-down projects or 
+churned out in hack-a-thons but eventually this causes a very high technical debt load.
+3. **Top-down organized** - Inflexible methodology, report heavy tools and forcibly assigned projects are common. You 
+may work on a team but the only opinion that matters to you is your manager, team lead, product manager or 
+chief architect - depending on the situation.
+4. **Meaningless deadlines** - top-down projects have hard deadlines that are then usually pushed. The deadline theater
+is more about taking design choices away from developers that would prefer not to add more technical debt.
+5. **Limited career paths and gangs** - code factories don't offer many paths forward for developers unless 
 they become managers. <br/><br/>Since there are reduced opportunities to prove yourself, relationships based on 
 reporting structure and proximity play a larger role.
-9. **Skills are not transferable** - code factories typically have their own way of doing things that's out of
-touch with the latest technology and methodologies. How out of touch depends on how long the code factory has been 
-operating.
-10. **High risk of burnout even if comfortable** - your code factory might have a great or fully remote environment,
-pay well and have friendly management. For many developers, long term none of that will matter unless they feel 
-validation that they are making a difference.
+6. **Atrophied skills** - code factories typically have their own way of doing things that's out of
+touch with the latest technology and methodologies. Plus your decision-making muscle and domain knowledge stays 
+under-developed.
 
-This last point is where code factories are especially destructive. The fewer people involved in decision-making the
-less chance of delighting customers. The more extraordinary effort required to innovate the less likely it is to happen.
+All six attributes of code factories stem from a single culture decision that developers perform better when 
+spoon-fed as much instruction as possible. That engineering autonomy should be limited whenever possible like 
+the automation that runs a factory.
 
-Suppose you do work in a code factory though? Now what? We'll explore that question in our next blog.
+Implicit in the code factory view of the world is that what is most valuable is the code produced, the 
+customers gained and the money raised. An organization that instead prizes the team and culture its built might 
+think nothing of re-writing entire sections of their code base or innovations designed for new markets.
 
+>**The longer it takes to write code the more likely management will view the code, and not the team, as what is valuable.**
+
+Here's where things get interesting though - the converse is also true. The longer it takes to write code the more 
+likely management will view the code, and not the team, as what is valuable. So unless you're on a team of select
+PHds cracking a nearly unsolvable puzzle, using the tools and methodology that helps you build the best, fastest is 
+vital to avoiding collapsing into a code factory.
+
+So is code factory a condition that can be overcome? We'll explore that question in our next blog.
