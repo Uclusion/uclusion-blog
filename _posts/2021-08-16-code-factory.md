@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Seven Signs You Work in a Code Factory"
+title:  "Eight Signs You Work in a Code Factory"
 author: david
 image: assets/images/code-factory.jpg
 categories: [ agile ]
@@ -22,11 +22,13 @@ may work on a team but the only opinion that matters to you is your manager, tea
 chief architect - depending on the situation.
 4. **Meaningless deadlines** - top-down projects have hard deadlines that are then usually pushed. The deadline theater
 is more about taking design choices away from developers that would prefer not to add more technical debt.
-5. **Limited career paths** - code factories don't offer many paths forward for developers unless 
+5. **Its sooo slow** - removing decision-making and innovation from the great majority of an engineering organization
+makes it the opposite of agile.
+6. **Limited career paths** - code factories don't offer many paths forward for developers unless 
 they become managers.
-6. **Cliques** - since there are reduced opportunities to prove yourself, relationships based on reporting structure 
+7. **Cliques** - since there are reduced opportunities to prove yourself, relationships based on reporting structure 
 and proximity play a larger role.
-7. **Atrophied skills** - code factories typically have their own way of doing things that's out of
+8. **Atrophied skills** - code factories typically have their own way of doing things that's out of
 touch with the latest technology and methodologies. Plus your decision-making muscle and domain knowledge stays 
 under-developed.
 
