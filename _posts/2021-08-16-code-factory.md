@@ -10,7 +10,7 @@ Code factories grow from a belief that developers perform better when spoon-fed 
 
 That engineering autonomy should be limited whenever possible like the automation that runs a factory. A code factory 
 shouldn't be confused with a sweat shop; it's not about the number of hours per day spent coding. Factory work might
-even be pleasant but this environment limits you from reaching your full potential.
+even be otherwise pleasant but this environment limits you from reaching your full potential.
 
 How do you know if you work in a code factory?
 
