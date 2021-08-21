@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Seven Signs You Work in a Code Factory"
+title:  "All About Work in a Code Factory"
 author: david
 image: assets/images/code-factory.jpg
 categories: [ agile ]
@@ -12,7 +12,7 @@ That engineering autonomy should be limited whenever possible like the automatio
 shouldn't be confused with a sweat shop; it's not about the number of hours per day spent coding. Factory work might
 even be otherwise pleasant but this environment limits you from reaching your full potential.
 
-How do you know if you work in a code factory?
+## How do you know if you work in a code factory?
 
 1. **Coding in the dark** - limited access to customers, closed door meetings, everything need to know etc.
 2. **Rubber stamping** - Ideas from the manager, team lead, product manager or chief architect are warmly received 
@@ -31,17 +31,25 @@ and proximity play a larger role.
 touch with the latest technology and methodologies. Plus your decision-making muscle and domain knowledge stays 
 under-developed.
 
-Spoon-feeding developers causes contempt for the entire engineering team. An organization that instead prizes the 
-team and culture its built might think nothing of re-writing entire sections of their code base or innovations designed 
-for new markets.
+## Why do code factories happen?
+
+One common misconception about code factories is that they are the result of an engineering team that lacks skills. 
+Many times though an engineering team collapses from having everyone's ideas considered to only being able to implement 
+them skunk works. Or an engineer that performs at a senior level is relegated to junior simply for joining a code 
+factory.
+
+Spoon-feeding causes contempt for the entire engineering team whether they need spoon-feeding or not. An 
+organization that instead prizes the team and culture its built might think nothing of re-writing entire sections of 
+their code base or innovations designed for new markets.
 
 >**The longer it takes to make progress the more likely management stops listening to the team.**
 
-However, even when all engineers ideas are considered it doesn't guarantee things stay that way. The longer it takes to 
-make progress the more likely management stops listening to the team. The lack of stake-holder trust leads to 
-more grunt labor and fewer motivated engineers to fix the architecture and process problems behind the slow-down.
+Think of trust in an engineering team as directly related to return on investment in that engineering team. The longer 
+it takes to make progress the more likely management stops listening to the team. However, the lack of progress could
+happen for many reasons, which causes less developer autonomy, which leads to fewer motivated engineers, which
+results in more slow down.
 
 So, unless you're on a team of select PHds cracking a nearly unsolvable puzzle, using the tools and methodology that 
-helps build the best, fastest is vital to avoiding collapsing into a code factory.
+helps build the best, fastest is vital to avoiding spiraling into a code factory.
 
 Then is code factory a condition that can be overcome? More on that in the next blog also.
