@@ -34,7 +34,7 @@ This is a risky option. Jobs in a code factory tend to lead to more work in code
 incentive you are waiting for, or you plan to retire soon. Long term code factories will tend to compensate considerably 
 less than companies with more self-organized engineering.
 
-### Slowly changing things
+### Slowly change things
 The best way to prove the team is capable of operating without spoon-feeding is by doing. For example:
 * Get invited to the closed door meetings and bring what you learn back to your team.
 * Question deadlines and help via proactive communication on status.
@@ -43,7 +43,7 @@ The best way to prove the team is capable of operating without spoon-feeding is 
 In the end more autonomy requires more work. Unless you want to be the new foreman, your team will have to rely on 
 collaboration and communication to supplement dictates from on high.
 
-### Reclaiming wasted time
+### Reclaim wasted time
 What 20% time projects show is that with enough time on their hands developers can achieve great things. Like 
 Sisyphus developers are clever enough to do anything if they can avoid rolling rocks up hills.
 
