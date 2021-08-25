@@ -14,9 +14,9 @@ Factory work might even be superficially pleasant but this environment limits yo
 ## How do you know if you work in a code factory?
 1. **Coding in the dark** - limited access to customers, closed door meetings, everything need to know etc.
 2. **Rubber stamping** - Ideas from "above" are presented without alternatives, or opportunity for input.
-3. **Meaningless deadlines** - projects have unexplained hard deadlines.
-4. **Limited career paths** - shifting roles or positions is difficult and discouraged (or at best unrewarded).
-5. **Cliques** - relationships are primarily based on reporting structure.
+3. **Emphasis on done** - projects have unexplained hard deadlines and no room for feedback loops.
+4. **Can't move the needle** - 1 through 3 minimize value add and progress is slow.
+5. **Cliques** - relationships are based on reporting structure. That makes shifting roles or positions difficult.
 6. **Non-portable skills** - code factories typically have their own way of doing things that's out of
 touch with the latest technology and methodologies. Domain expertise and decision-making skills atrophy.
 
@@ -26,9 +26,9 @@ would have to be very certain about conditions in the new job.
 
 ### Slowly changing things
 Whoever runs the show is going to need convincing that the team is capable of operating by itself. The best way to 
-prove *that* is by doing. For example:
+prove **that** is by doing. For example:
 * Get invited to the closed door meetings and bring what you learn back to your team.
-* Ask for more information on deadlines and help via proactive communication on status.
+* Question deadlines and help via proactive communication on status.
 * Bring in others *not on your team* to make sure information isn't siloed.
 
 In the end more autonomy requires more work. Unless you want to be the new foreman, your team will have to rely on 
