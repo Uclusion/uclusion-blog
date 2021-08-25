@@ -46,6 +46,6 @@ automation and architecture changes necessary to speed things up by fixing techn
 avoid time-consuming meetings as much as possible but still have an approval process to reduce low ROI work. 
 
 Eventually the team will want to apply this same method to all work. Until then, start carving out time from the old
-process for autonomous team work.
+process for autonomous teamwork.
 
 
