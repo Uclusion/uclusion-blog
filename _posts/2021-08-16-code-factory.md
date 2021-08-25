@@ -13,20 +13,25 @@ Factory work might even be superficially pleasant but this environment limits yo
 
 ## How do you know if you work in a code factory?
 1. **Coding in the dark** - limited access to customers, closed door meetings, everything need to know etc.
-2. **Rubber stamping** - Ideas from "above" are presented without alternatives, or opportunity for input.
+2. **Rubber stamping** - ideas from "above" are presented without alternatives, or opportunity for input.
 3. **Emphasis on done** - projects have unexplained hard deadlines and no room for feedback loops.
-4. **Can't move the needle** - 1 through 3 minimize value add and progress is slow.
-5. **Cliques** - relationships are based on reporting structure. That makes shifting roles or positions difficult.
-6. **Non-portable skills** - code factories typically have their own way of doing things that's out of
+4. **Can't move the needle** - progress is slow and value add minimal.
+5. **Unhappy customers** - not necessarily leaving but definitely eyeing the door.
+6. **Cliques** - relationships are based on reporting structure. That makes shifting roles or positions difficult.
+7. **Non-portable skills** - code factories typically have their own way of doing things that's out of
 touch with the latest technology and methodologies. Domain expertise and decision-making skills atrophy.
 
+There's a pattern to these seven symptoms that looks like this:
+<img src="{{ site.baseurl }}/assets/images/autonomy-diagram.png" alt="Autonomy" style="width: 90%;" />
+
 ## What can you do if you're in a code factory?
-Leaving seems like an easy option, but you will sacrifice a lot of autonomy learning the ropes after switching. So you 
-would have to be very certain about conditions in the new job.
+If you leave you will sacrifice a lot of autonomy learning the ropes after switching. So you would have to be very 
+certain about conditions in the new job. In almost any environment learning to push back against code factory practices
+is an important career skill.
 
 ### Slowly changing things
-Whoever runs the show is going to need convincing that the team is capable of operating by itself. The best way to 
-prove **that** is by doing. For example:
+Whoever runs the show is going to need convincing that the team is capable of operating without spoon-fooding. The best 
+way to prove **that** is by doing. For example:
 * Get invited to the closed door meetings and bring what you learn back to your team.
 * Question deadlines and help via proactive communication on status.
 * Bring in others *not on your team* to make sure information isn't siloed.
@@ -38,9 +43,9 @@ collaboration and communication to replace the dictates from on high.
 What 20% time projects show is that with enough time on their hands developers can achieve great things. Like 
 Sisyphus developers are clever enough to do anything if they can avoid rolling rocks up hills.
 
-These rocks tend to come in three flavors: technical debt, low ROI work, and bloated, ineffective process. The three 
-go hand in hand because the low ROI work and ineffective process doesn't give the team the time or venue for the 
-automation and architecture changes necessary to speed things up by fixing technical debt.
+These rocks tend to come in three categories: technical debt, low ROI work, and bloated, ineffective process. The three 
+go hand in hand because the low ROI work and ineffective process doesn't give the team the time or venue for the
+technical debt automation and architecture changes necessary to speed things up.
 
 **So step one is to choose your own process and communication tools to tackle technical debt.** Have that mechanism 
 avoid time-consuming meetings as much as possible but still have an approval process to reduce low ROI work. 
