@@ -25,19 +25,18 @@ There's a pattern to these seven symptoms that looks like this:
 <img src="{{ site.baseurl }}/assets/images/autonomy-diagram.png" alt="Autonomy" style="width: 90%;" />
 
 ## What can you do if you're in a code factory?
-If you leave you will sacrifice a lot of autonomy learning the ropes after switching. So you would have to be very 
-certain about conditions in the new job. In almost any environment learning to push back against code factory practices
-is an important career skill.
+If you leave you will sacrifice a lot of autonomy learning the ropes after switching. So you have to be very 
+certain of conditions in the new job and that's not easy. In almost any environment learning to recognize and push back 
+against code factory practices is an important career skill.
 
 ### Slowly changing things
-Whoever runs the show is going to need convincing that the team is capable of operating without spoon-fooding. The best 
-way to prove **that** is by doing. For example:
+The best way to prove the team is capable of operating without spoon-feeding is by doing. For example:
 * Get invited to the closed door meetings and bring what you learn back to your team.
 * Question deadlines and help via proactive communication on status.
 * Bring in others *not on your team* to make sure information isn't siloed.
 
 In the end more autonomy requires more work. Unless you want to be the new foreman, your team will have to rely on 
-collaboration and communication to replace the dictates from on high.
+collaboration and communication to supplement dictates from on high.
 
 ### Reclaiming wasted time
 What 20% time projects show is that with enough time on their hands developers can achieve great things. Like 
