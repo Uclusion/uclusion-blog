@@ -29,6 +29,11 @@ If you leave you will sacrifice a lot of autonomy learning the ropes after switc
 certain of conditions in the new job and that's not easy. In almost any environment learning to recognize and push back 
 against code factory practices is an important career skill.
 
+### Go with the flow
+This is a risky option. Jobs in a code factory tend to lead to more work in code factories. Perhaps there is a stock
+incentive you are waiting for, or you plan to retire soon. Long term code factories will tend to compensate considerably 
+less than companies with more self-organized engineering.
+
 ### Slowly changing things
 The best way to prove the team is capable of operating without spoon-feeding is by doing. For example:
 * Get invited to the closed door meetings and bring what you learn back to your team.
