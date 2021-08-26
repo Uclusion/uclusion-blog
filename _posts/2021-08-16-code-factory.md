@@ -9,13 +9,15 @@ featured: true
 Code factories grow from a belief that developers perform better when directed as much as possible.
 
 Unfortunately this severely limits career growth and future prospects. Unlike sweatshops, however, they may be 
-perfectly pleasant places to work, but they do share some common attributes.
+pleasant places to work, if you don't mind the negative attributes that code factories share.
 
 ## How do you know if you work in a code factory?
 1. **Coding in the dark** - limited access to customers, closed door meetings, everything need to know etc.
 2. **Rubber stamping** - ideas from "above" are presented without alternatives, or opportunity for input.
 3. **Emphasis on getting 'done'** - projects have unexplained hard deadlines and no room for feedback loops.
-4. **Limited teamwork** - developers do not engage much with their peers. 
+4. **Limited teamwork** - developers do not engage much with their peers.
+
+If 1 through 4 match a lot of what you experience, and it does upset you then read on.
 
 ## How to escape?
 Working in a code factory might make you think that top-down is the only way corporate software development
@@ -48,6 +50,8 @@ group responsible for all idea generation is different from PMs making suggestio
 * If the team is led by a technical manager how much collaboration on his/her code and ideas?
 * Are engineering teams siloed or distributed? Code factories are more likely to be siloed since it pairs well with 
 top-down.
+* Check out the engineering management resumes. The culture of previous jobs frequently influences the level of 
+autonomy they encourage.
 
 Even if you are job seeking, its best if finding a new position is not your only angle on escaping code factory.
 
