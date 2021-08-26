@@ -1,36 +1,83 @@
 ---
 layout: post
-title:  "What to do if you work for a Code Factory"
+title:  "What to do if you work in a Code Factory"
 author: david
 image: assets/images/code-factory.jpg
 categories: [ agile ]
 featured: true
 ---
-
 Code factories grow from a belief that developers perform better when directed as much as possible.
-Unfortunately this severely limits the opportunity to grow in their career and can limit future prospects.
+Unfortunately this severely limits career growth and future prospects.
 
-Unlike sweatshops, however, they may be perfectly pleasant places to work, but they do share these attributes:
+Unlike sweatshops, however, they may be perfectly pleasant places to work, but they do share some common attributes.
+
 ## How do you know if you work in a code factory?
 1. **Coding in the dark** - limited access to customers, closed door meetings, everything need to know etc.
 2. **Rubber stamping** - ideas from "above" are presented without alternatives, or opportunity for input.
 3. **Emphasis on getting 'done'** - projects have unexplained hard deadlines and no room for feedback loops.
-4. **Limited cross-functional engagement** - teams are not encouraged to work together to find solutions, but instead just complete their tasks 
+4. **Limited teamwork** - developers do not engage much with their peers. 
 
 ## How to escape?
-Well, the first option is to leave and seek employment elsewhere.
-Assuming you don't want to do that, then you're going to have to prove the team is 
-capable of executing quickly and efficiently by itself.
-To accomplish you're number one priority should be to:
+Working in a code factory might make you think that top down is the only way corporate software development
+works but that's not true. For example:
 
-## Reclaim wasted time
-History has shown time and time again (e.g. Instagram) that a good team not wasting time pushing a rock up a hill
-can produce amazing things.
+| Company     |  &nbsp; &nbsp; &nbsp; &nbsp; Bottom up example |
+| --- | --- |
+| Google      | &nbsp; &nbsp; &nbsp; &nbsp; 20% free time policy leads to many products |
+| Amazon      | &nbsp; &nbsp; &nbsp; &nbsp; Bottom up New Product Introduction process resulted in AWS |
+| Apple       | &nbsp; &nbsp; &nbsp; &nbsp; iPhone started as a skunkworks project |
+| Facebook    | &nbsp; &nbsp; &nbsp; &nbsp; Embraces open source |
+| Netflix     | &nbsp; &nbsp; &nbsp; &nbsp; Freedom and responsibility culture |
+| Spotify     | &nbsp; &nbsp; &nbsp; &nbsp; Emphasis on team autonomy |
+| Slack       | &nbsp; &nbsp; &nbsp; &nbsp; Their group chat began as an internal tool |
+| Instagram   | &nbsp; &nbsp; &nbsp; &nbsp; Thirteen person company when acquired by Facebook  |
 
-These rocks tend to come in three categories: bloated and ineffective process, poor prioritization, and technical debt.
-**By far the most impact can be had by fixing process**, because bad process _causes_ poor prioritization, and techinical debt
-by forcing developers to spend time on things with low return, and forcing them to take shortcuts by eating up all available time.
+<br />
+However, if you decide to leave, identifying the level of code factory of a company / team during the interview process 
+is tricky.
 
-In other words, if you want to stop working in a code factory, you have to adopt a fast, efficient process, and start executing efficiently.
+### Job seeking
+Here are some tips for spotting a code factory from the outside but there is no formula:
+* A company advertising an "agile process" or remote work doesn't tell you anything about whether it is a code factory.
+* Do they follow a _mandated_ software development process?
+* Do they have a sustaining team dedicated to technical debt? That might mean development teams lack the autonomy to 
+manage their architecture and quality.
+* Are teams allowed detours from the "paved road" architecture or is infrastructure mostly centralized?
+* Is there separate product management and how much power do PMs have? PMs making suggestions is very different from
+engineering effectively reporting to a small group responsible for all idea generation.
+* If the team is led by a manager that codes what are his/her ideas about collaboration?
+* Are engineering teams siloed or distributed? Code factories are more likely to be siloed since it pairs well with 
+top-down.
 
+Even if you are job seeking, its best if finding a new position is not your only angle on escaping code factory.
 
+### Reclaiming wasted time
+Assuming you don't want leaving to be your only option, then you're going to need a team that is capable of executing 
+quickly and efficiently by itself. To accomplish that without working yourself to death, you and your team will have to 
+make full use of the time available to you.
+
+Many code factory teams have the skills to succeed but are wasting time pushing rocks up a hill. These rocks tend to 
+come in three categories: bloated and ineffective process, poor prioritization, and technical debt. 
+
+**By far the most impact can be had by fixing process**, because bad process _causes_ poor prioritization, and 
+technical debt by forcing developers to spend time on things with low return, and forcing them to take shortcuts by 
+eating up all available time.
+
+In other words, if you want to stop working in a code factory, you have to adopt a fast process, and start executing 
+efficiently.
+
+### Self-organizing for technical debt
+Code factories frequently orphan technical debt and that makes it a great place to start. Perhaps you already have
+a meeting like a retro or a hack-a-thon whose time can be reclaimed with something more effective.
+
+Some suggestions for the new process:
+1. It should be truly continuous - not reliant on "Sprints" or periodic meetings and events. That doesn't mean you 
+will be able to contribute to it all the time; just that whenever you have time, you can work on it asynchronously.
+2. It should include an easy team approval mechanism. You don't want to waste your time on anything that's not agreed
+to be high ROI.
+3. Pick project management tools that work for you. Instagram famously ran from tasks listed in a single elaborate
+Google Doc, but hopefully you can do better.
+4. The new process should be eventually extendable to all the team's work.
+
+Attempting any form of self-organizing puts all the cards on the table one way or the other. Either your team will have 
+a new and better way of doing some things, or you'll know exactly where your organization stands on developer autonomy.
