@@ -17,22 +17,21 @@ pleasant places to work, if you don't mind the negative attributes that code fac
 3. **Emphasis on getting 'done'** - projects have unexplained hard deadlines and no room for feedback loops.
 4. **Limited teamwork** - developers do not engage much with their peers.
 
-If 1 through 4 match a lot of what you experience, and it does upset you then read on.
+If you see any of 1 through 4 where you work then read on.
 
 ## How to escape?
-Working in a code factory might make you think that top-down is the only way corporate software development
-works but that's not true. For example:
+Top-down is not the only way corporate software development works so greener pastures are possible. For example:
 
 | Company     |  &nbsp; &nbsp; &nbsp; &nbsp; Bottom up example |
 | --- | --- |
-| Google      | &nbsp; &nbsp; &nbsp; &nbsp; 20% free time policy leads to many products |
+| Google      | &nbsp; &nbsp; &nbsp; &nbsp; 20% time policy leads to many new products |
 | Amazon      | &nbsp; &nbsp; &nbsp; &nbsp; Bottom up New Product Introduction process resulted in AWS |
 | Apple       | &nbsp; &nbsp; &nbsp; &nbsp; iPhone started as a skunkworks project |
 | Facebook    | &nbsp; &nbsp; &nbsp; &nbsp; Embraces open source |
 | Netflix     | &nbsp; &nbsp; &nbsp; &nbsp; Freedom and responsibility culture |
 | Spotify     | &nbsp; &nbsp; &nbsp; &nbsp; Emphasis on team autonomy |
 | Slack       | &nbsp; &nbsp; &nbsp; &nbsp; Their group chat began as an internal tool |
-| Instagram   | &nbsp; &nbsp; &nbsp; &nbsp; Thirteen person company when acquired by Facebook  |
+| Instagram   | &nbsp; &nbsp; &nbsp; &nbsp; Thirteen person company when acquired by Facebook |
 
 <br />
 However, if you decide to leave, identifying the level of code factory of a team during the interview process 
@@ -40,18 +39,17 @@ is tricky.
 
 ### Job seeking
 Here are some tips for spotting a code factory from the outside but there is no reliable formula:
-* A company advertising an "agile process" or remote work doesn't tell you anything about whether it is a code factory.
-* Do they follow a _mandated_ software development process?
-* Do they have a sustaining team dedicated to technical debt? That might mean development teams lack the autonomy to 
-manage their architecture and quality.
-* Are teams allowed detours from the "paved road" architecture or is infrastructure mostly centralized?
-* Is there separate product management and how much power do PMs have? Engineering effectively reporting to a small 
-group responsible for all idea generation is different from PMs making suggestions.
-* If the team is led by a technical manager how much collaboration on his/her code and ideas?
-* Are engineering teams siloed or distributed? Code factories are more likely to be siloed since it pairs well with 
-top-down.
+* A company having an "agile process", remote work or managers that code doesn't say anything about code factory.
+* Do they follow a _mandated_ software development process? Similarly are teams allowed detours from the "paved road" 
+architecture or is infrastructure centralized?
+* How much power do PMs have? Engineering effectively reporting to a small group responsible for all idea generation 
+is different from PMs making suggestions.
+* Are engineering teams siloed by location or function? Code factories are more likely to be siloed since it pairs well 
+with top-down. Similarly, do they have a sustaining team dedicated to technical debt? That might mean development teams 
+lack the autonomy to manage their architecture and quality.
 * Check out the engineering management resumes. The culture of previous jobs frequently influences the level of 
 autonomy they encourage.
+* How aligned is their tech stack with the latest technology? Code factories tend not to update.
 
 Even if you are job seeking, its best if finding a new position is not your only angle on escaping code factory.
 
