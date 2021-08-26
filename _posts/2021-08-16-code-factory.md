@@ -59,9 +59,11 @@ make full use of the time available to you.
 Many code factory teams have the skills to succeed but are wasting time pushing rocks up a hill. These rocks tend to 
 come in three categories: bloated and ineffective process, poor prioritization, and technical debt. 
 
-**By far the most impact can be had by fixing process**, because bad process _causes_ poor prioritization, and 
-technical debt by forcing developers to spend time on things with low return, and forcing them to take shortcuts by 
-eating up all available time.
+**By far the most impact can be had by fixing process**, because bad process _causes_ developers to spend time on 
+things with low return. That in turn makes old technical debt remain, and eats up available time which forces even more 
+shortcuts.
+
+<img src="{{ site.baseurl }}/assets/images/autonomy-diagram.png" alt="Autonomy" style="width: 90%;" />
 
 In other words, if you want to stop working in a code factory, you have to adopt a fast process, and start executing 
 efficiently.
