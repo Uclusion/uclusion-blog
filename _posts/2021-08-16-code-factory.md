@@ -18,7 +18,7 @@ perfectly pleasant places to work, but they do share some common attributes.
 4. **Limited teamwork** - developers do not engage much with their peers. 
 
 ## How to escape?
-Working in a code factory might make you think that top down is the only way corporate software development
+Working in a code factory might make you think that top-down is the only way corporate software development
 works but that's not true. For example:
 
 | Company     |  &nbsp; &nbsp; &nbsp; &nbsp; Bottom up example |
@@ -33,19 +33,19 @@ works but that's not true. For example:
 | Instagram   | &nbsp; &nbsp; &nbsp; &nbsp; Thirteen person company when acquired by Facebook  |
 
 <br />
-However, if you decide to leave, identifying the level of code factory of a company / team during the interview process 
+However, if you decide to leave, identifying the level of code factory of a team during the interview process 
 is tricky.
 
 ### Job seeking
-Here are some tips for spotting a code factory from the outside but there is no formula:
+Here are some tips for spotting a code factory from the outside but there is no reliable formula:
 * A company advertising an "agile process" or remote work doesn't tell you anything about whether it is a code factory.
 * Do they follow a _mandated_ software development process?
 * Do they have a sustaining team dedicated to technical debt? That might mean development teams lack the autonomy to 
 manage their architecture and quality.
 * Are teams allowed detours from the "paved road" architecture or is infrastructure mostly centralized?
-* Is there separate product management and how much power do PMs have? PMs making suggestions is very different from
-engineering effectively reporting to a small group responsible for all idea generation.
-* If the team is led by a manager that codes what are his/her ideas about collaboration?
+* Is there separate product management and how much power do PMs have? Engineering effectively reporting to a small 
+group responsible for all idea generation is different from PMs making suggestions.
+* If the team is led by a technical manager how much collaboration on his/her code and ideas?
 * Are engineering teams siloed or distributed? Code factories are more likely to be siloed since it pairs well with 
 top-down.
 
@@ -65,8 +65,8 @@ shortcuts.
 
 <img src="{{ site.baseurl }}/assets/images/autonomy-diagram.png" alt="Autonomy" style="width: 90%;" />
 
-In other words, if you want to stop working in a code factory, you have to adopt a fast process, and start executing 
-efficiently.
+In other words, if you want to stop working in a code factory, focusing solely on your own technical excellence won't 
+be enough.
 
 ### Self-organizing for technical debt
 Code factories frequently orphan technical debt and that makes it a great place to start. Perhaps you already have
