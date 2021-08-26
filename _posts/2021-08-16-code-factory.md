@@ -1,60 +1,36 @@
 ---
 layout: post
-title:  "All About Work in a Code Factory"
+title:  "What to do if you work for a Code Factory"
 author: david
 image: assets/images/code-factory.jpg
 categories: [ agile ]
 featured: true
 ---
+
 Code factories grow from a belief that developers perform better when directed as much as possible.
+Unfortunately this severely limits the opportunity to grow in their career and can limit future prospects.
 
-A code factory  shouldn't be confused with a sweat shop; it's not about the number of hours per day spent coding. 
-Factory work might even be superficially pleasant but this environment limits you from reaching your full potential.
-
+Unlike sweatshops, however, they may be perfectly pleasant places to work, but they do share these attributes:
 ## How do you know if you work in a code factory?
 1. **Coding in the dark** - limited access to customers, closed door meetings, everything need to know etc.
 2. **Rubber stamping** - ideas from "above" are presented without alternatives, or opportunity for input.
-3. **Emphasis on done** - projects have unexplained hard deadlines and no room for feedback loops.
-4. **Can't move the needle** - progress is slow and value add minimal.
-5. **Unhappy customers** - not necessarily leaving but definitely eyeing the door.
-6. **Cliques** - relationships are based on reporting structure. That makes shifting roles or positions difficult.
-7. **Non-portable skills** - code factories typically have their own way of doing things that's out of
-touch with the latest technology and methodologies. Domain expertise and decision-making skills atrophy.
+3. **Emphasis on getting 'done'** - projects have unexplained hard deadlines and no room for feedback loops.
+4. **Limited cross-functional engagement** - teams are not encouraged to work together to find solutions, but instead just complete their tasks 
 
-There's a pattern to these seven symptoms that looks like this:
-<img src="{{ site.baseurl }}/assets/images/autonomy-diagram.png" alt="Autonomy" style="width: 90%;" />
+## How to escape?
+Well, the first option is to leave and seek employment elsewhere.
+Assuming you don't want to do that, then you're going to have to prove the team is 
+capable of executing quickly and efficiently by itself.
+To accomplish you're number one priority should be to:
 
-## What can you do if you're in a code factory?
-If you leave you will sacrifice a lot of autonomy learning the ropes after switching. So you have to be very 
-certain of conditions in the new job and that's not easy. In almost any environment learning to recognize and push back 
-against code factory practices is an important career skill.
+## Reclaim wasted time
+History has shown time and time again (e.g. Instagram) that a good team not wasting time pushing a rock up a hill
+can produce amazing things.
 
-### Go with the flow
-This is a risky option. Jobs in a code factory tend to lead to more work in code factories. Perhaps there is a stock
-incentive you are waiting for, or you plan to retire soon. Long term code factories will tend to compensate considerably 
-less than companies with more self-organized engineering.
+These rocks tend to come in three categories: bloated and ineffective process, poor prioritization, and technical debt.
+**By far the most impact can be had by fixing process**, because bad process _causes_ poor prioritization, and techinical debt
+by forcing developers to spend time on things with low return, and forcing them to take shortcuts by eating up all available time.
 
-### Slowly change things
-The best way to prove the team is capable of operating without spoon-feeding is by doing. For example:
-* Get invited to the closed door meetings and bring what you learn back to your team.
-* Question deadlines and help via proactive communication on status.
-* Bring in others *not on your team* to make sure information isn't siloed.
-
-In the end more autonomy requires more work. Unless you want to be the new foreman, your team will have to rely on 
-collaboration and communication to supplement dictates from on high.
-
-### Reclaim wasted time
-What 20% time projects show is that with enough time on their hands developers can achieve great things. Like 
-Sisyphus developers are clever enough to do anything if they can avoid rolling rocks up hills.
-
-These rocks tend to come in three categories: technical debt, low ROI work, and bloated, ineffective process. The three 
-go hand in hand because the low ROI work and ineffective process doesn't give the team the time or venue for the
-technical debt automation and architecture changes necessary to speed things up.
-
-**So step one is to choose your own process and communication tools to tackle technical debt.** Have that mechanism 
-avoid time-consuming meetings as much as possible but still have an approval process to reduce low ROI work. 
-
-Eventually the team will want to apply this same method to all work. Until then, start carving out time from the old
-process for autonomous teamwork.
+In other words, if you want to stop working in a code factory, you have to adopt a fast, efficient process, and start executing efficiently.
 
 
