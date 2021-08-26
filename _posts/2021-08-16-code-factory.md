@@ -7,9 +7,9 @@ categories: [ agile ]
 featured: true
 ---
 Code factories grow from a belief that developers perform better when directed as much as possible.
-Unfortunately this severely limits career growth and future prospects.
 
-Unlike sweatshops, however, they may be perfectly pleasant places to work, but they do share some common attributes.
+Unfortunately this severely limits career growth and future prospects. Unlike sweatshops, however, they may be 
+perfectly pleasant places to work, but they do share some common attributes.
 
 ## How do you know if you work in a code factory?
 1. **Coding in the dark** - limited access to customers, closed door meetings, everything need to know etc.
