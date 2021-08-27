@@ -84,8 +84,13 @@ Either your team will have a new and better way of doing some things, or you'll 
 stands on developer autonomy.
 
 ## Good luck
-It's a big step so let's back up again and review why going beyond code factory is necessary. Here's an excerpt from
-a Netflix senior software engineer position:
+It's a big step so let's review why going beyond code factory is necessary. 
+
+{% include callout.html
+content="The meaning of full stack developer is shifting from self-sufficient to comfortable leading collaboration."
+type="warning" %}
+
+Here's an excerpt from a Netflix senior software engineer position:
 >* Work closely with our customers & partners, understand their use cases & needs, think strategically to seek the right problem to solve at the right time, and innovate with rigor.
 * Collaborate with the team to be responsible for the entire software lifecycle.
 * Work on, collaborate with, and influence the open-source community, and have an impact in the industry.
