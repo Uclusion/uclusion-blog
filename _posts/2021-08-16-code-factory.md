@@ -30,16 +30,48 @@ If you see any of 1 through 4 where you work then read on.
 ## How to find a job outside a code factory
 Code factories are very inefficient so plenty of successful companies have teams doing better. For example:
 
-| Company     |  &nbsp; &nbsp; &nbsp; &nbsp; Bottom up example |
-| --- | --- |
-| Google      | &nbsp; &nbsp; &nbsp; &nbsp; 20% time policy leads to many new products |
-| Amazon      | &nbsp; &nbsp; &nbsp; &nbsp; Bottom up New Product Introduction process resulted in AWS |
-| Apple       | &nbsp; &nbsp; &nbsp; &nbsp; iPhone started as a skunkworks project |
-| Facebook    | &nbsp; &nbsp; &nbsp; &nbsp; Embraces open source |
-| Netflix     | &nbsp; &nbsp; &nbsp; &nbsp; Freedom and responsibility culture |
-| Spotify     | &nbsp; &nbsp; &nbsp; &nbsp; Emphasis on team autonomy |
-| Slack       | &nbsp; &nbsp; &nbsp; &nbsp; Their group chat began as an internal tool |
-| Instagram   | &nbsp; &nbsp; &nbsp; &nbsp; Thirteen person company when acquired by Facebook |
+<table>
+  <thead>
+    <tr>
+      <th style="padding-right: 3rem">Company</th>
+      <th>Bottom up example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Google</td>
+      <td>20% time policy leads to many new products</td>
+    </tr>
+    <tr>
+      <td>Amazon</td>
+      <td>Bottom up New Product Introduction process resulted in AWS</td>
+    </tr>
+    <tr>
+      <td>Apple</td>
+      <td>iPhone started as a skunkworks project</td>
+    </tr>
+    <tr>
+      <td>Facebook</td>
+      <td>Embraces open source</td>
+    </tr>
+    <tr>
+      <td>Netflix</td>
+      <td>Freedom and responsibility culture</td>
+    </tr>
+    <tr>
+      <td>Spotify</td>
+      <td>Emphasis on team autonomy</td>
+    </tr>
+    <tr>
+      <td>Slack</td>
+      <td>Their group chat began as an internal tool</td>
+    </tr>
+    <tr>
+      <td>Instagram</td>
+      <td>Thirteen person company when acquired by Facebook</td>
+    </tr>
+  </tbody>
+</table>
 
 <br />
 However, if you decide to leave, identifying the level of code factory of a team during the interview process 
