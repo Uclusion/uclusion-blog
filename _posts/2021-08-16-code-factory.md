@@ -71,7 +71,8 @@ more shortcuts.
 Code factories frequently orphan technical debt and that makes it a great place to start. Perhaps you already have
 a meeting like a retro or a hack-a-thon whose time can be reclaimed with something more effective.
 
-Some suggestions for the new process:
+The point is you don't have to fix all of your process at once. The bottom-up work can be done in parallel
+with top-down. Some suggestions for the new process:
 1. It should be truly continuous - not reliant on "Sprints" or periodic meetings and events. That doesn't mean you 
 will be able to contribute to it all the time; just that whenever you have time, you can work on it asynchronously.
 2. It should record ROI-centric approvals. IE you should be able to see your team and stakeholder opinions.
