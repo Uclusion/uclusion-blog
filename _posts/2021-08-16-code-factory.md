@@ -25,7 +25,8 @@ type="warning" %}
 3. **Emphasis on getting 'done'** - projects have unexplained hard deadlines and no room for feedback loops.
 4. **Limited teamwork** - developers do not engage much with their peers.
 
-If you see any of 1 through 4 where you work then read on.
+If you see any of 1 through 4 where you work then read on. Otherwise check out 
+[Preventing Code Factory]({{site.baseurl}}/agile/2021/08/28/2-code-factory.html).
 
 ## How to find a job outside a code factory
 Code factories are very inefficient so plenty of successful companies have teams doing better. For example:
