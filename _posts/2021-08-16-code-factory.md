@@ -11,24 +11,24 @@ Code factories grow from a belief that developers perform better when directed a
 They might not be sweatshops but the spoon-feeding severely limits your prospects. First, developers are not trusted 
 enough to change architecture so if you want current skills, you will need a side gig. 
 
-Second, code factories limit collaboration and leadership skills. That makes achieving any position of _real_ 
-responsibility much harder. (You can become management within the code factory but that's just baby-sitting.)
+Second, code factories limit collaboration and leadership and make achieving any position of _real_ 
+responsibility difficult. (Code factory management is just baby-sitting.)
 
 {% include callout.html 
 content="In other words, if you want to stop working in a code factory, focusing solely on your own technical excellence won’t be enough."
 type="warning" %}
 
 ## How do you know if you work in a code factory?
-1. **Coding in the dark** - limited access to customers, closed door meetings, everything need to know etc.
-2. **Rubber stamping** - ideas from "above" are presented without alternatives, or opportunity for input.
-3. **Emphasis on getting 'done'** - projects have unexplained hard deadlines and no room for feedback loops.
-4. **Limited teamwork** - developers do not engage much with their peers.
+* **Coding in the dark** - limited access to customers, everything need to know etc.
+* **Rubber stamping** - ideas from "above" are presented without alternatives.
+* **Getting 'done'** - unexplained hard deadlines and no room for feedback loops.
+* **Limited teamwork** - developers do not engage much with their peers.
 
-If you see any of 1 through 4 where you work then read on. Otherwise check out 
+If your work has any of these then read on. Otherwise check out 
 [Preventing Code Factory]({{site.baseurl}}/agile/2021/08/28/2-code-factory.html).
 
 ## How to find a job outside a code factory
-There are plenty of examples of autonomous teams:
+There are plenty of autonomous teams:
 
 <table>
   <thead>
@@ -64,7 +64,8 @@ There are plenty of examples of autonomous teams:
     </tr>
     <tr>
       <td>Slack</td>
-      <td>Their group chat began as an internal tool</td>
+      <td>Chat started as an internal tool and Salesforce 
+<a target="_blank" href="https://developer.salesforce.com/blogs/engineering/2014/08/agile-methodology-salesforce-inside-look">sounds agile</a></td>
     </tr>
     <tr>
       <td>Instagram</td>
@@ -74,24 +75,19 @@ There are plenty of examples of autonomous teams:
 </table>
 
 <br />
-However, if you decide to leave, "agile process", remote work or managers that code doesn't say anything about code 
-factory. Here are some questions to investigate a team you are interviewing with:
-* Who chooses the software development process? Similarly are teams allowed detours from the "paved road" 
-architecture or is infrastructure centralized?
-* How much power do PMs have? Engineering effectively reporting to a small group responsible for all idea generation 
-is different from PMs making suggestions.
-* Are engineering teams siloed by location or function? Do they have a sustaining team dedicated to technical debt? 
-Either might mean development teams lack the autonomy to manage their architecture and quality.
-* Does the management come from companies with a reputation for flexibility? The culture of previous jobs frequently 
-influences the level of autonomy they encourage.
-* How aligned is their tech stack with the latest technology? Code factories tend not to update.
+However, if you decide to leave, "agile process", remote work or managers that code doesn't guarantee avoiding code 
+factory. Investigate the team you are interviewing with:
+* Do teams ever detour from "paved road" centralized architecture?
+* Do PMs make suggestions or give commands?
+* Are engineering teams siloed by function?
+* Does the management come from companies with a reputation for flexibility?
+* How aligned is their tech stack with the latest technology?
 
-Also making your current employer better lets you wait longer for the right fit.
+Plus making your current employment better will let you wait longer for the right fit.
 
 ## How to make your current position tenable
 Many teams have the technical skills to succeed but are wasting time pushing rocks up a hill. Assuming you 
-don't want to work yourself to death, your team must drop some rocks: bloated and ineffective process, poor 
-prioritization, and technical debt. 
+don't want to work yourself to death, your team must drop some rocks. 
 
 **By far the most impact can be had by fixing process**, because bad process _causes_ developers to spend time on 
 things with low return. That in turn makes old technical debt remain, which eats up available time, which forces even 
@@ -103,12 +99,11 @@ You don't have to fix all of your process at once. Perhaps you already have a me
 whose time can be reclaimed with something more effective.
 
 Some suggestions for the new process:
-1. It should be truly continuous - not reliant on "Sprints" or periodic meetings and events. That way whenever you have 
-time, you can work on it asynchronously.
-2. It should record ROI-centric approvals. IE team and stakeholder opinions are visible.
-3. Pick project management tools that work for you. Instagram famously ran from tasks listed in a single elaborate
+1. Truly continuous so that whenever you have time, you work asynchronously.
+2. Team and stakeholder opinions on any stories ROI should be visible.
+3. The project management tool works _for you_. Instagram famously ran from tasks listed in a single elaborate
 Google Doc, but hopefully you can do better.
-4. The new process can run in parallel but should be eventually extendable to all the team's work.
+4. The new process can run in parallel but could be extended to all work.
 
 ## Good luck
 It's a big step so let's review why going beyond code factory is necessary. 
