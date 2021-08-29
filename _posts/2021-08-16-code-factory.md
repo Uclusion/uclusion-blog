@@ -8,9 +8,8 @@ featured: true
 ---
 Code factories grow from a belief that developers perform better when directed as much as possible.
 
-They might not be sweatshops but the spoon-feeding severely limits your prospects. First, code factories tend to be on 
-older technology since developers are not trusted enough to change architecture or re-write. So long term if you want 
-to remain employable as a software developer, you will need a side gig. 
+They might not be sweatshops but the spoon-feeding severely limits your prospects. First, developers are not trusted 
+enough to change architecture so if you want current skills, you will need a side gig. 
 
 Second, code factories limit collaboration and leadership skills. That makes achieving any position of _real_ 
 responsibility much harder. (You can become management within the code factory but that's just baby-sitting.)
@@ -100,17 +99,16 @@ more shortcuts.
 
 <img src="{{ site.baseurl }}/assets/images/autonomy-diagram.png" alt="Autonomy" style="width: 90%;" />
 
-Perhaps you already have a meeting like a retro or a hack-a-thon whose time can be reclaimed with something more 
-effective.
+You don't have to fix all of your process at once. Perhaps you already have a meeting like a retro or a hack-a-thon 
+whose time can be reclaimed with something more effective.
 
-The point is you don't have to fix all of your process at once. The bottom-up work can be done in parallel
-with top-down. Some suggestions for the new process:
-1. It should be truly continuous - not reliant on "Sprints" or periodic meetings and events. That doesn't mean you 
-will be able to contribute to it all the time; just that whenever you have time, you can work on it asynchronously.
-2. It should record ROI-centric approvals. IE you should be able to see your team and stakeholder opinions.
+Some suggestions for the new process:
+1. It should be truly continuous - not reliant on "Sprints" or periodic meetings and events. That way whenever you have 
+time, you can work on it asynchronously.
+2. It should record ROI-centric approvals. IE team and stakeholder opinions are visible.
 3. Pick project management tools that work for you. Instagram famously ran from tasks listed in a single elaborate
 Google Doc, but hopefully you can do better.
-4. The new process should be eventually extendable to all the team's work.
+4. The new process can run in parallel but should be eventually extendable to all the team's work.
 
 ## Good luck
 It's a big step so let's review why going beyond code factory is necessary. 
