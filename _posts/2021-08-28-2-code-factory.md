@@ -14,21 +14,21 @@ The key part of this environment is that when we finished one project we moved o
 was **done** and might not be touched again for decades. There was some common infrastructure and skills between 
 projects that could be extended but no open source to keep those tools alive.
 
-Now 18 years ago working for an IT department, Scrum would have been a big step up. We would have had a more cohesive
-team, knowledge of the projects, and more interaction with the customer to reduce the product owner bottleneck.
+Now 18 years ago working for an IT department, any modern process would have been a big step up. We would have had a 
+more cohesive team, knowledge of the projects, and more interaction with the customer to reduce the product owner 
+bottleneck.
 
 ## SaaS is not an IT department
 Militaries have a saying, "Generals always fight the last war", and in economics it's 
 "Economists fight the last depression". In software development process we are all primed to win the limited 
 engagement, single customer interactions of decades ago just as SaaS is making them obsolete.
 
-Why would engineers believe the same system that works for limited engagement, single customer could be extended 
+Why would engineers believe the same system that works for limited engagement, single customer can be extended 
 _without modification_ to unlimited engagement, masses of customers? Unfortunately, I was, for many years, one of the 
 engineers swallowing this canard.
 
-In retrospect even the nomenclature should have given it away; you can't endlessly sprint! Product owner is similarly
-incomprehensible in the face of unlimited engagement. At Stanford one guy was struggling to interface with even one 
-customer, but now the product owner is expected to generate all ideas, forever, for the team to satisfy an 
+Product owner is incomprehensible in the face of unlimited engagement. At Stanford one guy was struggling to interface 
+with even one customer, but now the product owner is expected to generate all ideas, forever, for the team to satisfy an 
 ever-increasing base of customers.
 
 But suppose even the product owners were capable of this impossible feat. Never ending means the infrastructure that
@@ -37,36 +37,39 @@ from being 'done', endlessly requires maintenance. Interfacing with customers do
 for any of these new technical requirements.
 
 The final difference with an IT department is equally damning. Where the IT department projects started with a
-near clean slate SaaS engineers build up domain knowledge over years. Yet pure Scrum process has no way of 
-using any of these vital skills.
+near clean slate SaaS engineers build up domain knowledge over years. Yet software methodologies intended for shorter
+projects have no way of using any of these vital skills.
 
 ## Slouching towards code factory
 {% include callout.html
-content="Applying IT department process to non-IT software starts a clock ticking that ends in code factory."
+content="Applying simple process to more complex software starts a clock ticking that ends in code factory."
 type="warning" %}
 
-Traditional IT department process, like Scrum, has no need for long term ownership of the product. Most single customer 
-applications were done in a year or two. So there wasn't much need to worry about product direction.
+At a software level all SaaS engineers are aware of the problem - multi-tenant software is vastly more complex than
+single-tenant. The same problem applies to the business level. If a single client pays you to develop software than 
+their indecisiveness is actually a good thing if they pay by the hour. **In SaaS whether your work results in 
+revenue or not is on you.**
 
 SaaS product management is usually beholden to quarterly earnings, and engineering is crippled by only having a mandate
 for "technical" leadership. You can end up bouncing between CTO led long term technical initiatives and PM driven short
-term features without any customer satisfying strategy.
+term features without any customer satisfying strategy. 
 
-When eventually the tug of war between CTO and product management is won, you collapse from a negotiation between two 
-people to a one person pure code factory. If your process has no bottom-up mechanism for ideas, you continually risk 
-the very small number of decision-makers being overwhelmed.
+If your process has no bottom-up mechanism for ideas, you continually risk a very small number of decision-makers 
+being overwhelmed. At that point they have to push through ideas that don't generate revenue. That's when
+an organization that normally supports developer autonomy can flip to full code factory.
 
 ## Responsible engineering
-Even once I realized that Scrum was ill-suited to SaaS, I still thought the problem was with upper management. If
-only they made better decisions! Meanwhile, upper management was thinking if only we had better engineers!
-Again in retrospect putting all responsibility on management is just as naive as thinking Scrum would work for SaaS.
+Even once I realized that top-down process was ill-suited to SaaS, I still thought the problem was with upper 
+management. If only they made better decisions! Meanwhile, upper management was thinking if only we had better 
+engineers!
 
 Even the simplest of SaaS applications is a massive under taking. Cloud resources like AWS have removed some
 infrastructure work, but the overall demands for a SaaS application have only increased as the bar for UX and features
-has risen.
+has risen. It's naive to think that any simple organizational structure will suffice for such a difficult and 
+competitive endeavour.
 
 **Preventing code factory means SaaS engineers are responsible for more than just transcribing spoon-fed requirements 
-into code.** It means the team stops hiding behind Scrum and upper management when its code fails to produce value for 
+into code.** It means the team considers itself to have the agency to make sure its code produces value for 
 customers.
 
 But where does that responsibility end? And what about work-life balance? We look at these issues in our third blog 
