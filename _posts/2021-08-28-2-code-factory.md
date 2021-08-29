@@ -14,22 +14,21 @@ The key part of this environment is that when we finished one project we moved o
 was **done** and might not be touched again for decades. There was some common infrastructure and skills between 
 projects that could be extended but no open source to keep those tools alive.
 
-Now 18 years ago working for an IT department, Scrum would have been a big step up. We would have been a more cohesive
-team, knowledge of the projects, and Scrum direct interaction with the customer to reduce the product owner as 
-bottleneck.
+Now 18 years ago working for an IT department, Scrum would have been a big step up. We would have had a more cohesive
+team, knowledge of the projects, and more interaction with the customer to reduce the product owner bottleneck.
 
 ## SaaS is not an IT department
 Militaries have a saying, "Generals always fight the last war", and in economics it's 
 "Economists fight the last depression". In software development process we are all primed to win the limited 
 engagement, single customer interactions of decades ago just as SaaS is making them obsolete.
 
-That engineers, would for a second, believe the same system that works for limited engagement, single customer could
-be extended _without modification_ to unlimited engagement, masses of customers is incomprehensible. Unfortunately, I 
-was, for many, many years, one of the engineers swallowing this canard.
+Why would engineers believe the same system that works for limited engagement, single customer could be extended 
+_without modification_ to unlimited engagement, masses of customers? Unfortunately, I was, for many years, one of the 
+engineers swallowing this canard.
 
 In retrospect even the nomenclature should have given it away; you can't endlessly sprint! Product owner is similarly
-incomprehensible in the face of unlimited engagement. At Stanford one guy was struggling even to interface 
-with one customer, but now the product owner is expected to generate all ideas, forever, for the team to satisfy an 
+incomprehensible in the face of unlimited engagement. At Stanford one guy was struggling to interface with even one 
+customer, but now the product owner is expected to generate all ideas, forever, for the team to satisfy an 
 ever-increasing base of customers.
 
 But suppose even the product owners were capable of this impossible feat. Never ending means the infrastructure that
