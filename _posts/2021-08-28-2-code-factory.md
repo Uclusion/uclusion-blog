@@ -74,8 +74,8 @@ featured has risen. At some point every successful SaaS application goes beyond 
 very small group.
 
 **The only reasonable way to look at this is that SaaS engineers are responsible for more than just transcribing
-into code spoon-fed requirements.** In 2021 we can no longer hide behind Scrum and upper management when our code fails
-to produce value for customers.
+spoon-fed requirements into code.** The only way to prevent code factory is to stop hiding behind Scrum and upper 
+management when our code fails to produce value for customers.
 
 But where does that responsibility end? And what about work-life balance? We look at these issues in our third blog 
 in this series [Beyond Code Factory]().
