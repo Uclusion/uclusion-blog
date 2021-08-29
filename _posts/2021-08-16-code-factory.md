@@ -29,7 +29,7 @@ If you see any of 1 through 4 where you work then read on. Otherwise check out
 [Preventing Code Factory]({{site.baseurl}}/agile/2021/08/28/2-code-factory.html).
 
 ## How to find a job outside a code factory
-Code factories are very inefficient so plenty of successful companies have teams doing better. For example:
+There are plenty of examples of autonomous teams:
 
 <table>
   <thead>
@@ -75,9 +75,8 @@ Code factories are very inefficient so plenty of successful companies have teams
 </table>
 
 <br />
-However, if you decide to leave, identifying the level of code factory of a team during the interview process 
-is tricky. "Agile process", remote work or managers that code doesn't say anything about code factory. Here are some 
-questions to investigate:
+However, if you decide to leave, "agile process", remote work or managers that code doesn't say anything about code 
+factory. Here are some questions to investigate a team you are interviewing with:
 * Who chooses the software development process? Similarly are teams allowed detours from the "paved road" 
 architecture or is infrastructure centralized?
 * How much power do PMs have? Engineering effectively reporting to a small group responsible for all idea generation 
@@ -88,7 +87,7 @@ Either might mean development teams lack the autonomy to manage their architectu
 influences the level of autonomy they encourage.
 * How aligned is their tech stack with the latest technology? Code factories tend not to update.
 
-Even if you are job seeking, its best if finding a new position is not your only angle on escaping code factory.
+Also making your current employer better lets you wait longer for the right fit.
 
 ## How to make your current position tenable
 Many teams have the technical skills to succeed but are wasting time pushing rocks up a hill. Assuming you 
@@ -101,8 +100,8 @@ more shortcuts.
 
 <img src="{{ site.baseurl }}/assets/images/autonomy-diagram.png" alt="Autonomy" style="width: 90%;" />
 
-Code factories frequently orphan technical debt and that makes it a great place to start. Perhaps you already have
-a meeting like a retro or a hack-a-thon whose time can be reclaimed with something more effective.
+Perhaps you already have a meeting like a retro or a hack-a-thon whose time can be reclaimed with something more 
+effective.
 
 The point is you don't have to fix all of your process at once. The bottom-up work can be done in parallel
 with top-down. Some suggestions for the new process:
@@ -112,9 +111,6 @@ will be able to contribute to it all the time; just that whenever you have time,
 3. Pick project management tools that work for you. Instagram famously ran from tasks listed in a single elaborate
 Google Doc, but hopefully you can do better.
 4. The new process should be eventually extendable to all the team's work.
-
-Either your team will have a new and better way of doing some things, or you'll know exactly where your organization
-stands on developer autonomy.
 
 ## Good luck
 It's a big step so let's review why going beyond code factory is necessary. 
@@ -128,5 +124,5 @@ Here's an excerpt from a Netflix senior software engineer position:
 * Collaborate with the team to be responsible for the entire software lifecycle.
 * Work on, collaborate with, and influence the open-source community, and have an impact in the industry.
 
-Self-organizing with your team to solve problems outside of code factory spoon-fed process and requirements includes
-all the skills you need to get to another level. Plus your employer could use the help!
+Solving problems outside of code factory spoon-fed process and requirements includes all the skills you need to get to 
+another level. Plus your employer could use the help!
