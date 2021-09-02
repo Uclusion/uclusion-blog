@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The freedom to change"
+title:  "Developer freedom to change"
 author: ben
 image: assets/images/autonomy.jpg
 categories: [ agile ]
