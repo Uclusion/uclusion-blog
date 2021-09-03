@@ -49,7 +49,7 @@ Leave. Find a new position that offers it and be sure to ask the questions in Da
 [code factory]({{site.baseurl}}/agile/2021/08/16/code-factory.html) blog to make *sure* they offer it. You could try to 
 gain autonomy from within, but if that was likely to succeed why don't you have it in the first place?
 
-Side projects can only offer so much relief; you can't count on them being as complex as full time work.
+Side projects can only offer so much relief. You can't count on them to be complex enough to keep your skills relevant.
 
 ### How to provide freedom to change if you are in charge
 This isn't the "I heard typescript was cool so let's re-write everything" sort of change. Getting a team of developers 
