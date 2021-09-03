@@ -3,6 +3,7 @@ layout: post
 title:  "Developer freedom to change"
 author: ben
 image: assets/images/autonomy.jpg
+featured: true
 categories: [ agile ]
 ---
 Looking back on my 19 years as a developer with some very long stints in positions, I can say this with some certainty:
