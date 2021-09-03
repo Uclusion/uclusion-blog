@@ -37,8 +37,8 @@ to be updated and others become "as is".
 ### It's not all about the code
 Form follows function, and tools and process evolve too. If your company is dictating your development process or environment
 then they are very slightly removed from telling you what to name that function you're working 
-on. This also extends to working hours and whether the office is mandatory. You need to flexibility to work 
-the way *you* do the best, or you're hobbling yourself right from the start.
+on. This also extends to working hours and whether the office is mandatory. You need the flexibility to work 
+the way *you* do best, or you're hobbling yourself right from the start.
 
 The same principle applies to believing in _what_ you are building. If you don't think the code you are writing will
 provide value then stop what you are doing (or at least put as little energy into it as possible while you work on 
@@ -49,6 +49,8 @@ Leave. Find a new position that offers it and be sure to ask the questions in Da
 [code factory]({{site.baseurl}}/agile/2021/08/16/code-factory.html) blog to make *sure* they offer it. You could try to 
 gain autonomy from within, but if that was likely to succeed why don't you have it in the first place?
 
+Side projects can only offer so much relief; you can't count on them being as complex as full time work.
+
 ### How to provide freedom to change if you are in charge
 This isn't the "I heard typescript was cool so let's re-write everything" sort of change. Getting a team of developers 
 to agree on anything isn't easy. So if the team says we need X to do our jobs, you should listen.
@@ -58,11 +60,11 @@ developers? Does your process really include continuous improvement or just endl
 never fulfilled?
 
 ### The situation really is dire
-I know what you are probably thinking because I thought it every day for years - "I need to get more autonomy - I'll start
-on that next week." Don't play yourself. 
-[Here's a link](https://www.newyorkfed.org/research/college-labor-market/college-labor-market_compare-majors.html) to the latest
-employment numbers for new graduates. At the time of this writing almost a quarter of new graduates are under or 
-un-employed. 
+I know what you are probably thinking because I thought it every day for years - "I need to get more autonomy - I'll 
+start on that next week." Don't play yourself. 
+[Here's a link](https://www.newyorkfed.org/research/college-labor-market/college-labor-market_compare-majors.html) to 
+the latest employment numbers for new graduates. At the time of this writing almost a quarter of new graduates are 
+under or un-employed. 
 
 The only thing really separating you from their ranks is the ROI you bring to the table and there is a clock ticking
 on your abilities.
