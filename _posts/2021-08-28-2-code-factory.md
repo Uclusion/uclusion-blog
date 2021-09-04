@@ -66,5 +66,5 @@ competitive endeavour.
 **Preventing code factory requires teams have the agency to make sure their code produces value for customers.** If that
 isn't somehow part of the culture than any existing developer autonomy can disappear. 
 
-But where does that responsibility end? And what about work-life balance? We look at these issues in our third blog 
-in this series [Beyond Code Factory]({{site.baseurl}}/agile/2021/08/31/3-code-factory.html).
+But where does that responsibility end? We look at that issue in our third blog in this series
+[Beyond Code Factory]({{site.baseurl}}/agile/2021/08/31/3-code-factory.html).

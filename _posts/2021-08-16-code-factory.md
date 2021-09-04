@@ -9,13 +9,14 @@ featured: true
 Code factories grow from a belief that developers perform better when directed as much as possible.
 
 They might not be sweatshops but the spoon-feeding severely limits your prospects. First, developers are not trusted 
-enough to change architecture so if you want current skills, you will need a side gig. 
+enough to change architecture, so you will need a side gig to even _try_ to keep current skills. 
 
 Second, code factories limit collaboration and leadership and make achieving any position of _real_ 
 responsibility difficult. (Code factory management is just baby-sitting.)
 
 {% include callout.html 
-content="In other words, if you want to stop working in a code factory, focusing solely on your own technical excellence won’t be enough."
+content="In other words, if you want to stop working in a code factory, focusing solely on your own technical 
+excellence won’t be enough."
 type="warning" %}
 
 ## How do you know if you work in a code factory?
@@ -28,7 +29,7 @@ If your work has any of these then read on. Otherwise check out
 [Preventing Code Factory]({{site.baseurl}}/agile/2021/08/28/2-code-factory.html).
 
 ## How to find a job outside a code factory
-There are plenty of autonomous teams:
+There are plenty of organizations that show signs of being better than code factory:
 
 <table>
   <thead>
@@ -75,19 +76,19 @@ There are plenty of autonomous teams:
 </table>
 
 <br />
-However, if you decide to leave, "agile process", remote work or managers that code doesn't guarantee avoiding code 
-factory. Investigate the team you are interviewing with:
+However, if you decide to leave, there is no simple set of signs like "agile process", remote work or managers that code 
+that guarantees avoiding code factory. Investigate the team you are interviewing with:
 * Do teams ever detour from "paved road" centralized architecture?
 * Do PMs make suggestions or give commands?
 * Are engineering teams siloed by function?
 * Does the management come from companies with a reputation for flexibility?
 * How aligned is their tech stack with the latest technology?
 
-Plus making your current employment better will let you wait longer for the right fit.
+It's important to wait for the right fit. Working for consecutive code factories won't help!
 
-## How to make your current position tenable
-Many teams have the technical skills to succeed but are wasting time pushing rocks up a hill. Assuming you 
-don't want to work yourself to death, your team must drop some rocks. 
+## What if you are a team lead or manager?
+Code factories are stressful for their leaders since there is so little decision-making support and a general lack
+of energy. You probably have to leave anyway, but the experience you can gain from trying to change things is worth it.
 
 **By far the most impact can be had by fixing process**, because bad process _causes_ developers to spend time on 
 things with low return. That in turn makes old technical debt remain, which eats up available time, which forces even 
@@ -109,7 +110,7 @@ Google Doc, but hopefully you can do better.
 It's a big step so let's review why going beyond code factory is necessary. 
 
 {% include callout.html
-content="The meaning of full stack developer is shifting from self-sufficient to comfortable leading collaboration."
+content="Senior developer increasingly means comfortable leading collaboration."
 type="warning" %}
 
 Here's an excerpt from a Netflix senior software engineer position:
@@ -117,5 +118,5 @@ Here's an excerpt from a Netflix senior software engineer position:
 * Collaborate with the team to be responsible for the entire software lifecycle.
 * Work on, collaborate with, and influence the open-source community, and have an impact in the industry.
 
-Solving problems outside of code factory spoon-fed process and requirements includes all the skills you need to get to 
-another level. Plus your employer could use the help!
+Solving problems outside a code factory spoon-fed process gives you the skills you need to get to another level. Plus 
+your employer could use the help!
