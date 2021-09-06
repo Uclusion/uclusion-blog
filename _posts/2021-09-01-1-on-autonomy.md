@@ -8,8 +8,8 @@ categories: [ agile ]
 ---
 Looking back on my 19 years as a developer with some very long stints in positions, I can say this with some certainty:
 If you want to remain employable as a developer, you either have the autonomy to completely change how you do things, 
-or you should be practicing interview questions. Unfortunately I didn't know this at the time, so I got to learn 
-lesson the hard way: awkward interviews and many hours re-skilling.
+or you should be practicing interview questions. Unfortunately I didn't know this at the time, so I learned the hard 
+way: awkward interviews and many hours re-skilling.
 
 ### Why autonomy is so important
 One of the core responsibilities of a software developer is to solve problems in the best possible way, factoring in
@@ -36,9 +36,9 @@ to be updated and others become "as is".
 
 ### It's not all about the code
 Form follows function, and tools and process evolve too. If your company is dictating your development process or environment
-then they are very slightly removed from telling you what to name that function you're working 
-on. This also extends to working hours and whether the office is mandatory. You need the flexibility to work 
-the way *you* do best, or you're hobbling yourself right from the start.
+then they are very slightly removed from telling you what to name a function. This also extends to working hours and 
+whether the office is mandatory. You need the flexibility to work the way *you* do best, or you're hobbling yourself 
+right from the start.
 
 The same principle applies to believing in _what_ you are building. If you don't think the code you are writing will
 provide value then stop what you are doing (or at least put as little energy into it as possible while you work on 
