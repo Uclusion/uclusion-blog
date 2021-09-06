@@ -14,11 +14,6 @@ enough to change architecture, so keeping current skills will be difficult even 
 Second, code factories limit collaboration and leadership and make achieving any position of _real_ 
 responsibility difficult. (Code factory management is just baby-sitting.)
 
-{% include callout.html 
-content="In other words, if you want to stop working in a code factory, focusing solely on your own technical 
-excellence won’t be enough."
-type="warning" %}
-
 ## How do you know if you work in a code factory?
 * **Coding in the dark** - limited access to customers, everything need to know etc.
 * **Rubber stamping** - ideas from "above" are presented without alternatives.
@@ -83,6 +78,14 @@ that guarantees avoiding code factory. Investigate the team you are interviewing
 * Are engineering teams siloed by function?
 * Does the management come from companies with a reputation for flexibility?
 * How aligned is their tech stack with the latest technology?
+* Do your potential teammates believe developers perform better when given instruction to minimize thinking? 
+
+On that last question, you can try asking them about ROI on unit testing. If the response is something like, 
+"Testing pyramid - that's all you need to know." or "I just check the Definition of Done." then it's possible they 
+either prefer code factory or have worked at one too long. 
+
+"We don't have time for testing because of the deadlines" is also a tip off but if they are that honest you could maybe 
+just directly ask if this is a code factory.
 
 ## What if you are a team lead or manager?
 Code factories are stressful for their leaders since there is a general lack of energy and initiative.
@@ -104,6 +107,9 @@ Google Doc, but you can do better.
 4. The new process can run in parallel but could be extended to all work.
 
 ## Good luck
+It's a big step so you can check out [Ben's blog]({{site.baseurl}}/agile/2021/09/01/1-on-autonomy.html) on why escaping
+code factory is so important to your career. Additionally:
+
 {% include callout.html
 content="Senior increasingly means comfortable leading collaboration."
 type="warning" %}
