@@ -24,7 +24,7 @@ If your work has any of these then read on. Otherwise check out
 [Preventing Code Factory]({{site.baseurl}}/agile/2021/08/28/2-code-factory.html).
 
 ## How to find a job outside a code factory
-There are plenty of organizations that show signs of being better than code factory:
+There are plenty of organizations that show signs of not being code factories:
 
 <table>
   <thead>
@@ -71,6 +71,9 @@ There are plenty of organizations that show signs of being better than code fact
 </table>
 
 <br />
+Not being a code factory doesn't guarantee it's a good place to work but it does help insure that you keep growing
+as a developer and not get stuck in your career.
+
 However, if you decide to leave, there is no simple set of signs like "agile process", remote work or managers that code 
 that guarantees avoiding code factory. Investigate the team you are interviewing with and wait for a good fit:
 * Do teams ever detour from "paved road" centralized architecture?
