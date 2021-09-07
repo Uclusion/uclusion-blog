@@ -23,6 +23,17 @@ responsibility difficult. (Code factory management is just baby-sitting.)
 If your work has any of these then read on. Otherwise check out 
 [Preventing Code Factory]({{site.baseurl}}/agile/2021/08/28/2-code-factory.html).
 
+Let's take a simple user story to demonstrate how code factories work. "As an email user, I want a way to keep
+my inbox organized." That story could result in anything from GMail's built-in categories to Hey's categorize
+first time senders feature. This example is chosen because we all use email but in a code factory you might not 
+understand your end users at all.
+
+A code factory will insist on writing in enough detail to nail down exactly one high level implementation and then 
+maybe start in on acceptance criteria to specify down to the exact screens. And even then the story might be spit 
+up into dozens of stories making it difficult for any single assignee to innovate anything. Feedback, if any, will come 
+only from end users complaining and the team that fields those complaints might not even be the same one that did the 
+first version!
+
 ## How to find a job outside a code factory
 There are plenty of organizations that show signs of not being code factories:
 
