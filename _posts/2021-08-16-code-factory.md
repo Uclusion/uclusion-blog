@@ -34,6 +34,10 @@ up into dozens of stories making it difficult for any single assignee to innovat
 only from end users complaining and the team that fields those complaints might not even be the same one that did the 
 first version!
 
+Of course a complex software product will have some tasks better suited to this kind of assembly line. What makes a 
+code factory a code factory is that it tries to apply this model to everything. Even modern factories, which
+sometimes need to produce 100s of customized versions or very flexibly schedule different products, can't be so rigid!
+
 ## How to find a job outside a code factory
 There are plenty of organizations that show signs of not being code factories:
 
