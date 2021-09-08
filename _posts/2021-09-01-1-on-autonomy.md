@@ -38,7 +38,7 @@ flexibility to work the way *you* do best, or you're hobbling yourself right fro
 
 The same principle applies to believing in _what_ you are building. If you don't think the code you are writing will
 provide value then stop what you are doing (or at least put as little energy into it as possible while you work on 
-interview questions).
+other things).
 
 ### How to get autonomy if you don't have it
 Leave. Find a new position that offers it and be sure to ask the questions in David's 
