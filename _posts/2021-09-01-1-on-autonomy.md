@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Don't spend your career in bad environments"
+title:  "Don't code in bad environments"
 author: ben
 image: assets/images/autonomy.jpg
 featured: true
