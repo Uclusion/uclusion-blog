@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The struggle against backward environments"
+title:  "Don't spend your career in bad environments"
 author: ben
 image: assets/images/autonomy.jpg
 featured: true
@@ -20,25 +20,20 @@ job.
 content="No company on earth is looking for developers who are content to fail at their job."
 type="warning" %}
 
-Positions which don't offer autonomy typically have relatively ancient software stacks. You *will* be solving problems 
-the rest of the world has moved on from years ago. You *won't* learn how to fix today's problems.
-
-### But wouldn't we spend all of our time re-architecting?
-Let's be clear, the problem isn't old code; the problem is someone **wants the old code to continue to grow as a 
-product**. If the application is important enough to substantially change, then it's important enough to be on 
-technology that allows coding in a reasonable way.
-
-In situations where developers do have autonomy, like open source, you see this all the time. Some repos continue 
-to be updated and others become "as is".
+Positions which don't offer autonomy have you solving problems the rest of the world has moved on from years ago. If 
+the application is important enough to substantially change, then it's important enough to be on technology that allows 
+coding in a reasonable way. In situations where developers do have autonomy, like open source, you see some 
+repos continue to be updated and others become "as is".
 
 ### It's not all about the code
-If your company is dictating your development process or environment then they are very slightly removed from telling 
+If your company is dictating your development process then they are very slightly removed from telling 
 you what to name a function. This also extends to working hours and whether the office is mandatory. You need the 
 flexibility to work the way *you* do best, or you're hobbling yourself right from the start.
 
-The same principle applies to believing in _what_ you are building. If you don't think the code you are writing will
-provide value then stop what you are doing (or at least put as little energy into it as possible while you work on 
-other things).
+**Let's talk about product management in these environments.** The best case is that engineers help propose new work but
+engineering must at least be able to push back on PM and CTO ideas. A situation where any one person's suggestions
+are not questioned will end up with a lot of useless code. Not being useful to customers then feeds back into
+it not mattering if the developer environment is reasonable.
 
 ### How to get autonomy if you don't have it
 Leave. Find a new position that offers it and be sure to ask the questions in David's 
