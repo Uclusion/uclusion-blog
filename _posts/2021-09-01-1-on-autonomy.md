@@ -20,8 +20,8 @@ job.
 content="No company on earth is looking for developers who are content to fail at their job."
 type="warning" %}
 
-Positions which don't offer autonomy typically have relatively ancient software stacks. You will be solving problems 
-the rest of the world has moved on from years ago. You won't learn things how to fix *today's* problems.
+Positions which don't offer autonomy typically have relatively ancient software stacks. You *will* be solving problems 
+the rest of the world has moved on from years ago. You *won't* learn how to fix today's problems.
 
 ### But wouldn't we spend all of our time re-architecting?
 Let's be clear, the problem isn't old code; the problem is someone **wants the old code to continue to grow as a 
@@ -51,14 +51,6 @@ to come by without funding. Also quality of UI is easier for customers to quickl
 * If you work on a side project by yourself it will be harder to achieve the complexity necessary to keep technical 
 skills and impossible to work on collaborative skills.
 
-### How to provide freedom to change if you are in charge
-This isn't the "I heard typescript was cool so let's re-write everything" sort of change. Getting a team of developers 
-to agree on anything isn't easy. So if the team says we need X to do our jobs, you should listen.
-
-But without your team even saying anything you should take a look at your process. Are you forcing meetings on
-developers? Does your process really include continuous improvement or just endlessly carry forward a wish list that's
-never fulfilled?
-
 ### The situation is dire
 I know what you are probably thinking because I thought it every day for years - "I need to get more autonomy - I'll 
 start on that next week." Don't play yourself. 
@@ -69,4 +61,10 @@ under or un-employed.
 The only thing really separating you from their ranks is the ROI you bring to the table and there is a clock ticking
 on your abilities.
 
+### How to provide freedom to change if you are in charge
+This isn't the "I heard typescript was cool so let's re-write everything" sort of change. Getting a team of developers
+to agree on anything isn't easy. So if the team says we need X to do our jobs, you should listen.
 
+But without your team even saying anything you should take a look at your process. Are you forcing meetings on
+developers? Does your process really include continuous improvement or just endlessly carry forward a wish list that's
+never fulfilled?
