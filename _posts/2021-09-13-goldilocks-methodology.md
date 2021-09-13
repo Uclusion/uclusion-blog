@@ -56,10 +56,9 @@ process comes down to put up with open office like constant interruptions or suf
 the wrong way.
 
 ### Why working by yourself is too cold
-I'll admit there is a certain class of problems that are very amenable to working on with limited interaction with
-others. Let's call them *yesterday's problems*. Yesterday's problems have fairly obvious solutions and if you need
-extra hands for the grunt work you can employ a [code factory]({{site.baseurl}}/agile/2021/08/16/code-factory.html)
-process.
+There is a class of problems that can be solved with limited interaction with others. Let's call 
+them *yesterday's problems*. Yesterday's problems have fairly obvious solutions and if you need extra hands for the 
+grunt work you can employ a [code factory]({{site.baseurl}}/agile/2021/08/16/code-factory.html) process.
 
 Plus there is a straightforward technique to guarantee a large supply of yesterday's problems. On the
 infrastructure side just pile up technical debt. On the feature side just let your competition do all the innovation.
@@ -68,7 +67,7 @@ However, for fixing today's problems minimal collaboration is a disaster. Even i
 manager or chief architect new problems are too complex to take on without a lot of guiding opinions.
 
 ### Solving our Goldilocks problem
-Once we admit we're facing a "just right" kind of choice, we should know that off the shelf solutions won't work. If
+Once we admit we're facing a "just right" kind of choice, we know off the shelf solutions won't work. If
 you are not willing to experiment with software methodology then you will end up with a lot of cold oatmeal and burnt
 tongues. The process and tools that work for papa or mama bear don't necessarily suit you.
 
