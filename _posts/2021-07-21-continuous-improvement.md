@@ -4,7 +4,6 @@ title:  "Reclaim Your Retro!"
 author: ben
 image: assets/images/bad-architecture.jpg
 categories: [ agile ]
-featured: true
 ---
 **TL;DR**: Your team needs to drop retrospective meetings and use that time for self-organized improvement.
 

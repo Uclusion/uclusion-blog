@@ -4,7 +4,6 @@ title:  "Don't Let Mandatory Developer Meetings Suck You In"
 author: david
 categories: [ agile ]
 image: assets/images/blackhole.jpeg
-featured: true
 ---
 Last century's way of doing things isn't just annoying; it's dangerous.
 
