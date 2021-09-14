@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Software's Goldilocks Problem"
+title:  "The Agile Goldilocks Problem"
 author: david
 image: assets/images/goldilocks.jpg
 categories: [ agile ]
