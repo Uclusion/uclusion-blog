@@ -16,23 +16,16 @@ video company had approval software that captured what was being approved and by
 you to comment frame by frame in a story board or video.
 
 That video process, designers and Figma or InVision like tools, and any number of business processes incorporate
-modern tools. So why are software developers still doing communication much the same way as thirty years ago?
+modern tools. In 25 years I've seen two changes to developer communication: Scrum / open office and Covid forcing 
+remote work mainstream (email, wiki and group chat / IRC were already there).
 
-Martin Fowler observed in his 2006 [article on CI/CD](https://martinfowler.com/articles/continuousIntegration.html):
+Our industry is slow to adapt process, and as Martin Fowler observed in his 2006 
+[article on CI/CD](https://martinfowler.com/articles/continuousIntegration.html), it's for the wrong reasons:
 
 >When I've described this practice to people, I commonly find two reactions: "it can't work (here)" and
 "doing it won't make much difference". What people find out as they try it is that it's much easier than it sounds,
 and that it makes a huge difference to development. Thus the third common reaction is "yes we do that - how could you
 live without it?"
-
-that our industry is slow to adapt process. In 25 years I've seen two changes to developer 
-communication: Scrum / open office and Covid forcing remote work mainstream (email, wiki and group chat / IRC were 
-already there).
-
->Individuals and interactions over processes and tools<br/><br/>
->The most efficient and effective method of conveying information to and within a development team is face-to-face 
-conversation.<br/><br/>
-> -_Agile Manifesto 2001_
 
 {% include callout.html
 content="It's **not okay** for a methodology to prescribe communication technology like face-to-face / open office or
@@ -52,7 +45,8 @@ And I get the logic - it's at least consistent. But now that almost everyone rea
 meeting environment, it's time to also see the limitations of meetings as a software developer communication tool.
 
 You can't afford to have meetings all the time and, in an agile environment, you also can't afford to have your
-approvals, questions and feedback wait for the next meeting. 
+approvals, questions and feedback wait for the next meeting where it will be difficult to decide everything real
+time anyway. 
 
 {% include callout.html
 content="Relying soley on meetings means choosing between interruptions and regularly doing the wrong thing or the 
