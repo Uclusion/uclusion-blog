@@ -81,9 +81,8 @@ about making the right communication tool choices? For instance if we are not al
 scripture then the choice of in office participation is daunting. Nor does watching papa and mama bear big companies 
 communications decisions necessarily tell you what is right for you.
 
-However, I think that our industry has overall over-estimated the cost of process experimentation. My previous employer
-starting successfully experimenting with remote work long before the pandemic. Some communications process experiments 
-that are easy to run:
+However, I think that our industry over-estimates the cost of process experimentation. My previous employer 
+successfully experimented with remote work long before the pandemic. Some easy communications process experiments:
 * Try different communications tools for a hack-a-thon
 * Run a parallel process for technical debt instead of a retro
 * "Just right" size your backlog and the amount each item is specified
