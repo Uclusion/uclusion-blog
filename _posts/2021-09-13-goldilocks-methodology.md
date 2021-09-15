@@ -7,20 +7,18 @@ categories: [ agile ]
 featured: true
 ---
 ### Two bowls and hidden technology choices
-In my software career, I've seen two approaches - endless meetings or working alone. For open source or 
-the IETF, things look radically different but as soon as paying customers are on the table, reasonable collaboration 
-seems off the table.
+In 25 years I've seen two changes to developer communication: Scrum / open office and Covid forcing
+remote work mainstream (email, wiki and group chat / IRC were already there). The result is that most software 
+developers, outside open source or the IETF, are **forced to choose between endless meetings or working alone**.
 
 In my recent experience with having an explainer video made meetings were used only for brainstorming. The explainer
 video company had approval software that captured what was being approved and by whom and feedback software that allowed
 you to comment frame by frame in a story board or video.
 
-That video process, designers and Figma or InVision like tools, and any number of business processes incorporate
-modern tools. In 25 years I've seen two changes to developer communication: Scrum / open office and Covid forcing 
-remote work mainstream (email, wiki and group chat / IRC were already there).
-
-Our industry is slow to adapt process, and as Martin Fowler observed in his 2006 
-[article on CI/CD](https://martinfowler.com/articles/continuousIntegration.html), it's for the wrong reasons:
+That video process, designers and Figma or InVision like tools, and any number of business processes incorporate tools
+specifically designed for them. As Martin Fowler observed in his 2006 
+[article on CI/CD](https://martinfowler.com/articles/continuousIntegration.html), the unwillingness to
+adapt software process is for the wrong reasons:
 
 >When I've described this practice to people, I commonly find two reactions: "it can't work (here)" and
 "doing it won't make much difference". What people find out as they try it is that it's much easier than it sounds,
@@ -41,16 +39,19 @@ make a Kanban board less of a technology choice.
 Deciding what we work on and how we implement is the most important process. Let's use an open floor plan to encourage 
 one continuous meeting all the time! Every introduction of Scrum I witnessed was followed by open offices.
 
-And I get the logic - it's at least consistent. But now that almost everyone realizes the issues with an all day 
-meeting environment, it's time to also see the limitations of meetings as a software developer communication tool.
+And I get the logic - it's at least consistent. But now, more than ever, developers realize the issues with open office
+(and are being offered 
+[libraries](https://www.fastcompany.com/90626329/these-architects-popularized-the-open-office-now-they-say-the-open-office-is-dead)
+instead?)
+and it's time to also see the limitations of meetings as a software developer communication tool.
 
 You can't afford to have meetings all the time and, in an agile environment, you also can't afford to have your
 approvals, questions and feedback wait for the next meeting where it will be difficult to decide everything real
 time anyway. 
 
 {% include callout.html
-content="Relying soley on meetings means choosing between interruptions and regularly doing the wrong thing or the 
-wrong way."
+content="Relying soley on meetings means choosing between frequent interruptions and doing the wrong thing or the wrong 
+way."
 type="warning" %}
 
 ### Working by yourself is too cold
@@ -84,7 +85,7 @@ We have to find quick ways to try potential solutions or we will not only be eat
 the wrong chair and sleeping in the wrong bed as well.
 
 ### How to make the third bowl available
-There are many communications solutions out there and many of them fully justify the manifesto's warning to stick to 
+There are many communications solutions out there and most of them fully justify the manifesto's warning to stick to 
 face-to-face. But these days we know a few things about how we prefer to operate online:
 * Questions - almost every developer is happy when a question can be answered by online interactions and a meeting 
 avoided
