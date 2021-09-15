@@ -6,43 +6,43 @@ image: assets/images/goldilocks.jpg
 categories: [ agile ]
 featured: true
 ---
-Agile has become an excuse for endless meetings, and it's time to push back.
+### Two bowls and hidden technology choices
+In my software career, I've seen two approaches - endless meetings or working alone. For open source or 
+the IETF, things look radically different but as soon as paying customers are on the table, reasonable collaboration 
+seems off the table.
 
->Individuals and interactions over processes and tools
-
->The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
-
-It's okay to follow advice from a methodology that tells you software is complex, and you will need to listen to smart
-people and be prepared to pivot. It's not okay for a methodology to prescribe specific communication tools like
-exact meetings, Kanban boards or open office. Communication is going to vary by the technology available and has to be
-approached like any other technology choice.
-
-In my recent experience with having an explainer video made meetings were used only for brain-storming. The explainer 
-video company had approval software that captured what was being approved and by whom and review software that allowed 
+In my recent experience with having an explainer video made meetings were used only for brainstorming. The explainer
+video company had approval software that captured what was being approved and by whom and feedback software that allowed
 you to comment frame by frame in a story board or video.
 
-None of this software was available 20 years ago when the agile manifesto was written, and we don't read 20-year-old 
-reviews to determine our editor or build tools.
+That video process, designers and Figma or InVision like tools, and any number of business processes incorporate
+modern tools. So why are software developers still doing communication much the same way as thirty years ago?
 
-### Two bowls of porridge
-My entire software developer career I've seen two approaches - endless meetings or working alone. When developer 
-process doesn't involve customers, like open source or the IETF, things look radically different. As soon as status
-and release dates are on the table, reasonable collaboration seems off the table.
+Martin Fowler observed in his 2006 [article on CI/CD](https://martinfowler.com/articles/continuousIntegration.html):
 
-That's not the case for similar collaborations like the video process above, designers and Figma or 
-InVision like tools, and any number of business processes. So why are software developers still doing communication 
-much the same way as thirty years ago?
-
-There's a clue in Martin Fowler's [article on CI/CD](https://martinfowler.com/articles/continuousIntegration.html) 
-from 2006:
->When I've described this practice to people, I commonly find two reactions: "it can't work (here)" and 
-"doing it won't make much difference". What people find out as they try it is that it's much easier than it sounds, 
-and that it makes a huge difference to development. Thus the third common reaction is "yes we do that - how could you 
+>When I've described this practice to people, I commonly find two reactions: "it can't work (here)" and
+"doing it won't make much difference". What people find out as they try it is that it's much easier than it sounds,
+and that it makes a huge difference to development. Thus the third common reaction is "yes we do that - how could you
 live without it?"
 
-The software industry is frequently too busy to adapt process. When I was first introduced to Scrum 15 years ago I 
-thought "Wow, we're trying something new!" But I would not see another commonly adopted change to developer
-communication until Covid forced remote work mainstream.
+that our industry is slow to adapt process. When I first experienced Scrum 15 years ago I thought "Wow, we're 
+trying something new!" But the next commonly adopted change to developer communication was Covid forcing remote work 
+mainstream.
+
+>Individuals and interactions over processes and tools<br/><br/>
+>The most efficient and effective method of conveying information to and within a development team is face-to-face 
+conversation.<br/><br/>
+> -_Agile Manifesto 2001_
+
+{% include callout.html
+content="It's **not okay** for a methodology to prescribe communication technology like face-to-face, Kanban boards or open
+office."
+type="warning" %}
+
+Face-to-face depends on a transportation system and laptops to code on during the meeting and 
+also *replaces other communication technologies like Zoom*. If we lived in a Star Wars world would we consult the
+agile manifesto to tell us whether to have hologram meetings or use hyperdrive? Similarly, using sticky notes doesn't 
+make a Kanban board less of a technology choice.
 
 ### Meeting all the time is too hot
 Collaboration determines what we work on next and how we implement what we are working on now so there cannot be a more
@@ -53,9 +53,12 @@ And I get the logic - it's at least consistent. But now that almost everyone rea
 meeting environment, it's time to also see the limitations of meetings as a software developer communication tool.
 
 You can't afford to have meetings all the time and, in an agile environment, you also can't afford to have your
-approvals, questions and reviews wait for the next meeting. So if meetings are your only tool then your development 
-process comes down to put up with open office like constant interruptions or suffer regularly doing the wrong thing or 
-the wrong way.
+approvals, questions and reviews wait for the next meeting. 
+
+{% include callout.html
+content="Relying soley on meetings means choosing between interruptions and regularly doing the wrong thing or the 
+wrong way."
+type="warning" %}
 
 ### Working by yourself is too cold
 There is a class of problems that can be solved with limited interaction with others. Let's call 
@@ -65,10 +68,14 @@ grunt work you can employ a [code factory]({{site.baseurl}}/agile/2021/08/16/cod
 Plus there is a straightforward technique to guarantee a large supply of yesterday's problems. On the
 infrastructure side just pile up technical debt. On the feature side just let your competition do all the innovation.
 
-However, for fixing today's problems minimal collaboration is a disaster. Even if you are the product
-manager or chief architect new problems are too complex to take on without a lot of guiding opinions.
+However, for fixing today's problems minimal collaboration is a disaster. Even if you are the product manager or chief 
+architect new problems are too complex to take on without a lot of guiding opinions.
 
-### A third bowl
+{% include callout.html
+content="When a team is available, deciding by yourself only makes sense if the ROI on communication tools is not there."
+type="warning" %}
+
+### Experimenting isn't that hard
 Once we admit we're facing a "just right" kind of choice, we know off the shelf solutions won't work. So how do we go 
 about making the right communication tool choices? For instance if we are not allowed to quote process
 scripture then the choice of in office participation is daunting. Nor does watching papa and mama bear big companies 
@@ -81,7 +88,7 @@ normally assumed and the cost of not experimenting is much, much higher than mos
 Like Goldilocks, we have to find quick ways to try potential solutions. Otherwise, we will not only be eating the wrong
 porridge but sitting in the wrong chair and sleeping in the wrong bed as well.
 
-### 1000s of bowls!
+### How to make the third bowl available
 When we open the door to changing process the problem becomes there are many solutions out there and many of them fully
 justify the manifesto's warning to stick to face-to-face. But the internet these days is much different from when
 the manifesto was written, and so we know a few things about how we prefer to operate online:
@@ -96,7 +103,12 @@ hears the suggestion for the first time.
 * _Brainstorming - I would argue that only here does face-to-face really shine_
 
 So we are looking for communication tools that offer fully asynchronous, meeting free solutions for questions, status,
-feedback, suggestions and approval. Because in 2021 that's what we already expect from communications tools except when
-we go to an office still in 2001.
+feedback, suggestions and approval.
+
+{% include callout.html
+content="Communications software should offer you a true alternative, instead of simulating or supplementing meetings."
+type="warning" %}
+
+Because in 2021 that's what we already expect from communications tools except when we go to an office still in 2001.
 
 
