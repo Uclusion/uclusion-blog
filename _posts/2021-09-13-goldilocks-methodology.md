@@ -69,24 +69,34 @@ However, for fixing today's problems minimal collaboration is a disaster. Even i
 manager or chief architect new problems are too complex to take on without a lot of guiding opinions.
 
 ### A third bowl
-Once we admit we're facing a "just right" kind of choice, we know off the shelf solutions won't work. If
-you are not willing to experiment with software methodology then you will end up with a lot of cold oatmeal and burnt
-tongues.
-
-So how do we go about making the right communication tool choices? For instance if we are not allowed to quote process
+Once we admit we're facing a "just right" kind of choice, we know off the shelf solutions won't work. So how do we go 
+about making the right communication tool choices? For instance if we are not allowed to quote process
 scripture then the choice of in office participation is daunting. Nor does watching papa and mama bear big companies 
 communications decisions necessarily tell you what is right for you.
-
-The same goes for collecting status - there are traditional meetings, bots that simulate meetings and software that
-goes beyond meetings. The same plethora of solutions applies to continuous improvement, planning, feedback and helping
-communications tools.
 
 However, I think that our industry has overall over-estimated the cost of process experimentation. My previous employer
 starting experimenting with remote work long before the pandemic. The cost of experimentation is much lower than 
 normally assumed and the cost of not experimenting is much, much higher than most think.
 
-Like Goldilocks we have to find quick ways to try potential solutions. Otherwise we will not only be eating the wrong
+Like Goldilocks, we have to find quick ways to try potential solutions. Otherwise, we will not only be eating the wrong
 porridge but sitting in the wrong chair and sleeping in the wrong bed as well.
 
+### 1000s of bowls!
+When we open the door to changing process the problem becomes there are many solutions out there and many of them fully
+justify the manifesto's warning to stick to face-to-face. But the internet these days is much different from when
+the manifesto was written, and so we know a few things about how we prefer to operate online:
+* Questions - almost every developer is happy when a question can be answered by online interactions and a meeting 
+avoided
+* Status - we are all used to checking status of nearly everything online these days 
+* Feedback - again we all give and receive feedback online constantly
+* Suggestions - unless forced most developers would use email to get opinions and only follow up with a meeting if
+necessary. Software wise we can do better than email, but it's still easily superior to a meeting where everyone
+hears the suggestion for the first time.
+* Approval - like or dislike is the bread and butter of the online world
+* _Brainstorming - I would argue that only here does face-to-face really shine_
+
+So we are looking for communication tools that offer fully asynchronous, meeting free solutions for questions, status,
+feedback, suggestions and approval. Because in 2021 that's what we already expect from communications tools except when
+we go to an office still in 2001.
 
 
