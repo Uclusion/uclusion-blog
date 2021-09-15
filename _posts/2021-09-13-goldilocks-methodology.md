@@ -6,9 +6,8 @@ image: assets/images/goldilocks.jpg
 categories: [ agile ]
 featured: true
 ---
-### Two bowls and hidden technology choices
 In 25 years I've seen two changes to developer communication: Scrum / open office and Covid forcing
-remote work mainstream (email, wiki and group chat / IRC were already there). The result is that most software 
+remote work (email, wiki and group chat / IRC were already there). The result is that most software 
 developers, outside open source or the IETF, are **forced to choose between endless meetings or working alone**.
 
 In my recent experience with having an explainer video made meetings were used only for brainstorming. The explainer
