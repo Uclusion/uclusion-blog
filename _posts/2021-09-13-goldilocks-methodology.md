@@ -25,9 +25,9 @@ Martin Fowler observed in his 2006 [article on CI/CD](https://martinfowler.com/a
 and that it makes a huge difference to development. Thus the third common reaction is "yes we do that - how could you
 live without it?"
 
-that our industry is slow to adapt process. When I first experienced Scrum 15 years ago I thought "Wow, we're 
-trying something new!" But the next commonly adopted change to developer communication was Covid forcing remote work 
-mainstream.
+that our industry is slow to adapt process. In 25 years I've seen two changes to developer 
+communication: Scrum / open office and Covid forcing remote work mainstream (email, wiki and group chat / IRC were 
+already there).
 
 >Individuals and interactions over processes and tools<br/><br/>
 >The most efficient and effective method of conveying information to and within a development team is face-to-face 
@@ -35,8 +35,8 @@ conversation.<br/><br/>
 > -_Agile Manifesto 2001_
 
 {% include callout.html
-content="It's **not okay** for a methodology to prescribe communication technology like face-to-face, Kanban boards or open
-office."
+content="It's **not okay** for a methodology to prescribe communication technology like face-to-face / open office or
+Kanban boards."
 type="warning" %}
 
 Face-to-face depends on a transportation system and laptops to code on during the meeting and 
@@ -82,8 +82,14 @@ scripture then the choice of in office participation is daunting. Nor does watch
 communications decisions necessarily tell you what is right for you.
 
 However, I think that our industry has overall over-estimated the cost of process experimentation. My previous employer
-starting experimenting with remote work long before the pandemic. The cost of experimentation is much lower than 
-normally assumed and the cost of not experimenting is much, much higher than most think.
+starting successfully experimenting with remote work long before the pandemic. Some communications process experiments 
+that are easy to run:
+* Try different communications tools for a hack-a-thon
+* Run a parallel process for technical debt instead of a retro
+* "Just right" size your backlog and the amount each item is specified
+* Have ongoing feedback instead of end of sprint demo meetings
+* Drop scheduled 1-1 meetings in favor of an office hours approach
+* Encourage development teams to choose their own process and tools
 
 Like Goldilocks, we have to find quick ways to try potential solutions. Otherwise, we will not only be eating the wrong
 porridge but sitting in the wrong chair and sleeping in the wrong bed as well.
