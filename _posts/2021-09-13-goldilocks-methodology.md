@@ -45,15 +45,14 @@ agile manifesto to tell us whether to have hologram meetings or use hyperdrive? 
 make a Kanban board less of a technology choice.
 
 ### Meeting all the time is too hot
-Collaboration determines what we work on next and how we implement what we are working on now so there cannot be a more
-important process. Let's take as many meetings as necessary! In fact let's use an open floor plan to encourage one 
-continuous meeting all the time; nearly every introduction of Scrum I witnessed was closely followed by open offices.
+Deciding what we work on and how we implement is the most important process. Let's use an open floor plan to encourage 
+one continuous meeting all the time! Every introduction of Scrum I witnessed was followed by open offices.
 
 And I get the logic - it's at least consistent. But now that almost everyone realizes the issues with an all day 
 meeting environment, it's time to also see the limitations of meetings as a software developer communication tool.
 
 You can't afford to have meetings all the time and, in an agile environment, you also can't afford to have your
-approvals, questions and reviews wait for the next meeting. 
+approvals, questions and feedback wait for the next meeting. 
 
 {% include callout.html
 content="Relying soley on meetings means choosing between interruptions and regularly doing the wrong thing or the 
@@ -65,23 +64,20 @@ There is a class of problems that can be solved with limited interaction with ot
 them *yesterday's problems*. Yesterday's problems have fairly obvious solutions and if you need extra hands for the 
 grunt work you can employ a [code factory]({{site.baseurl}}/agile/2021/08/16/code-factory.html) process.
 
-Plus there is a straightforward technique to guarantee a large supply of yesterday's problems. On the
-infrastructure side just pile up technical debt. On the feature side just let your competition do all the innovation.
+For a large supply of yesterday's problems just pile up technical debt and let your competition do all the innovation.
 
-However, for fixing today's problems minimal collaboration is a disaster. Even if you are the product manager or chief 
-architect new problems are too complex to take on without a lot of guiding opinions.
+However, even if you are the product manager or chief architect, today's problems are too complex to take on without a 
+lot of guiding opinions.
 
 {% include callout.html
 content="When a team is available, deciding by yourself only makes sense if the ROI on communication tools is not there."
 type="warning" %}
 
 ### Experimenting isn't that hard
-Once we admit we're facing a "just right" kind of choice, we know off the shelf solutions won't work. So how do we go 
-about making the right communication tool choices? For instance if we are not allowed to quote process
-scripture then the choice of in office participation is daunting. Nor does watching papa and mama bear big companies 
-communications decisions necessarily tell you what is right for you.
+Without quoting process scripture, many decisions, like allowing in office participation, become daunting. Nor does 
+watching papa and mama bear big companies communications decisions necessarily tell you what is right for you.
 
-However, I think that our industry over-estimates the cost of process experimentation. My previous employer 
+The good news is that our industry over-estimates the cost of process experimentation. My previous employer 
 successfully experimented with remote work long before the pandemic. Some easy communications process experiments:
 * Try different communications tools for a hack-a-thon
 * Run a parallel process for technical debt instead of a retro
@@ -90,13 +86,12 @@ successfully experimented with remote work long before the pandemic. Some easy c
 * Drop scheduled 1-1 meetings in favor of an office hours approach
 * Encourage development teams to choose their own process and tools
 
-Like Goldilocks, we have to find quick ways to try potential solutions. Otherwise, we will not only be eating the wrong
-porridge but sitting in the wrong chair and sleeping in the wrong bed as well.
+We have to find quick ways to try potential solutions or we will not only be eating the wrong porridge but sitting in 
+the wrong chair and sleeping in the wrong bed as well.
 
 ### How to make the third bowl available
-When we open the door to changing process the problem becomes there are many solutions out there and many of them fully
-justify the manifesto's warning to stick to face-to-face. But the internet these days is much different from when
-the manifesto was written, and so we know a few things about how we prefer to operate online:
+There are many communications solutions out there and many of them fully justify the manifesto's warning to stick to 
+face-to-face. But these days we know a few things about how we prefer to operate online:
 * Questions - almost every developer is happy when a question can be answered by online interactions and a meeting 
 avoided
 * Status - we are all used to checking status of nearly everything online these days 
