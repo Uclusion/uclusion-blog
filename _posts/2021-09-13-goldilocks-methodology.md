@@ -1,42 +1,69 @@
 ---
 layout: post
-title:  "The Agile Goldilocks Problem"
+title:  "The agile Goldilocks problem - the death of one size fits all forever"
 author: david
 image: assets/images/goldilocks.jpg
 categories: [ agile ]
 featured: true
 ---
-In 25 years I've seen two changes to developer communication: Scrum / open office and Covid forcing
-remote work (email, wiki and group chat / IRC were already there). The result is that most software 
-developers, outside open source or the IETF, are **forced to choose between endless meetings or working alone**.
+In 25 years I've yet to see a project get process right and that hurt the most. We frequently ended
+up working on the wrong thing or the wrong way and this is why my co-founder and I started Uclusion more than two years
+ago.
 
-In my recent experience with having an explainer video made meetings were used only for brainstorming. The explainer
-video company had approval software that captured what was being approved and by whom and feedback software that allowed
-you to comment frame by frame in a story board or video.
+Before Covid I had only seen one major effort to change the way we work - Scrum / open office. Now with the 
+rise of remote work there is a lot more questioning of process and communications tools but there is still
+a lot of reluctance to try new things.
 
-That video process, designers and Figma or InVision like tools, and any number of business processes incorporate tools
-specifically designed for them. As Martin Fowler observed in his 2006 
-[article on CI/CD](https://martinfowler.com/articles/continuousIntegration.html), the unwillingness to
-adapt software process is for the wrong reasons:
+Martin Fowler observed the same thing for build process in his 2006
+[article on CI/CD](https://martinfowler.com/articles/continuousIntegration.html):
 
 >When I've described this practice to people, I commonly find two reactions: "it can't work (here)" and
 "doing it won't make much difference". What people find out as they try it is that it's much easier than it sounds,
 and that it makes a huge difference to development. Thus the third common reaction is "yes we do that - how could you
 live without it?"
 
+But as CI/CD and a host of other innovations show our industry more readily accepts new tools and process that don't
+directly affect human to human interactions. Even when software development does try new collaboration practices it's
+usually in an industry-wide, one size fits all way.
+
+This is the agile Goldilocks problem. As convenient as one or two sizes fits all would be, we have to accept that
+software development is a lot more complex than that. If we don't find quick ways to try potential process solutions
+that are suited to our specific team's needs, we will not only be eating the wrong porridge, but sitting in the wrong 
+chair and sleeping in the wrong bed as well.
+
+For example my previous employer started experimenting with remote work long before Covid. And there was push back
+that quoted the Agile Manifesto's face-to-face principle! If Star Wars technology becomes available will we consult a 
+20-year-old document to tell us whether to have hologram meetings or use hyperdrive?
+
+It's okay for a software development methodology to list requirements like fast feedback or work as a team.
+
 {% include callout.html
 content="It's **not okay** for a methodology to prescribe communication technology like face-to-face / open office or
 Kanban boards."
 type="warning" %}
 
-Face-to-face depends on a transportation system and laptops to code on during the meeting and 
-also *replaces other communication technologies like Zoom*. If we lived in a Star Wars world would we consult the
-agile manifesto to tell us whether to have hologram meetings or use hyperdrive? Similarly, using sticky notes doesn't 
-make a Kanban board less of a technology choice.
+The result is that most software developers, outside open source or the IETF, are **forced to choose between endless, 
+mostly ineffective meetings or working alone**.
+
+In my recent experience with having an explainer video made meetings were used only for brainstorming. The explainer
+video company had approval software that captured what was being approved and by whom and feedback software that allowed
+you to comment frame by frame in a story board or video.
+
+That video process, designers and Figma or InVision like tools, and any number of business processes incorporate tools
+_specifically designed for them_. But software development continually underestimates the challenges of working 
+together to build the right thing and so employ antiquated collaboration tools like sticky notes based on 1970s factory 
+work!!!
+
+<img src="{{ site.baseurl }}/assets/images/kanban.png" alt="Kanban" style="width: 90%;" />
+
+Had software development methodology been simply over standardized or just very old, it might have been understandable
+but the combination of very few choices with ancient technology is what makes the agile Goldilocks problem so 
+devastating.
 
 ### Meeting all the time is too hot
-Deciding what we work on and how we implement is the most important process. Let's use an open floor plan to encourage 
-one continuous meeting all the time! Every introduction of Scrum I witnessed was followed by open offices.
+Deciding what we work on and how we implement is the most important process. So the thinking behind Scrum was to have 
+lots of meetings to make sure you get it right. And every introduction of Scrum I witnessed was followed by 
+open offices because something might come up when you are not in a meeting.
 
 And I get the logic - it's at least consistent. But now, more than ever, developers realize the issues with open office
 (and are being offered 
@@ -53,6 +80,31 @@ content="Relying soley on meetings means choosing between frequent interruptions
 way."
 type="warning" %}
 
+Scrum does offer some parameters for customization. You can change the Sprint length. You can set your own Definition
+of Done. Still Scrum is fundamentally a system designed around a single product owner who has a very tight relationship
+with a single or small group of customers and development work that is not platform intensive.
+
+So for one size fits all usage a typical SaaS product is out of luck right away - the product owner makes no sense 
+(even if a single person could represent 1000s of customers he still wouldn't help on the technical side), the end of 
+Sprint demo makes no sense (if we're just demo'ing internally why risk waiting for the end of Sprint?) and even 
+Definition of Done is weird on a product that may deliberately take shortcuts to get quick feedback.
+
+However, even if your team is working in a contract shop with single customer requirements, Scrum is still exactly 
+specifying all the meetings in a way that may not work for you. What if your team members are spread across time 
+zones? - just don't do that or suck it up says Scrum. What if the customer wants to have an almost immediate feedback
+loop? - no we prefer the requirements stay fixed for the iteration says Scrum.
+
+But inflexibly creating your own process is not great either. For instance, I was on a team doing infrastructure work 
+and we did not have a product owner. So the team did a spreadsheet where we voted on priorities. A few of us 
+picked the top item but the spreadsheet didn't record the certainty or reasons behind the votes. 
+
+It turned out this project's popularity was a result of recent incidents in production. So then we said well we will 
+need to expand or drop this project but that wasn't allowed since there was nothing else approved for us to work on. 
+We completed the project but the incidents stopped happening and our code was never deployed.
+
+Whether you create your own process or start with off the shelf the key is continuing to experiment and look 
+for the latest practices and technology to help you.
+
 ### Working by yourself is too cold
 There is a class of problems that can be solved with limited interaction with others. Let's call 
 them *yesterday's problems*. Yesterday's problems have fairly obvious solutions and if you need extra hands for the 
@@ -61,38 +113,52 @@ grunt work you can employ a [code factory]({{site.baseurl}}/agile/2021/08/16/cod
 For a large supply of yesterday's problems just pile up technical debt and let your competition do all the innovation.
 
 However, even if you are the product manager or chief architect, today's problems are too complex to take on without a 
-lot of guiding opinions.
+lot of guiding opinions. I've more than once seen product architecture updates fail because one person, by himself, 
+chose an architecture or requirements that didn't make sense.
 
 {% include callout.html
 content="When a team is available, deciding by yourself only makes sense if the ROI on communication tools is not there."
 type="warning" %}
 
+Even if you make a winning decision by yourself you may not be rewarded for it. My co-founder found that out after
+a very successful skunkworks change to storage architecture. If management rewarded him it would be sending a message
+for everyone to do projects fait accompli.
+
+But with email and meetings as his only tool for getting approval for the storage architecture change it would be
+difficult. Neither tool records the opinion, certainty and reason of its participants or encourages any sort of 
+deadline for voting. A choice between endless, mostly ineffective meetings and working alone, means, either way,
+only extreme options are available.
+
 ### Experimenting isn't that hard
 Without quoting process scripture, many decisions, like allowing in office participation, become daunting. Nor does 
 watching papa and mama bear big companies communications decisions necessarily tell you what is right for you.
 
-The good news is that our industry over-estimates the cost of process experimentation. My previous employer 
-successfully experimented with remote work long before the pandemic. Some easy communications process experiments:
+The good news is that our industry over-estimates the cost of process experimentation. Some easy communications process 
+experiments:
 * Try different communications tools for a hack-a-thon
 * Run a parallel process for technical debt instead of a retro
 * "Just right" size your backlog and the amount each item is specified
 * Have ongoing feedback instead of end of sprint demo meetings
 * Drop scheduled 1-1 meetings in favor of an office hours approach
 * Encourage development teams to choose their own process and tools
+* Create an initiative process that anyone can participate in
 
-We have to find quick ways to try potential solutions or we will not only be eating the wrong porridge but sitting in 
-the wrong chair and sleeping in the wrong bed as well.
+The other good news is that whether because of the rise of remote work or heightened competition in an ever-growing
+industry experimentation is on the rise. 
 
-### How to make the third bowl available
-There are many communications solutions out there and most of them fully justify the manifesto's warning to stick to 
-face-to-face. But these days we know a few things about how we prefer to operate online:
+The bad news is there are limited resources for learning what is really working for others and rapidly changing makes 
+information age fast. What is available is frequently [written by people](https://www.mckinsey.com/business-functions/organization/our-insights/revisiting-agile-teams-after-an-abrupt-shift-to-remote) 
+with very limited coding experience - much less first-hand experience coding remotely (and how at this point does
+anyone present poll results with a straight face?).
+
+For experimenting with communications solutions there are many choices but most of them fully justify the 
+manifesto's warning to stick to face-to-face. But these days we know a few things about how we prefer to operate online:
 * Questions - almost every developer is happy when a question can be answered by online interactions and a meeting 
 avoided
 * Status - we are all used to checking status of nearly everything online these days 
 * Feedback - again we all give and receive feedback online constantly
-* Suggestions - unless forced most developers would use email to get opinions and only follow up with a meeting if
-necessary. Software wise we can do better than email, but it's still easily superior to a meeting where everyone
-hears the suggestion for the first time.
+* Suggestions - specialized software can do better than email, but email is still easily superior to a meeting where 
+everyone hears the suggestion for the first time.
 * Approval - like or dislike is the bread and butter of the online world
 * _Brainstorming - I would argue that only here does face-to-face really shine_
 
