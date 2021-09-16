@@ -51,19 +51,19 @@ you to comment frame by frame in a story board or video.
 
 That video process, designers and Figma or InVision like tools, and any number of business processes incorporate tools
 _specifically designed for them_. But software development continually underestimates the challenges of working 
-together to build the right thing and so employ antiquated collaboration tools like sticky notes based on 1970s factory 
-work!!!
+together to build the right thing and so employ tools designed for other purposes like sticky notes based on 1970s 
+factory work!!!
 
 <img src="{{ site.baseurl }}/assets/images/kanban.png" alt="Kanban" style="width: 90%;" />
 
-Had software development methodology been simply over standardized or just very old, it might have been understandable
-but the combination of very few choices with ancient technology is what makes the agile Goldilocks problem so 
-devastating.
+Software development methodology isn't simply over standardized or just very old, it's the combination of very few 
+choices with technology and ideas developed in other times for other purposes that makes the agile Goldilocks 
+problem so devastating.
 
 ### Meeting all the time is too hot
 Deciding what we work on and how we implement is the most important process. So the thinking behind Scrum was to have 
-lots of meetings to make sure you get it right. And every introduction of Scrum I witnessed was followed by 
-open offices because something might come up when you are not in a meeting.
+lots of meetings to make sure you get it right. Plus every introduction of Scrum I witnessed was followed by 
+open offices in case something comes up when you are not in a meeting.
 
 And I get the logic - it's at least consistent. But now, more than ever, developers realize the issues with open office
 (and are being offered 
@@ -87,7 +87,8 @@ with a single or small group of customers and development work that is not platf
 So for one size fits all usage a typical SaaS product is out of luck right away - the product owner makes no sense 
 (even if a single person could represent 1000s of customers he still wouldn't help on the technical side), the end of 
 Sprint demo makes no sense (if we're just demo'ing internally why risk waiting for the end of Sprint?) and even 
-Definition of Done is weird on a product that may deliberately take shortcuts to get quick feedback.
+Definition of Done is weird on a product that may allow exceptions to get quick feedback (for instance
+[at an early startup](https://builtin.com/software-engineering-perspectives/scrum-startup-alternative)).
 
 However, even if your team is working in a contract shop with single customer requirements, Scrum is still exactly 
 specifying all the meetings in a way that may not work for you. What if your team members are spread across time 
@@ -150,6 +151,11 @@ The bad news is there are limited resources for learning what is really working 
 information age fast. What is available is frequently [written by people](https://www.mckinsey.com/business-functions/organization/our-insights/revisiting-agile-teams-after-an-abrupt-shift-to-remote) 
 with very limited coding experience - much less first-hand experience coding remotely (and how at this point does
 anyone present poll results with a straight face?).
+
+The other bad news is you can spend a long time experimenting, like 
+[PagerDuty](https://www.pagerduty.com/blog/scaling-engineering-org) describes, and getting it wrong is pretty painful.
+That's why we felt a communication tool designed to solve some of these problems could speed things up by removing a lot 
+of the drudge work from process.
 
 For experimenting with communications solutions there are many choices but most of them fully justify the 
 manifesto's warning to stick to face-to-face. But these days we know a few things about how we prefer to operate online:
