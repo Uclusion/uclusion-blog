@@ -137,7 +137,7 @@ The good news is that our industry over-estimates the cost of experimentation. S
 * A separate track for technical debt and fund it (by percentage of time for instance)
 * "Just right" size your backlog and the amount each item is specified (renaming your 
 [backlog to bets](https://basecamp.com/shapeup/2.1-chapter-07) and scheduling more 1-1s is not what I mean; we think 
-software should pester the team until important items are handled online or removed instead of advocating regular 
+software should remind the team until important items are handled online or removed instead of advocating regular 
 closed door meetings)
 * Have ongoing feedback instead of end of sprint demo meetings
 * Drop scheduled 1-1 meetings in favor of an office hours approach
