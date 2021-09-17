@@ -134,7 +134,7 @@ only extreme options are available.
 Without quoting process scripture, many decisions, like allowing in office participation, become daunting. Nor does 
 watching papa and mama bear big companies communications decisions necessarily tell you what is right for you.
 
-The good news is that our industry over-estimates the cost of process experimentation. Some easy communications process 
+The good news is that our industry over-estimates the cost of experimentation. Some easy communications process 
 experiments:
 * Try different communications tools for a hack-a-thon
 * Run a parallel process for technical debt instead of a retro
@@ -153,9 +153,9 @@ with very limited coding experience - much less first-hand experience coding rem
 anyone present poll results with a straight face?).
 
 The other bad news is you can spend a long time experimenting, like 
-[PagerDuty](https://www.pagerduty.com/blog/scaling-engineering-org) describes, and getting it wrong is pretty painful.
-That's why we felt a communication tool designed to solve some of these problems could speed things up by removing a lot 
-of the drudge work from process.
+[PagerDuty](https://www.pagerduty.com/blog/scaling-engineering-org) describes, and getting it wrong is painful.
+That's why we believe a communication tool designed for these problems can remove a lot of drudge work and speed
+things up.
 
 For experimenting with communications solutions there are many choices but most of them fully justify the 
 manifesto's warning to stick to face-to-face. But these days we know a few things about how we prefer to operate online:
