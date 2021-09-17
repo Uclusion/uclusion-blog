@@ -157,7 +157,7 @@ The other bad news is you can spend a long time experimenting, like
 That's why we believe a communication tool designed for these problems can remove a lot of drudge work and speed
 things up.
 
-For experimenting with communications solutions there are many choices but most of them fully justify the 
+For experimenting with communications solutions there are many choices and most of them fully justify the 
 manifesto's warning to stick to face-to-face. But these days we know a few things about how we prefer to operate online:
 * Questions - almost every developer is happy when a question can be answered by online interactions and a meeting 
 avoided
