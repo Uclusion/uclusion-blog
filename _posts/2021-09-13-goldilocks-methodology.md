@@ -133,10 +133,10 @@ only extreme options are available.
 Without quoting process scripture, many decisions, like allowing in office participation, become daunting. Nor does 
 watching papa and mama bear big companies communications decisions necessarily tell you what is right for you.
 
-The good news is that our industry over-estimates the cost of experimentation. Some easy communications process 
-experiments:
+The good news is that our industry over-estimates the cost of experimentation. Some easy process experiments:
 * Try different communications tools for a hack-a-thon
 * Run a parallel process for technical debt instead of a retro
+* A separate track for technical debt and fund it (by percentage of time for instance)
 * "Just right" size your backlog and the amount each item is specified
 * Have ongoing feedback instead of end of sprint demo meetings
 * Drop scheduled 1-1 meetings in favor of an office hours approach
@@ -145,9 +145,16 @@ experiments:
 squads by feature versus infrastructure)
 * Create an initiative process where anyone can suggest or vote on other initiatives
 * Make PM recommended feature work also go through that initiative process instead of automatically staffing
+* No meeting Wednesdays - a bit like no headache Wednesdays so if it works it needs to be followed up by stronger 
+measures
+* Cameras off on Zoom meetings - see [this article](https://www.sciencedaily.com/releases/2021/08/210830092203.htm)
 
-The other good news is that whether because of the rise of remote work or heightened competition in an ever-growing
-industry experimentation is on the rise. 
+Some changes are not real experiments - re-orgs or musical chairs with roles, a council responsible for all 
+approvals of X, a bot that asks standup or retro questions, dropping meeting X but not offering any substitute way
+of communicating, etc.
+
+The other good news is that, whether because of the rise of remote work or heightened competition in an ever-growing
+industry, experimentation is on the rise. 
 
 The bad news is there are limited resources for learning what is really working for others and rapidly changing makes 
 information age fast. What is available is frequently [written by people](https://www.mckinsey.com/business-functions/organization/our-insights/revisiting-agile-teams-after-an-abrupt-shift-to-remote) 
