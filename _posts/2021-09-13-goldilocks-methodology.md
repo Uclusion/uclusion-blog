@@ -11,8 +11,8 @@ up working on the wrong thing or the wrong way and this is why my co-founder and
 ago.
 
 Before Covid I had only seen one major effort to change the way we work - Scrum / open office. Now with the 
-rise of remote work there is a lot more questioning of process and communications tools but there is still
-a lot of reluctance to try new things.
+rise of remote work there is more questioning of process and communications tools but there is still reluctance to try 
+new things.
 
 Martin Fowler observed the same thing for build process in his 2006
 [article on CI/CD](https://martinfowler.com/articles/continuousIntegration.html):
@@ -22,13 +22,11 @@ Martin Fowler observed the same thing for build process in his 2006
 and that it makes a huge difference to development. Thus the third common reaction is "yes we do that - how could you
 live without it?"
 
-Even when software development does try new collaboration practices it's usually in an industry-wide, one size fits 
-all way.
+When new collaboration practices are tried it's usually one size fits all.
 
-This is the agile Goldilocks problem. As convenient as standard process would be, we have to accept that
-software development is a lot more complex than that. If we don't find ways to try solutions more suited to our 
-specific team's needs, we will not only be eating the wrong porridge, but sitting in the wrong chair and sleeping in 
-the wrong bed as well.
+This is the agile Goldilocks problem. Software development is too complex for standard process. If we don't find ways 
+to try solutions more suited to our specific team's needs, we will not only be eating the wrong porridge, but sitting 
+in the wrong chair and sleeping in the wrong bed as well.
 
 For example my previous employer started experimenting with remote work long before Covid. And there was push back 
 quoting the Agile Manifesto's face-to-face principle! If Star Wars technology becomes available will we reference a 
@@ -44,13 +42,13 @@ type="warning" %}
 The result is that most software developers, outside open source or the IETF, are **forced to choose between endless, 
 mostly ineffective meetings or working alone**.
 
-When we had an explainer video made meetings were used only for brainstorming. The video company had approval software 
+We had an explainer video made and meetings were used only for brainstorming. The video company had approval software 
 that captured what and who approved and feedback software that allowed you to comment frame by frame in a story board 
 or video.
 
 That video process, designers and Figma or InVision, and any number of business processes incorporate tools
-_specifically designed for them_. But software development continually underestimates the challenges of working 
-together to build the right thing and so employ tools like sticky notes based on 1970s factory work!!
+_specifically designed for them_. But software development continually underestimates the challenge of building the 
+right thing and employs tools like sticky notes based on 1970s factory work!!
 
 <img src="{{ site.baseurl }}/assets/images/kanban.png" alt="Kanban" style="width: 90%;" />
 
@@ -137,7 +135,10 @@ The good news is that our industry over-estimates the cost of experimentation. S
 * Try different communications tools for a hack-a-thon
 * Run a parallel process for technical debt instead of a retro
 * A separate track for technical debt and fund it (by percentage of time for instance)
-* "Just right" size your backlog and the amount each item is specified
+* "Just right" size your backlog and the amount each item is specified (renaming your 
+[backlog to bets](https://basecamp.com/shapeup/2.1-chapter-07) and scheduling more 1-1s is not what I mean; we think 
+software should pester the team until important items are handled online or removed instead of advocating regular 
+closed door meetings)
 * Have ongoing feedback instead of end of sprint demo meetings
 * Drop scheduled 1-1 meetings in favor of an office hours approach
 * Encourage development teams to choose their own process and tools (à la 
