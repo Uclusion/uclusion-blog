@@ -22,17 +22,16 @@ Martin Fowler observed the same thing for build process in his 2006
 and that it makes a huge difference to development. Thus the third common reaction is "yes we do that - how could you
 live without it?"
 
-But as CI/CD and a host of other innovations show our industry more readily accepts new tools and process that don't
-directly affect human to human interactions. Even when software development does try new collaboration practices it's
-usually in an industry-wide, one size fits all way.
+Even when software development does try new collaboration practices it's usually in an industry-wide, one size fits 
+all way.
 
-This is the agile Goldilocks problem. As convenient as one or two sizes fits all would be, we have to accept that
-software development is a lot more complex than that. If we don't find quick ways to try potential process solutions
-that are suited to our specific team's needs, we will not only be eating the wrong porridge, but sitting in the wrong 
-chair and sleeping in the wrong bed as well.
+This is the agile Goldilocks problem. As convenient as standard process would be, we have to accept that
+software development is a lot more complex than that. If we don't find ways to try solutions more suited to our 
+specific team's needs, we will not only be eating the wrong porridge, but sitting in the wrong chair and sleeping in 
+the wrong bed as well.
 
-For example my previous employer started experimenting with remote work long before Covid. And there was push back
-that quoted the Agile Manifesto's face-to-face principle! If Star Wars technology becomes available will we consult a 
+For example my previous employer started experimenting with remote work long before Covid. And there was push back 
+quoting the Agile Manifesto's face-to-face principle! If Star Wars technology becomes available will we reference a 
 20-year-old document to tell us whether to have hologram meetings or use hyperdrive?
 
 It's okay for a software development methodology to list requirements like fast feedback or work as a team.
@@ -45,25 +44,23 @@ type="warning" %}
 The result is that most software developers, outside open source or the IETF, are **forced to choose between endless, 
 mostly ineffective meetings or working alone**.
 
-In my recent experience with having an explainer video made meetings were used only for brainstorming. The explainer
-video company had approval software that captured what was being approved and by whom and feedback software that allowed
-you to comment frame by frame in a story board or video.
+When we had an explainer video made meetings were used only for brainstorming. The video company had approval software 
+that captured what and who approved and feedback software that allowed you to comment frame by frame in a story board 
+or video.
 
-That video process, designers and Figma or InVision like tools, and any number of business processes incorporate tools
+That video process, designers and Figma or InVision, and any number of business processes incorporate tools
 _specifically designed for them_. But software development continually underestimates the challenges of working 
-together to build the right thing and so employ tools designed for other purposes like sticky notes based on 1970s 
-factory work!!!
+together to build the right thing and so employ tools like sticky notes based on 1970s factory work!!
 
 <img src="{{ site.baseurl }}/assets/images/kanban.png" alt="Kanban" style="width: 90%;" />
 
-Software development methodology isn't simply over standardized or just very old, it's the combination of very few 
-choices with technology and ideas developed in other times for other purposes that makes the agile Goldilocks 
-problem so devastating.
+It's this combination of very few choices with technology and ideas developed in other times for other purposes that 
+makes the agile Goldilocks problem so devastating.
 
 ### Meeting all the time is too hot
-Deciding what we work on and how we implement is the most important process. So the thinking behind Scrum was to have 
-lots of meetings to make sure you get it right. Plus every introduction of Scrum I witnessed was followed by 
-open offices in case something comes up when you are not in a meeting.
+Nothing is more important than deciding what we work on and how we implement it. So the thinking behind Scrum was
+lots of meetings insure you get it right. Plus every introduction of Scrum I witnessed was followed by open offices in 
+case something comes up when you are not in a meeting.
 
 And I get the logic - it's at least consistent. But now, more than ever, developers realize the issues with open office
 (and are being offered 
@@ -80,9 +77,10 @@ content="Relying soley on meetings means choosing between frequent interruptions
 way."
 type="warning" %}
 
-Scrum does offer some parameters for customization. You can change the Sprint length. You can set your own Definition
-of Done. Still Scrum is fundamentally a system designed around a single product owner who has a very tight relationship
-with a single or small group of customers and development work that is not platform intensive.
+Scrum does offer some customization parameters. You can increase the Sprint length which reduces the frequency of 
+meetings. You control your own Definition of Done. Still Scrum is fundamentally a system designed around a single 
+product owner who has a very tight relationship with a single or small group of customers and development work that is 
+not platform intensive.
 
 So for one size fits all usage a typical SaaS product is out of luck right away - the product owner makes no sense 
 (even if a single person could represent 1000s of customers he still wouldn't help on the technical side), the end of 
@@ -96,12 +94,12 @@ zones? - just don't do that or suck it up says Scrum. What if the customer wants
 loop? - no we prefer the requirements stay fixed for the iteration says Scrum.
 
 But inflexibly creating your own process is not great either. For instance, I was on a team doing infrastructure work 
-and we did not have a product owner. So the team did a spreadsheet where we voted on priorities. A few of us 
-picked the top item but the spreadsheet didn't record the certainty or reasons behind the votes. 
+without a product owner. So the team had a spreadsheet where we voted on priorities. A few of us assigned ourselves
+the top item but unfortunately the spreadsheet didn't record the certainty or reasons behind the votes. 
 
 It turned out this project's popularity was a result of recent incidents in production. So then we said well we will 
-need to expand or drop this project but that wasn't allowed since there was nothing else approved for us to work on. 
-We completed the project but the incidents stopped happening and our code was never deployed.
+need to expand or drop this project but that wasn't allowed. We completed the project but the incidents stopped 
+happening and our code was never deployed.
 
 Whether you create your own process or start with off the shelf the key is continuing to experiment and look 
 for the latest practices and technology to help you.
@@ -115,7 +113,8 @@ For a large supply of yesterday's problems just pile up technical debt and let y
 
 However, even if you are the product manager or chief architect, today's problems are too complex to take on without a 
 lot of guiding opinions. I've more than once seen product architecture updates fail because one person, by himself, 
-chose an architecture or requirements that didn't make sense.
+chose an architecture or requirements that didn't make sense. And giving a PM unrestrained control of engineering is
+just as likely to break down.
 
 {% include callout.html
 content="When a team is available, deciding by yourself only makes sense if the ROI on communication tools is not there."
@@ -125,8 +124,8 @@ Even if you make a winning decision by yourself you may not be rewarded for it. 
 a very successful skunkworks change to storage architecture. If management rewarded him it would be sending a message
 for everyone to do projects fait accompli.
 
-But with email and meetings as his only tool for getting approval for the storage architecture change it would be
-difficult. Neither tool records the opinion, certainty and reason of its participants or encourages any sort of 
+But with email and meetings as his only tool for getting approval it would have been difficult to follow process. 
+Neither tool records the opinion, certainty and reason of its participants or encourages any sort of 
 deadline for voting. A choice between endless, mostly ineffective meetings and working alone, means, either way,
 only extreme options are available.
 
@@ -143,6 +142,7 @@ experiments:
 * Drop scheduled 1-1 meetings in favor of an office hours approach
 * Encourage development teams to choose their own process and tools
 * Create an initiative process that anyone can participate in
+* Don't staff PM recommended feature work unless engineering agrees with the idea
 
 The other good news is that whether because of the rise of remote work or heightened competition in an ever-growing
 industry experimentation is on the rise. 
@@ -152,7 +152,7 @@ information age fast. What is available is frequently [written by people](https:
 with very limited coding experience - much less first-hand experience coding remotely (and how at this point does
 anyone present poll results with a straight face?).
 
-The other bad news is you can spend a long time experimenting, like 
+The other bad news is you can spend a long time experimenting, as 
 [PagerDuty](https://www.pagerduty.com/blog/scaling-engineering-org) describes, and getting it wrong is painful.
 That's why we believe a communication tool designed for these problems can remove a lot of drudge work and speed
 things up.
