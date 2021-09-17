@@ -140,9 +140,11 @@ experiments:
 * "Just right" size your backlog and the amount each item is specified
 * Have ongoing feedback instead of end of sprint demo meetings
 * Drop scheduled 1-1 meetings in favor of an office hours approach
-* Encourage development teams to choose their own process and tools
-* Create an initiative process that anyone can participate in
-* Don't staff PM recommended feature work unless engineering agrees with the idea
+* Encourage development teams to choose their own process and tools (à la 
+[Spotify](https://www.youtube.com/watch?v=4GK1NDTWbkY&list=RD4GK1NDTWbkY) except maybe the part about separating
+squads by feature versus infrastructure)
+* Create an initiative process where anyone can suggest or vote on other initiatives
+* Make PM recommended feature work also go through that initiative process instead of automatically staffing
 
 The other good news is that whether because of the rise of remote work or heightened competition in an ever-growing
 industry experimentation is on the rise. 
