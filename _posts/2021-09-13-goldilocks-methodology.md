@@ -140,7 +140,9 @@ The good news is that our industry over-estimates the cost of experimentation. S
 software should remind the team until important items are handled online or removed instead of advocating regular 
 closed door meetings)
 * Have ongoing feedback instead of end of sprint demo meetings
-* Drop scheduled 1-1 meetings in favor of an office hours approach
+* Drop scheduled 1-1 meetings in favor of an office hours approach (the bigger change is to eventually drop all 
+mandated meetings; forced communication will always be eventually abused - trust developers to know what's useful and
+try to accommodate different styles of work)
 * Encourage development teams to choose their own process and tools (à la 
 [Spotify](https://www.youtube.com/watch?v=4GK1NDTWbkY&list=RD4GK1NDTWbkY) except maybe the part about separating
 squads by feature versus infrastructure)
