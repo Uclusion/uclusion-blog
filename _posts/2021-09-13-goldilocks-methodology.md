@@ -6,7 +6,7 @@ image: assets/images/goldilocks.jpg
 categories: [ agile ]
 featured: true
 ---
-In our long careers in software, working on the wrong thing or the wrong way crippled our projects again and 
+In our long careers, working on the wrong thing or the wrong way crippled our software projects again and 
 again and writing code that's not useful is a known industry-wide problem.
 
 So my co-founder and I started Uclusion more than two years ago with two goals:
@@ -34,6 +34,12 @@ or squeezing more feedback out of customers. If new progress is going to be made
 developers operate without assuming instantaneous usage statistics (the lag on uptake can routinely be years
 for many types of code like security or new B2B features).
 
+But to change the way developers operate we need a lot more choices and a willingness to try them.
+
+### The agile Goldilocks problem
+If we don't find ways to more frequently try solutions for our specific team's needs, we will not only be eating the 
+wrong porridge, but sitting in the wrong chair and sleeping in the wrong bed as well.
+
 Before Covid popularized remote work, I had only seen two major efforts to change the _way_ we work - Scrum/open office 
 and CI/CD. On CI/CD, Martin Fowler [wrote in 2006](https://martinfowler.com/articles/continuousIntegration.html):
 
@@ -41,10 +47,6 @@ and CI/CD. On CI/CD, Martin Fowler [wrote in 2006](https://martinfowler.com/arti
 "doing it won't make much difference". What people find out as they try it is that it's much easier than it sounds,
 and that it makes a huge difference to development. Thus the third common reaction is "yes we do that - how could you
 live without it?"
-
-**This is the agile Goldilocks problem.** Software development is too complex to stick with one way of doing things. If 
-we don't find ways to more frequently try solutions for our specific team's needs, we will not only be eating the wrong 
-porridge, but sitting in the wrong chair and sleeping in the wrong bed as well.
 
 For example my previous employer started experimenting with remote work long before Covid. And there was push back 
 quoting the Agile Manifesto's face-to-face principle! If Star Wars technology becomes available will we reference a 
@@ -169,7 +171,7 @@ to reduce contact with developers or other
 
 >Once we tried a “silent day”, when only I, as the lead, was available in case someone outside our team had an urgent question. The team productivity on that day peaked — developers did so much work. I would be happy to do days like that at least once a sprint but most of team members preferred to keep comm channels open.
 
-Reducing developer external contact just makes it that much harder for developers to have and share opinions. The above 
+Reducing external contact just makes it that much harder for developers to have and share opinions. The above 
 link also discusses attempts at clumping meetings to give more uninterrupted time but 
 as [Paul Graham](http://www.paulgraham.com/makersschedule.html) describes that's not a real solution and also 
 doesn't take into account the help that developers have to give each other all the time.
@@ -180,9 +182,8 @@ internal meetings to online, asynchronous as possible."
 type="warning" %}
 
 You can spend a long time experimenting, as 
-[PagerDuty](https://www.pagerduty.com/blog/scaling-engineering-org) describes, and getting it wrong is painful. For 
-experimenting with communications solutions there are many choices and most of them fully justify the 
-manifesto's warning to stick to face-to-face. 
+[PagerDuty](https://www.pagerduty.com/blog/scaling-engineering-org) describes. For experimenting with communications 
+solutions there are many choices and most of them fully justify the manifesto's warning to stick to face-to-face. 
 
 But these days we know a few things about how we prefer to operate online:
 * Questions - almost every developer is happy when a question can be answered by online interactions and a meeting 
@@ -194,10 +195,7 @@ everyone hears the suggestion for the first time.
 * Approval - like or dislike is the bread and butter of the online world
 * _Brainstorming - I would argue that only here does face-to-face really shine_
 
-So we are looking for communication tools that offer fully asynchronous, meeting free solutions for questions, status,
-feedback, suggestions and approval.
-
-Communications software should offer you a true alternative, instead of simulating or supplementing meetings.
-Because in 2021 that's what we already expect from communications tools except when we go to an office still in 2001.
+We hope you see the need for software development to solve the Goldilocks problem and start experimenting more with
+process and communication tools. It's 2021, and long since time to stop going to an office still in 2001.
 
 
