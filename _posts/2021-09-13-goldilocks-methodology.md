@@ -6,54 +6,54 @@ image: assets/images/goldilocks.jpg
 categories: [ agile ]
 featured: true
 ---
-In 25 years I've yet to see a project get process right and that hurt the most. We frequently ended
-up working on the wrong thing or the wrong way and this is why my co-founder and I started Uclusion more than two years
-ago.
+Looking back over our long careers in software development nothing had crippled our projects more than working on the
+wrong thing or the wrong way. So my co-founder and I started Uclusion more than two years ago with two goals:
+1. Developers should spend more time working on the right thing
+2. This progress should not come at the expense of longer software developer hours
 
-Before Covid I had only seen one major effort to change the way we work - Scrum / open office. Now with the 
-rise of remote work there is more questioning of process and communications tools but there is still reluctance to try 
-new things.
+At first, we thought better customer feedback would be the key. Unfortunately dumping the problem on customers won't
+accomplish goal one because all too often:
+* The right feature to work on is no feature - do technical debt instead
+* The right feature is one that new customers need more than existing
+* The right feature is chosen but worked on the wrong way
 
-Martin Fowler observed the same thing for build process in his 2006
-[article on CI/CD](https://martinfowler.com/articles/continuousIntegration.html):
+Advances on goal one requires deeper thought from software development teams. Customers can't be relied on to supply
+that deeper thought and product management is already 100% occupied with it. If you change the product management to
+developer ratio that will only result in violating goal two and most product managers will have a difficult time
+representing technical projects.
+
+There are any number of agile software methodologies promising to help with goal one, but they were all based on 
+already implemented ideas or squeezing more feedback out of customers. If any new progress was going to be made then we 
+would need a change to the way developers operate that affords them more time for input on guidance.
+
+Before Covid popularized remote work, I had only seen two major efforts to change the _way_ we work - Scrum/open office 
+and CI/CD. On CI/CD, Martin Fowler [wrote in 2006](https://martinfowler.com/articles/continuousIntegration.html):
 
 >When I've described this practice to people, I commonly find two reactions: "it can't work (here)" and
 "doing it won't make much difference". What people find out as they try it is that it's much easier than it sounds,
 and that it makes a huge difference to development. Thus the third common reaction is "yes we do that - how could you
 live without it?"
 
-In addition, when new collaboration practices are tried it's usually one size fits all.
-
-This is the agile Goldilocks problem. Software development is too complex to standardize process. If we don't find ways 
-to try solutions more suited to our specific team's needs, we will not only be eating the wrong porridge, but sitting 
-in the wrong chair and sleeping in the wrong bed as well.
+**This is the agile Goldilocks problem.** Software development is too complex to stick with one way of doing things. If 
+we don't find ways to more frequently try solutions for our specific team's needs, we will not only be eating the wrong 
+porridge, but sitting in the wrong chair and sleeping in the wrong bed as well.
 
 For example my previous employer started experimenting with remote work long before Covid. And there was push back 
 quoting the Agile Manifesto's face-to-face principle! If Star Wars technology becomes available will we reference a 
 20-year-old document to tell us whether to have hologram meetings or use hyperdrive?
-
-It's okay for a software development methodology to list requirements like fast feedback or work as a team.
 
 {% include callout.html
 content="It's **not okay** for a methodology to prescribe communication technology like face-to-face / open office or
 Kanban boards."
 type="warning" %}
 
-The result is that most software developers, outside open source or the IETF, are **forced to choose between endless, 
-mostly ineffective meetings or working alone**.
-
-We had an explainer video made and meetings were used only for brainstorming. The video company had approval software 
-that captured what and who approved and feedback software that allowed you to comment frame by frame in a story board 
-or video.
-
-That video process, designers and Figma or InVision, and any number of business processes incorporate tools
-_specifically designed for them_. But software development continually underestimates the challenge of building the 
-right thing and employs tools like sticky notes based on 1970s factory work!!
+Designers and Figma or InVision, and any number of business processes incorporate tools
+_specifically designed for them_. But software development employs tools like sticky notes based on 1970s factory work!!
 
 <img src="{{ site.baseurl }}/assets/images/kanban.png" alt="Kanban" style="width: 90%;" />
 
-It's this combination of very few choices with technology and ideas developed in other times for other purposes that 
-makes the agile Goldilocks problem so devastating.
+It's this combination of a few one size fits all methodologies with technology developed in other times for other 
+purposes that makes the agile Goldilocks problem so devastating.
 
 ### Meeting all the time is too hot
 Nothing is more important than deciding what we work on and how we implement it. So the thinking behind Scrum was
@@ -132,9 +132,6 @@ deadline for voting. A choice between endless, mostly ineffective meetings and w
 only extreme options are available.
 
 ### Experimenting isn't that hard
-Without quoting process scripture, many decisions, like allowing in office participation, become daunting. Nor does 
-watching papa and mama bear big companies communications decisions necessarily tell you what is right for you.
-
 The good news is that our industry over-estimates the cost of experimentation. Some easy process experiments:
 * Try different communications tools for a hack-a-thon
 * Run a parallel process for technical debt instead of a retro
@@ -158,23 +155,28 @@ measures
 
 Some changes are not real experiments - re-orgs or musical chairs with roles, a council responsible for all 
 approvals of X, a bot that asks standup or retro questions, dropping meeting X but not offering any substitute way
-of communicating, etc.
+of communicating, etc. The biggest fake experiment is around "shielding" where a sustaining team might be created
+to reduce contact with developers or other 
+[external contact removed](https://andreigridnev.medium.com/simple-tactics-to-reduce-distractions-for-a-software-engineering-team-e4e56d7d0ad5):
 
-The other good news is that, whether because of the rise of remote work or heightened competition in an ever-growing
-industry, experimentation is on the rise. 
+>Once we tried a “silent day”, when only I, as the lead, was available in case someone outside our team had an urgent question. The team productivity on that day peaked — developers did so much work. I would be happy to do days like that at least once a sprint but most of team members preferred to keep comm channels open.
 
-The bad news is there are limited resources for learning what is really working for others and rapidly changing makes 
-information age fast. What is available is frequently [written by people](https://www.mckinsey.com/business-functions/organization/our-insights/revisiting-agile-teams-after-an-abrupt-shift-to-remote) 
-with very limited coding experience - much less first-hand experience coding remotely (and how at this point does
-anyone present poll results with a straight face?).
+Reducing developer external contact just makes it that much harder for developers to have and share opinions. The above 
+link also discusses attempts at clumping meetings to give more uninterrupted time but 
+as [Paul Graham](http://www.paulgraham.com/makersschedule.html) describes that's not a real solution and also 
+doesn't take into account the help that developers have to give each other.
 
-The other bad news is you can spend a long time experimenting, as 
-[PagerDuty](https://www.pagerduty.com/blog/scaling-engineering-org) describes, and getting it wrong is painful.
-That's why we believe a communication tool designed for these problems can remove a lot of drudge work and speed
-things up.
+{% include callout.html
+content="Giving developers more time to input on working on the right thing the right way requires converting as many 
+internal meetings to online, asynchronous as possible."
+type="warning" %}
 
-For experimenting with communications solutions there are many choices and most of them fully justify the 
-manifesto's warning to stick to face-to-face. But these days we know a few things about how we prefer to operate online:
+You can spend a long time experimenting, as 
+[PagerDuty](https://www.pagerduty.com/blog/scaling-engineering-org) describes, and getting it wrong is painful. For 
+experimenting with communications solutions there are many choices and most of them fully justify the 
+manifesto's warning to stick to face-to-face. 
+
+But these days we know a few things about how we prefer to operate online:
 * Questions - almost every developer is happy when a question can be answered by online interactions and a meeting 
 avoided
 * Status - we are all used to checking status of nearly everything online these days 
@@ -187,10 +189,7 @@ everyone hears the suggestion for the first time.
 So we are looking for communication tools that offer fully asynchronous, meeting free solutions for questions, status,
 feedback, suggestions and approval.
 
-{% include callout.html
-content="Communications software should offer you a true alternative, instead of simulating or supplementing meetings."
-type="warning" %}
-
+Communications software should offer you a true alternative, instead of simulating or supplementing meetings.
 Because in 2021 that's what we already expect from communications tools except when we go to an office still in 2001.
 
 
