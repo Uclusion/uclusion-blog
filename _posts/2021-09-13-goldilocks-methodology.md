@@ -22,9 +22,9 @@ Martin Fowler observed the same thing for build process in his 2006
 and that it makes a huge difference to development. Thus the third common reaction is "yes we do that - how could you
 live without it?"
 
-When new collaboration practices are tried it's usually one size fits all.
+In addition, when new collaboration practices are tried it's usually one size fits all.
 
-This is the agile Goldilocks problem. Software development is too complex for standard process. If we don't find ways 
+This is the agile Goldilocks problem. Software development is too complex to standardize process. If we don't find ways 
 to try solutions more suited to our specific team's needs, we will not only be eating the wrong porridge, but sitting 
 in the wrong chair and sleeping in the wrong bed as well.
 
