@@ -71,9 +71,13 @@ approvals, questions and feedback wait for the next meeting where it will be dif
 time anyway. 
 
 {% include callout.html
-content="Relying soley on meetings means choosing between frequent interruptions and doing the wrong thing or the wrong 
-way."
+content="Relying soley on meetings means choosing between losing the time and focus required to code and 
+doing the wrong thing or the wrong way."
 type="warning" %}
+
+There's also a lot of pressure to reach a conclusion in the meeting's allotted time frame. Our experience was that this
+can lead to rubber-stamping new features and accruing technical debt. Eventually that can bring a product down and
+there is not even anyone to blame since the meetings don't record opinions.
 
 Scrum does offer some customization parameters. You can increase the Sprint length which reduces the frequency of 
 meetings. You control your own Definition of Done. Still Scrum is fundamentally a system designed around a single 
