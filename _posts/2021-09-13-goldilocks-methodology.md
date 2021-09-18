@@ -7,14 +7,19 @@ categories: [ agile ]
 featured: true
 ---
 In our long careers in software, working on the wrong thing or the wrong way crippled our projects again and 
-again.
+again and writing code that's not useful is a known industry-wide problem.
 
 So my co-founder and I started Uclusion more than two years ago with two goals:
 1. Developers should spend more time working on the right thing
 2. This progress should not come at the expense of longer software developer hours
 
-At first, we thought better customer feedback would be the key. Unfortunately dumping the problem on customers won't
-accomplish goal one because all too often:
+Imagine a perfectly autonomous software engineer - hypothetically a developer at Facebook who submits code that is
+automatically A/B tested across the world and immediately rewarded with bonuses if it helps (example from iiSM.org). 
+The question is how can we in the not hypothetical world put more of the control that we write useful code into our own 
+hands?
+
+At first, we thought customers telling us what to do would be the key. Unfortunately dumping the problem on customers 
+won't work because all too often:
 * The right feature to work on is no feature - do technical debt instead
 * The right feature is one that new customers need more than existing
 * The right feature is chosen but worked on the wrong way
@@ -24,9 +29,10 @@ that deeper thought and product management is already 100% occupied with it. If 
 developer ratio that will only result in violating goal two and most product managers will have a difficult time
 representing technical projects.
 
-There are any number of agile software methodologies promising to help with goal one, but they were all based on 
-already implemented ideas or squeezing more feedback out of customers. If any new progress was going to be made then we 
-would need a change to the way developers operate that affords them more time for input on guidance.
+There are any number of agile software methodologies promising to help, but they are based on already common techniques 
+or squeezing more feedback out of customers. If new progress is going to be made then we need to change to the way 
+developers operate without assuming instantaneous usage statistics (the lag on uptake can routinely be years
+for many types of code like security or new B2B features).
 
 Before Covid popularized remote work, I had only seen two major efforts to change the _way_ we work - Scrum/open office 
 and CI/CD. On CI/CD, Martin Fowler [wrote in 2006](https://martinfowler.com/articles/continuousIntegration.html):
@@ -166,7 +172,7 @@ to reduce contact with developers or other
 Reducing developer external contact just makes it that much harder for developers to have and share opinions. The above 
 link also discusses attempts at clumping meetings to give more uninterrupted time but 
 as [Paul Graham](http://www.paulgraham.com/makersschedule.html) describes that's not a real solution and also 
-doesn't take into account the help that developers have to give each other.
+doesn't take into account the help that developers have to give each other all the time.
 
 {% include callout.html
 content="Giving developers more time to input on working on the right thing the right way requires converting as many 
