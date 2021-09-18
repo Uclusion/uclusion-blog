@@ -6,8 +6,10 @@ image: assets/images/goldilocks.jpg
 categories: [ agile ]
 featured: true
 ---
-Looking back over our long careers in software development nothing had crippled our projects more than working on the
-wrong thing or the wrong way. So my co-founder and I started Uclusion more than two years ago with two goals:
+In our long careers in software, working on the wrong thing or the wrong way crippled our projects again and 
+again.
+
+So my co-founder and I started Uclusion more than two years ago with two goals:
 1. Developers should spend more time working on the right thing
 2. This progress should not come at the expense of longer software developer hours
 
