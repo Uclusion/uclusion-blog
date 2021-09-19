@@ -11,7 +11,7 @@ again and writing code that's not useful is a known industry-wide problem.
 
 So my co-founder and I started Uclusion more than two years ago with two goals:
 1. Developers should spend more time working on the right thing
-2. This progress should not come at the expense of longer software developer hours
+2. This progress should not come at the expense of longer hours
 
 Imagine a perfectly autonomous software engineer - hypothetically a developer at Facebook who submits code that is
 automatically A/B tested across the world and immediately rewarded with bonuses if it helps (example from iiSM.org). 
@@ -161,6 +161,10 @@ squads by feature versus infrastructure)
 * No meeting Wednesdays - a bit like no headache Wednesdays so if it works it needs to be followed up by stronger 
 measures
 * Cameras off on Zoom meetings - see [this article](https://www.sciencedaily.com/releases/2021/08/210830092203.htm)
+* Redefine the role of the Scrum Master to Process Master:
+>The Scrum Master is accountable for establishing Scrum as defined in the Scrum Guide.
+
+The Process Master is accountable for suggesting and helping with the latest process and tools for the team to try.
 
 Some changes are not real experiments - re-orgs or musical chairs with roles, a council responsible for all 
 approvals of X, a bot that asks standup or retro questions, dropping meeting X but not offering any substitute way
@@ -172,13 +176,15 @@ to reduce contact with developers or other
 
 Reducing external contact just makes it that much harder for developers to have and share opinions. The above 
 link also discusses attempts at clumping meetings to give more uninterrupted time but 
-as [Paul Graham](http://www.paulgraham.com/makersschedule.html) describes that's not a real solution and also 
-doesn't take into account the help that developers have to give each other all the time.
+as [Paul Graham](http://www.paulgraham.com/makersschedule.html) describes a day with even a single meeting is not the 
+same and also doesn't take into account the help that developers have to give each other all the time.
 
-{% include callout.html
-content="Giving developers more time to input on working on the right thing the right way requires converting as many 
-internal meetings to online, asynchronous as possible."
-type="warning" %}
+### Spend more time working on the right thing
+Let's review the logic:
+1. We think working on the right thing is the biggest challenge developers face.
+2. It's unlikely that further customer feedback, PMs or off the shelf methodology or tools will solve this problem.
+3. Experimentation with process and tools is required for each team to find the way and the time to insure working on
+the right thing - the agile Goldilocks problem.
 
 You can spend a long time experimenting, as 
 [PagerDuty](https://www.pagerduty.com/blog/scaling-engineering-org) describes. For experimenting with communications 
@@ -194,7 +200,14 @@ everyone hears the suggestion for the first time.
 * Approval - like or dislike is the bread and butter of the online world
 * _Brainstorming - I would argue that only here does face-to-face really shine_
 
-We hope you see the need for software development to solve the Goldilocks problem and start experimenting more with
-process and communication tools. It's 2021, and long since time to stop going to an office still in 2001.
+So in our opinion:
+
+{% include callout.html
+content="Giving developers more time to input on working on the right thing the right way requires converting as many
+internal meetings to online, asynchronous as possible."
+type="warning" %}
+
+Whatever path your team pursues the overdue death of one size fits all process is already started. It's 2021, 
+and long since time to stop going to an office still in 2001.
 
 
