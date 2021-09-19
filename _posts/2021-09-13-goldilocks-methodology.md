@@ -15,7 +15,7 @@ So my co-founder and I started Uclusion more than two years ago with two goals:
 
 Imagine a perfectly autonomous software engineer - hypothetically a developer at Facebook who submits code that is
 automatically A/B tested across the world and immediately rewarded with bonuses if it helps (example from iiSM.org). 
-The question is how can we in the not hypothetical world get more control that we write useful code?
+The question is how can we in the not hypothetical world have more control that we write useful code?
 
 At first, we thought customers telling us what to do would be the key. Unfortunately dumping the problem on customers 
 won't work because all too often the right feature is:
@@ -23,14 +23,14 @@ won't work because all too often the right feature is:
 * one that new customers need more than existing
 * chosen but worked on the wrong way
 
-Advances on goal one requires deeper thought. Customers can't be relied on for that deeper thought and product 
-management is already 100% occupied with it. If you change the product management to developer ratio that will only 
-result in violating goal two and most product managers will have a difficult time representing technical projects.
+Customers can't be relied on for deeper thought and product management is already fully occupied with it. If you change 
+the product management to developer ratio that will only result in violating goal two and most product managers will 
+have a difficult time representing technical projects.
 
 There are any number of agile software methodologies promising to help, but they are based on already common techniques 
-or squeezing more feedback out of customers. For new progress we need to change to the way developers operate without 
-assuming instantaneous usage statistics (for many types of code like security or new B2B features the lag on uptake can 
-routinely be years ).
+or squeezing more advice from customers. For new progress insuring our code produces value, we need to change to the 
+way developers operate without assuming instantaneous usage statistics (for many types of code like security or new 
+B2B features the lag on uptake can routinely be years ).
 
 But to change the way developers operate we need a lot more choices and a willingness to try them.
 
@@ -64,8 +64,9 @@ It's this combination of a few one size fits all methodologies with technology d
 purposes that makes the agile Goldilocks problem so devastating.
 
 ### Meeting all the time is too hot
-The thinking behind Scrum was lots of meetings insure you get things right. Plus every introduction of Scrum 
-I witnessed was followed by open offices in case something comes up when you are not in a meeting.
+The thinking behind most methodologies is that lots of meetings insure you get things right. Plus every introduction of 
+formal development meetings I witnessed was followed by open offices in case something comes up when you are not in a 
+meeting.
 
 And I get the logic - it's at least consistent. But now, more than ever, developers realize the issues with open office
 (and are being offered 
@@ -101,13 +102,12 @@ specifying all the meetings in a way that may not work for you. What if your tea
 zones? - just don't do that or suck it up says Scrum. What if the customer wants to have an almost immediate feedback
 loop? - no we prefer the requirements stay fixed for the iteration says Scrum.
 
-But inflexibly creating your own process is not great either. For instance, I was on a team doing infrastructure work 
+Creating your own process from scratch is not great either. For instance, I was on a team doing infrastructure work 
 without a product owner. So the team had a spreadsheet where we voted on priorities. A few of us assigned ourselves
 the top item but unfortunately the spreadsheet didn't record the certainty or reasons behind the votes. 
 
-It turned out this project's popularity was a result of recent incidents in production. So then we said well we will 
-need to expand or drop this project but that wasn't allowed. We completed the project but the incidents stopped 
-happening and our code was never deployed.
+It turned out this project's popularity was a result of recent incidents in production. Under protest, we completed the 
+project but the incidents stopped happening and our code was never deployed.
 
 Whether you create your own process or start with off the shelf the key is continuing to experiment and look 
 for the latest practices and technology to help you.
