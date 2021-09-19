@@ -24,15 +24,14 @@ won't work because all too often:
 * The right feature is one that new customers need more than existing
 * The right feature is chosen but worked on the wrong way
 
-Advances on goal one requires deeper thought from software development teams. Customers can't be relied on to supply
-that deeper thought and product management is already 100% occupied with it. If you change the product management to
-developer ratio that will only result in violating goal two and most product managers will have a difficult time
-representing technical projects.
+Advances on goal one requires deeper thought. Customers can't be relied on for that deeper thought and product 
+management is already 100% occupied with it. If you change the product management to developer ratio that will only 
+result in violating goal two and most product managers will have a difficult time representing technical projects.
 
 There are any number of agile software methodologies promising to help, but they are based on already common techniques 
-or squeezing more feedback out of customers. If new progress is going to be made then we need to change to the way 
-developers operate without assuming instantaneous usage statistics (the lag on uptake can routinely be years
-for many types of code like security or new B2B features).
+or squeezing more feedback out of customers. For new progress we need to change to the way developers operate without 
+assuming instantaneous usage statistics (for many types of code like security or new B2B features the lag on uptake can 
+routinely be years ).
 
 But to change the way developers operate we need a lot more choices and a willingness to try them.
 
@@ -41,14 +40,14 @@ If we don't find ways to more frequently try solutions for our specific team's n
 wrong porridge, but sitting in the wrong chair and sleeping in the wrong bed as well.
 
 Before Covid popularized remote work, I had only seen two major efforts to change the _way_ we work - Scrum/open office 
-and CI/CD. On CI/CD, Martin Fowler [wrote in 2006](https://martinfowler.com/articles/continuousIntegration.html):
+and CI/CD. Martin Fowler wrote about reluctance to try CI/CD [in 2006](https://martinfowler.com/articles/continuousIntegration.html):
 
 >When I've described this practice to people, I commonly find two reactions: "it can't work (here)" and
 "doing it won't make much difference". What people find out as they try it is that it's much easier than it sounds,
 and that it makes a huge difference to development. Thus the third common reaction is "yes we do that - how could you
 live without it?"
 
-For example my previous employer started experimenting with remote work long before Covid. And there was push back 
+My previous employer started experimenting with remote work long before Covid. And there was push back 
 quoting the Agile Manifesto's face-to-face principle! If Star Wars technology becomes available will we reference a 
 20-year-old document to tell us whether to have hologram meetings or use hyperdrive?
 
