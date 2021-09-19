@@ -183,7 +183,7 @@ same and also doesn't take into account the help that developers have to give ea
 Let's review the logic:
 1. We think working on the right thing is the biggest challenge developers face.
 2. It's unlikely that further customer feedback, PMs or off the shelf methodology or tools will solve this problem.
-3. Experimentation with process and tools is required for each team to find the way and the time to insure working on
+3. Experimentation with process and tools is required for each team to find the way and the time to help working on
 the right thing - the agile Goldilocks problem.
 
 You can spend a long time experimenting, as 
