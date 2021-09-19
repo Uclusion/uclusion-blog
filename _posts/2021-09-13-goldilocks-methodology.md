@@ -161,7 +161,7 @@ squads by feature versus infrastructure)
 * No meeting Wednesdays - a bit like no headache Wednesdays so if it works it needs to be followed up by stronger 
 measures
 * Cameras off on Zoom meetings - see [this article](https://www.sciencedaily.com/releases/2021/08/210830092203.htm)
-* Redefine the role of the Scrum Master to Process Master:
+* Redefine the role of Scrum Master to Process Master:
 >The Scrum Master is accountable for establishing Scrum as defined in the Scrum Guide.
 
 The Process Master is accountable for suggesting and helping with the latest process and tools for the team to try.
