@@ -36,8 +36,8 @@ routinely be years ).
 But to change the way developers operate we need a lot more choices and a willingness to try them.
 
 ### The agile Goldilocks problem
-If we don't find ways to more frequently try solutions for our specific team's needs, we will not only be eating the 
-wrong porridge, but sitting in the wrong chair and sleeping in the wrong bed as well.
+The problem is that if we don't find ways to more frequently try solutions for our specific team's needs, we will not 
+only be eating the wrong porridge, but sitting in the wrong chair and sleeping in the wrong bed as well.
 
 Before Covid popularized remote work, I had only seen two major efforts to change the _way_ we work - Scrum/open office 
 and CI/CD. Martin Fowler wrote about reluctance to try CI/CD [in 2006](https://martinfowler.com/articles/continuousIntegration.html):
@@ -56,7 +56,7 @@ content="It's **not okay** for a methodology to prescribe communication technolo
 Kanban boards."
 type="warning" %}
 
-Designers and Figma or InVision, and any number of business processes incorporate tools
+Designers have Figma or InVision, and any number of business processes also incorporate tools
 _specifically designed for them_. But software development employs tools like sticky notes based on 1970s factory work!!
 
 <img src="{{ site.baseurl }}/assets/images/kanban.png" alt="Kanban" style="width: 90%;" />
