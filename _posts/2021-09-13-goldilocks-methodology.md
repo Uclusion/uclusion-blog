@@ -18,10 +18,10 @@ automatically A/B tested across the world and immediately rewarded with bonuses 
 The question is how can we in the not hypothetical world get more control that we write useful code?
 
 At first, we thought customers telling us what to do would be the key. Unfortunately dumping the problem on customers 
-won't work because all too often:
-* The right feature to work on is no feature - do technical debt instead
-* The right feature is one that new customers need more than existing
-* The right feature is chosen but worked on the wrong way
+won't work because all too often the right feature is:
+* no feature - do technical debt instead
+* one that new customers need more than existing
+* chosen but worked on the wrong way
 
 Advances on goal one requires deeper thought. Customers can't be relied on for that deeper thought and product 
 management is already 100% occupied with it. If you change the product management to developer ratio that will only 
@@ -64,9 +64,8 @@ It's this combination of a few one size fits all methodologies with technology d
 purposes that makes the agile Goldilocks problem so devastating.
 
 ### Meeting all the time is too hot
-Nothing is more important than deciding what we work on and how we implement it. So the thinking behind Scrum was
-lots of meetings insure you get it right. Plus every introduction of Scrum I witnessed was followed by open offices in 
-case something comes up when you are not in a meeting.
+The thinking behind Scrum was lots of meetings insure you get things right. Plus every introduction of Scrum 
+I witnessed was followed by open offices in case something comes up when you are not in a meeting.
 
 And I get the logic - it's at least consistent. But now, more than ever, developers realize the issues with open office
 (and are being offered 
@@ -83,9 +82,8 @@ content="Relying soley on meetings means choosing between losing the time and fo
 doing the wrong thing or the wrong way."
 type="warning" %}
 
-There's also a lot of pressure to reach a conclusion in the meeting's allotted time frame. Our experience was that this
-can lead to rubber-stamping new features and accruing technical debt. Eventually that can bring a product down and
-there is not even anyone to blame since the meetings don't record opinions.
+Plus time box pressure causes rubber-stamping new features and accruing technical debt and there is no one to blame 
+since the meetings don't record opinions.
 
 Scrum does offer some customization parameters. You can increase the Sprint length which reduces the frequency of 
 meetings. You control your own Definition of Done. Still Scrum is fundamentally a system designed around a single 
