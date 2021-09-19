@@ -15,8 +15,7 @@ So my co-founder and I started Uclusion more than two years ago with two goals:
 
 Imagine a perfectly autonomous software engineer - hypothetically a developer at Facebook who submits code that is
 automatically A/B tested across the world and immediately rewarded with bonuses if it helps (example from iiSM.org). 
-The question is how can we in the not hypothetical world put more of the control that we write useful code into our own 
-hands?
+The question is how can we in the not hypothetical world get more control that we write useful code?
 
 At first, we thought customers telling us what to do would be the key. Unfortunately dumping the problem on customers 
 won't work because all too often:
