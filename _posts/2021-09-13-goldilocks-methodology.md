@@ -181,7 +181,7 @@ same and also doesn't take into account the help that developers have to give ea
 Another example of not real experimenting are some implementations of Scrumban. [For instance](https://engineering.iterable.com/so-long-scrum-hello-scrumban)
 you might drop story points, acceptance criteria and "failing the Sprint" without noticing the 
 [2021 Scrum guide](https://scrumguides.org/scrum-guide.html) doesn't have any of them. If giving developers the time and
-freedom to work on code that will more likely be useful isn't the point of your experiment, then it's easy to get
+means to work on code that will more likely be useful isn't the point of your experiment, then it's easy to get
 lost in a maze of tweaks. If you are stuck coding the wrong thing or the wrong way then the small details of your
 process won't matter.
 
