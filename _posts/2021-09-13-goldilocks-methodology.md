@@ -168,9 +168,9 @@ existing customers metric is even more difficult. You would only be able to reac
 Then there's the MVP idea - we don't have to worry too much about value delivered by code if we can get feedback
 from a very cheap investment. Let's go back to the Code with Me feature to discuss this. 
 
-You could go out on a forum and poll developers if they would use this feature but even after trying the full feature 
-I'm still not sure if I will use it much less you ask me about something that doesn't exist yet. However, releasing a 
-crappy "MVP" Code with Me definitely won't get you any information - the ante is higher than that.
+Even after trying the full feature I still don't know if I will use it much less you ask me about something that 
+doesn't exist yet. However, releasing a crappy "MVP" Code with Me definitely won't get you any information - the ante 
+is higher than that.
 
 This is why agile companies like [Spotify](https://www.youtube.com/watch?v=4GK1NDTWbkY&list=RD4GK1NDTWbkY)
 or [PagerDuty](https://www.pagerduty.com/blog/scaling-engineering-org) go to such lengths to get teams more involved.
@@ -191,6 +191,12 @@ What we can say for certain is that activity based metrics are a fail for measur
 
 Continuing to use activity based metrics falls somewhere between incompetence and flat out fraud unless you've 
 collapsed to a code factory.
+
+As bad as the list above is, it still doesn't mention **simple status**. Simple status is a completely circular way
+to evaluate a project where steady incremental progress means the project is going well. It gives green light status
+to both the ditch digging and ditch filling projects based on the ever-increasing and equal number of ditches they
+both report processing. Include any indication of developer confidence in the project, and you can immediately do 
+better.
 
 ### Experimenting isn't that hard
 The good news is that our industry over-estimates the cost of experimentation. Some easy process experiments:
