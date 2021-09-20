@@ -195,7 +195,8 @@ collapsed to a code factory.
 As bad as the list above is, it still doesn't mention **simple status**. Simple status is a completely circular way
 to evaluate a project where steady incremental progress means the project is going well. It gives green light status
 to both the ditch digging and ditch filling projects based on the ever-increasing and equal number of ditches they
-both report processing.
+both report processing. I've seen exactly that relationship before between feature teams producing features with very 
+few users and maintenance teams called in to fix the bugs those features caused.
 
 ### Experimenting isn't that hard
 The good news is that our industry over-estimates the cost of experimentation. Some easy process experiments:
