@@ -12,7 +12,8 @@ My co-founder and I started Uclusion more than two years ago with two goals:
 2. This progress should not come at the expense of longer hours
 
 We believe failing to deliver value is the greatest problem software developers face. Once you doubt your code
-is useful, your job stops being fun no matter how pleasant it might be otherwise.
+is useful, your job stops being fun no matter how pleasant it might be otherwise (plus useless code [endangers your
+career]({{site.baseurl}}/agile/2021/09/01/1-on-autonomy.html)).
 
 Our industry is suffused with unused code, half finished projects and features that negatively impact a project
 by increasing complexity and maintenance.
