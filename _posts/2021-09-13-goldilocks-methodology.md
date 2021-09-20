@@ -27,10 +27,12 @@ Customers can't be relied on for deeper thought and product management is alread
 the product management to developer ratio that will only result in violating goal two and most product managers will 
 have a difficult time representing technical projects.
 
-There are any number of agile software methodologies promising to help, but they are based on already common techniques 
-or squeezing more advice from customers. For new progress insuring our code produces value, we need to change to the 
-way developers operate without assuming instantaneous usage statistics (for many types of code like security or new 
-B2B features the lag on uptake can routinely be years ).
+There are any number of agile software methodologies promising to help. In fact using workers to help cut out wasted
+effort and continuously improve is the [lean framework](https://en.wikipedia.org/wiki/Lean_thinking) from which they came.
+Paradoxically though, codifying and freezing the process and tools of an agile methodology is the exact opposite of 
+lean. For new progress insuring our code produces value, we need to change to the way developers operate without assuming 
+instantaneous usage statistics (for many types of code like security or new B2B features the lag on uptake can 
+routinely be years ).
 
 But to change the way developers operate we need a lot more choices and a willingness to try them.
 
