@@ -170,7 +170,7 @@ from a very cheap investment. Let's go back to the Code with Me feature to discu
 
 You could go out on a forum and poll developers if they would use this feature but even after trying the full feature 
 I'm still not sure if I will use it much less you ask me about something that doesn't exist yet. However, releasing a 
-crappy "MVP" code together definitely won't get you any information - the ante is higher than that.
+crappy "MVP" Code with Me definitely won't get you any information - the ante is higher than that.
 
 This is why agile companies like [Spotify](https://www.youtube.com/watch?v=4GK1NDTWbkY&list=RD4GK1NDTWbkY)
 or [PagerDuty](https://www.pagerduty.com/blog/scaling-engineering-org) go to such lengths to get teams more involved.
