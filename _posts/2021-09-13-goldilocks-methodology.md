@@ -7,15 +7,15 @@ categories: [ agile ]
 featured: true
 ---
 Agile requires three things to run:
-1. You agree current way of working is unacceptably wasteful
+1. You agree the current way of working is unacceptably wasteful
 2. You run experiments to find new ways of working
 3. You let development teams judge the outcome of those experiments
 
-If you are missing any of those three you will not get the benefits of agile, and should consider moving to more of a
-[code factory]({{site.baseurl}}/agile/2021/08/16/code-factory.html) process where you will have less overhead and
+If you miss any of the three, you will not get the benefits of agile, and should consider more of a
+[code factory]({{site.baseurl}}/agile/2021/08/16/code-factory.html) process with less overhead and
 confusion.
 
-## Why you need to agree that current process is unacceptably wasteful
+## Why you need to agree the current way of working is unacceptably wasteful
 Agile methodologies are based on [lean thinking](https://en.wikipedia.org/wiki/Lean_thinking) which uses worker input
 to reduce wasteful practices. In software the main waste we are trying to cut down on is development of code that won't 
 be used.
@@ -34,7 +34,7 @@ spends 2 hours a week writing code that will never be used.
 Over time that's going to give your competitor an enormous advantage well beyond their developers coding 5% faster. 
 Once code is introduced it's very difficult to remove from the system even if it is relatively unused. Until you find 
 a way to remove it, you have to continue to pay for the support, maintenance and testing of code that might only be 
-used by a single customer. 
+used by a single, small customer. 
 
 When new features are introduced they have to watch for feature interaction with the unused code. The UI complexity
 end users face may also take a hit even if they don't use the code.
