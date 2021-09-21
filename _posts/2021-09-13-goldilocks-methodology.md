@@ -172,13 +172,17 @@ Even after trying the full feature I still don't know if I will use it much less
 doesn't exist yet. However, releasing a crappy "MVP" Code with Me definitely won't get you any information - the ante 
 is higher than that.
 
-This is why agile companies like [Spotify](https://www.youtube.com/watch?v=4GK1NDTWbkY&list=RD4GK1NDTWbkY)
-or [PagerDuty](https://www.pagerduty.com/blog/scaling-engineering-org) go to such lengths to get teams more involved.
-
 {% include callout.html
 content="Of the sources of information available for determining code value, development team input is by far 
 the easiest and most underused."
 type="warning" %}
+
+This is why agile companies like [Netflix](https://www.youtube.com/watch?v=pl4UYZfVmTA),
+[Amazon](https://www.amazon.jobs/en/principles), [Google](https://en.wikipedia.org/wiki/20%25_Project),
+[Salesforce](https://developer.salesforce.com/blogs/engineering/2014/08/agile-methodology-salesforce-inside-look),
+[Spotify](https://www.youtube.com/watch?v=4GK1NDTWbkY&list=RD4GK1NDTWbkY),
+and [PagerDuty](https://www.pagerduty.com/blog/scaling-engineering-org) go to such lengths to get developers more 
+involved.
 
 ### How **NOT** to evaluate your experiments
 What we can say for certain is that activity based metrics are a fail for measuring value. These include:
