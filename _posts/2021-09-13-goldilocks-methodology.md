@@ -91,9 +91,11 @@ Another experiment to avoid is encouraging senior developers to mostly work alon
 communications tools makes dropping collaboration seem reasonable, but long term anyone, even a CTO or product manager, 
 who makes decisions by themselves will generate a lot of unused code.
 
+For examples of experiments to try, see [Beyond Code Factory]({{site.baseurl}}/agile/2021/08/31/3-code-factory.html).
+
 ## Why you need to let development teams judge the outcome of those experiments
 >You cannot hold people responsible for results if you supervise their methods. You then become responsible for 
-results and rules replace human judgment, creativity, responsibility. -_Stephen Covey_
+results and rules replace human judgment, creativity, and responsibility. -_Stephen Covey_
 
 ### What won't work
 We can say for certain that activity based metrics are a fail for measuring a new way of working. These include:
@@ -141,7 +143,7 @@ Even after trying the full feature I still don't know if I will use it much less
 doesn't exist yet. However, releasing a crappy "MVP" Code with Me definitely won't get you any information - the ante 
 is higher than that.
 
-### That leaves trusting development teams
+### Trusting development teams
 As you can see above, for most teams, the only viable source of information is internal opinion. But you can still be 
 data driven by using the opinions of as many employees as possible.
 
