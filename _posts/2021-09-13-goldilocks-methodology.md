@@ -27,6 +27,7 @@ In my and my co-founder's experience the confusion for many agile teams is think
 agile framework, mostly freeze their process and still be agile. They might even continue to hold retrospective 
 meetings in the spirit of continuous improvement but without ever making any real changes.
 
+### The real costs of wasted code
 Part of the problem comes from not understanding the real costs of wasted code. Let's say you are working on a SaaS 
 product and your team produces 5% more unused code than your competitor. Conservatively that means each developer
 spends 2 hours a week writing code that will never be used.
@@ -69,6 +70,7 @@ Full disclosure, we here at Uclusion built a tool to make meeting driven process
 it as a cure all. In 2021, one size fits all forever agile process is already a casualty of the pandemic. Every agile
 team needs to think more about the process and tools that will specifically work for them.
 
+### Don't repeat the past
 However, when choosing an experiment it's important to not just repeat the past.
 [For instance](https://engineering.iterable.com/so-long-scrum-hello-scrumban) an experiment in Scrumban might drop 
 story points, acceptance criteria and "failing the Sprint" without noticing the 
@@ -90,6 +92,10 @@ communications tools makes dropping collaboration seem reasonable, but long term
 who makes decisions by themselves will generate a lot of unused code.
 
 ## Why you need to let development teams judge the outcome of those experiments
+>You cannot hold people responsible for results if you supervise their methods. You then become responsible for 
+results and rules replace human judgment, creativity, responsibility. -_Stephen Covey_
+
+### What won't work
 We can say for certain that activity based metrics are a fail for measuring a new way of working. These include:
 * Physical or virtual face time
 * Points velocity - even the Scrum guide has dropped this
@@ -122,7 +128,7 @@ diff as if it were another file in the editor. The Code with Me might, like many
 uptake. The inline Git diff, like many UI changes, will have 100% uptake immediately but won't reveal anything about 
 value delivered.
 
-For code that prevents negative affects like downtime, security breaches or poor architecture / technical debt using an 
+For code that prevents negative affects like downtime, security breaches or poor architecture / technical debt, using an 
 existing customers metric is even more difficult. You would only be able to react to very bad events.
 
 Even if you are working for a single client, using customer feedback to evaluate your process and communication tools
