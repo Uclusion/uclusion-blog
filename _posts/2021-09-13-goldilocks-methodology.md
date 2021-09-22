@@ -125,7 +125,7 @@ value delivered.
 For code that prevents negative affects like downtime, security breaches or poor architecture / technical debt using an 
 existing customers metric is even more difficult. You would only be able to react to very bad events.
 
-Even if you are working for a single client getting the customer to evaluate your process and communication tools
+Even if you are working for a single client, using customer feedback to evaluate your process and communication tools
 experiments will be difficult.
 
 Then there's the MVP idea - we don't have to worry too much about value delivered by code if we can get feedback
@@ -139,9 +139,9 @@ is higher than that.
 As you can see above, for most teams, the only viable source of information is internal opinion. But you can still be 
 data driven by using the opinions of as many employees as possible.
 
-This is the real principle of self-organizing that almost all agile methodologies espouse. If the experiment
-evaluation is put in the hands of a single manager, product manager or project manager, then eventually all process 
-innovation will be stifled.
+This is the real principle of self-organizing that almost all agile methodologies espouse. If instead the experiment
+evaluation is put in the hands of a single manager, product manager or project manager, then eventually the team's 
+process innovation will be stifled.
 
 So to recap, what's your next agile experiment? If you don't know you're taking a huge risk generating a lot of
 code that no one will ever use.
