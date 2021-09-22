@@ -23,7 +23,7 @@ be used.
 So, as is well understood by most agile teams, agile practices don't apply when requirements are fully understood 
 ahead of time. If everything is known ahead of time then wasted code is unlikely and agile is overkill.
 
-In my and my co-founder's experience the confusion for most agile teams is thinking that they can adopt an 
+In my and my co-founder's experience the confusion for many agile teams is thinking that they can adopt an 
 agile framework, mostly freeze their process and still be agile. They might even continue to hold retrospective 
 meetings in the spirit of continuous improvement but without ever making any real changes.
 
