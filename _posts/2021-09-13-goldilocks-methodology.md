@@ -29,8 +29,11 @@ meetings in the spirit of continuous improvement but without ever making any rea
 
 ### The real costs of wasted code
 Part of the problem comes from not understanding the real costs of wasted code. Let's say you are working on a SaaS 
-product and your team produces 5% more unused code than your competitor. Conservatively that means each developer
-spends 2 hours a week writing code that will never be used.
+product and your team produces 5% more unused code than your competitor. Conservatively, that means each developer
+spends 2 hours a week more than your competitor writing code that will never be used. 
+
+In total the situation could be much worse, 50% unused code would not shock anyone in our industry. If unnecessary code 
+is included, for instance there was already a library that does the same thing, the percentage goes even higher.
 
 Over time that's going to give your competitor an enormous advantage well beyond their developers coding 5% faster. 
 Once code is introduced it's very difficult to remove from the system even if it is relatively unused. Until you find 
@@ -66,7 +69,7 @@ based on 1970s factory work?
 
 <img src="{{ site.baseurl }}/assets/images/kanban.png" alt="Kanban" style="width: 90%;" />
 
-Full disclosure, we here at Uclusion built a tool to make meeting driven process obsolete but even we are not selling
+Full disclosure, we here at Uclusion built a tool to make meeting driven process obsolete, but even we are not selling
 it as a cure all. In 2021, one size fits all forever agile process is already a casualty of the pandemic. Every agile
 team needs to think more about the process and tools that will specifically work for them.
 
@@ -101,7 +104,8 @@ results and rules replace human judgment, creativity, and responsibility. -_Step
 We can say for certain that activity based metrics are a fail for measuring a new way of working. These include:
 * Physical or virtual face time
 * Points velocity - even the Scrum guide has dropped this
-* Finishing within a release date / speed to close a bug
+* Finishing within a release date / speed to close a bug - setting aside #NoEstimates, you can't measure the 
+value of a project by how quickly it was delivered
 * Spyware laptop activity reports - even I'm not sure when I'm being productive, so I'm very skeptical this will tell us
 * Participation in meetings (turn the camera off - see [this article](https://www.sciencedaily.com/releases/2021/08/210830092203.htm))
 * Raw volume of lines of code - unless it's close to zero
