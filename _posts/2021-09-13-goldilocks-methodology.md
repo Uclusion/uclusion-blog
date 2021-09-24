@@ -155,7 +155,11 @@ Spotify and PagerDuty as examples of agile development, but I've never been invi
 after years of using all of their products. 
 
 Of course, they can sometimes use A/B testing to get end user opinion between a few variations, but they cannot afford 
-to release all the way to production on every design choice. They can also poll me for information but as an existing 
+to release all the way to production on every design choice. 
+
+<img src="{{ site.baseurl }}/assets/images/helpImprove.png" alt="Help improve" />
+
+They can also poll me for information but as an existing 
 customer my views may not reflect potential new customer opinion. For instance Intellij's existing customers might
 hate Code with Me but implementing the feature is all about getting new users.
 
