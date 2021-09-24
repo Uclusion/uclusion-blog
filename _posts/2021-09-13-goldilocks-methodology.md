@@ -33,7 +33,7 @@ product and your team produces 5% more unused code than your competitor. Conserv
 spends 2 hours a week more than your competitor writing code that will never be used. 
 
 In total the situation could be much worse, 50% unused code would not shock anyone in our industry. If unnecessary code 
-is included, for instance there was already a library that does the same thing, the percentage goes even higher.
+is included, for instance a library could have been used instead of re-inventing, the percentage goes even higher.
 
 Over time that's going to give your competitor an enormous advantage well beyond their developers coding 5% faster. 
 Once code is introduced it's very difficult to remove from the system even if it is relatively unused. Until you find 
@@ -127,7 +127,7 @@ automatically A/B tested across the world and immediately rewarded with bonuses 
 For most development teams the sources of information to judge a new way to work are more limited:
 * Your team - let's at least make sure we think this is good
 * New sales - hard to use since it's an extremely lagging indicator
-* Existing customers - very tricky so let's dive into this one
+* Existing customers - very tricky, see below
 
 Consider two recent changes released by Intellij. The first allows coding together and the second presents your Git 
 diff as if it were another file in the editor. The Code with Me might, like many B2B features, require years for user 
@@ -137,23 +137,45 @@ value delivered.
 For code that prevents negative affects like downtime, security breaches or poor architecture / technical debt, using an 
 existing customers metric is even more difficult. You would only be able to react to very bad events.
 
-Even if you are working for a single client, using customer feedback to evaluate your process and communication tools
-experiments will be difficult.
+So using customer usage statistics as in the ideal example will frequently be impractical. Then there's the MVP idea - 
+we don't have to worry too much about value delivered by code if we can get feedback from a very cheap investment or
+just asking on a forum.
 
-Then there's the MVP idea - we don't have to worry too much about value delivered by code if we can get feedback
-from a very cheap investment. Let's go back to the Code with Me feature to discuss this. 
-
-Even after trying the full feature I still don't know if I will use it much less you ask me about something that 
+Even after trying Code with Me, I still don't know if I will use it much less you ask me about something that 
 doesn't exist yet. However, releasing a crappy "MVP" Code with Me definitely won't get you any information - the ante 
 is higher than that.
 
+### What about direct feedback from end users?
+Even if you are working for a single client, using that client's feedback to evaluate the amount of wasted code
+might still not be viable. Many times the client is actually a stakeholder from the people who are paying and
+not actually a real end user. First contact with real end users may require a lot of rework.
+
+Let's be honest about what user feedback really means. Above I mention Netflix, Amazon, Google, Salesforce,
+Spotify and PagerDuty as examples of agile development, but I've never been invited to give pre-release feedback even
+after years of using all of their products. 
+
+Of course, they can sometimes use A/B testing to get end user opinion between a few variations, but they cannot afford 
+to release all the way to production on every design choice. They can also poll me for information but as an existing 
+customer my views may not reflect potential new customer opinion. For instance Intellij's existing customers might
+hate Code with Me but implementing the feature is all about getting new users.
+
+Most agile decision-making is still coming from internal opinion as new features and products are shaped long before 
+the code goes live. Since there is not a lot of data available, let's take Uclusion's own development as an example. 
+
+I'd estimate we ran at around 40% unused code prior to using our own product. Maybe 15% of that was a result of end 
+customer feedback. The other 25% came from us discarding what we internally think isn't useful or finding a better way 
+to implement something.
+
 ### Trusting development teams
-As you can see above, for most teams, the only viable source of information is internal opinion. But you can still be 
-data driven by using the opinions of as many employees as possible.
+As you can see above, for most teams, the most relevant source of information for evaluating process and communication 
+tools experiments is internal opinion. But you can still be data driven by using the opinions of as many employees as 
+possible.
 
 This is the real principle of self-organizing that almost all agile methodologies espouse. If instead the experiment
 evaluation is put in the hands of a single manager, product manager or project manager, then eventually the team's 
 process innovation will be stifled.
 
-So to recap, what's your next agile experiment? If you don't know you're taking a huge risk generating a lot of
-code that no one will ever use.
+{% include callout.html
+content="So to recap, what's your next agile experiment? If you don't know you're taking a huge risk generating a lot of
+code that no one will ever use."
+type="warning" %}
