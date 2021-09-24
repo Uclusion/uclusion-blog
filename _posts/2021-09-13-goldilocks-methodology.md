@@ -55,17 +55,17 @@ enormous advantage. It's also why agile companies like [Netflix](https://www.you
 and [PagerDuty](https://www.pagerduty.com/blog/scaling-engineering-org) go to such lengths to have competitive process.
 
 ## Why you need to run experiments to find new ways of working
-Your organization might already be involved with practices like CI/CD, an agile methodology like Scrum, open offices
-and remote work. Why do we need more change than that?
+Your organization might already be involved with practices like CI/CD, an agile methodology like Scrum, open offices,
+remote work, and open source. Why do we need more change than that?
 
 Well because CI/CD was obvious in [2006](https://martinfowler.com/articles/continuousIntegration.html), most agile
 methodologies were starting to become popular in [2001](https://agilemanifesto.org), even the original architects of 
 open office agree it's dead (and now propose 
 [libraries](https://www.fastcompany.com/90626329/these-architects-popularized-the-open-office-now-they-say-the-open-office-is-dead)?), 
-and developer remote work was already old enough to have a book written about it eight years ago.
+developer remote work was already old enough to have a book written about it eight years ago, and open source was 
+already important last century.
 
-Real experimentation with agile process is becoming common and how long can you stay competitive using sticky notes 
-based on 1970s factory work?
+Innovation in how we work is central to staying competitive; so why sticky notes based on 1970s factory work?
 
 <img src="{{ site.baseurl }}/assets/images/kanban.png" alt="Kanban" style="width: 90%;" />
 
