@@ -70,6 +70,9 @@ with sticky notes or online Kanban boards based on 1970s factory work?
 
 <img src="{{ site.baseurl }}/assets/images/kanban.png" alt="Kanban" style="width: 90%;" />
 
+Or if you are onboard with the remote work experiment how can you go beyond using Zoom calls and relentless group chat
+to simulate an office environment?
+
 Full disclosure, we here at Uclusion built a tool to make meeting driven process obsolete, but even we are not selling
 it as a cure all. In 2021, one size fits all forever agile process is already a casualty of the pandemic. Every agile
 team needs to think more about the process and tools that will specifically work for them.
