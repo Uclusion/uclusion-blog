@@ -62,16 +62,16 @@ Well because CI/CD was obvious in [2006](https://martinfowler.com/articles/conti
 methodologies were starting to become popular in [2001](https://agilemanifesto.org), even the original architects of 
 open office agree it's dead (and now propose 
 [libraries](https://www.fastcompany.com/90626329/these-architects-popularized-the-open-office-now-they-say-the-open-office-is-dead)?), 
-developer remote work was already old enough to have a book written about it eight years ago, and open source was 
+developer remote work was old enough to have a book written about it eight years ago, and open source was 
 already important last century.
 
-Innovation in how we work is central to staying competitive; so why continue combining the dead open office experiment 
-with sticky notes or online Kanban boards based on 1970s factory work?
+So our industry's current experiments are old and practices like combining the failed open office experiment with 
+Kanban boards based on 1970s factory work are still common.
 
 <img src="{{ site.baseurl }}/assets/images/kanban.png" alt="Kanban" style="width: 90%;" />
 
-Or if you are onboard with the remote work experiment how can you go beyond using Zoom calls and relentless group chat
-to simulate an office environment?
+Even with more recent innovation like remote work there is an open office experiment feel to the way Zoom calls 
+and relentless group chat are sometimes being used.
 
 Full disclosure, we here at Uclusion built a tool to make meeting driven process obsolete, but even we are not selling
 it as a cure all. In 2021, one size fits all forever agile process is already a casualty of the pandemic. Every agile
