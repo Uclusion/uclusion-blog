@@ -65,7 +65,8 @@ open office agree it's dead (and now propose
 developer remote work was already old enough to have a book written about it eight years ago, and open source was 
 already important last century.
 
-Innovation in how we work is central to staying competitive; so why sticky notes based on 1970s factory work?
+Innovation in how we work is central to staying competitive; so why continue combining the dead open office experiment 
+with sticky notes or online Kanban boards based on 1970s factory work?
 
 <img src="{{ site.baseurl }}/assets/images/kanban.png" alt="Kanban" style="width: 90%;" />
 
@@ -86,7 +87,11 @@ is also played out.
 >Once we tried a “silent day”, when only I, as the lead, was available in case someone outside our team had an urgent question. The team productivity on that day peaked — developers did so much work. I would be happy to do days like that at least once a sprint but most of team members preferred to keep comm channels open.
 
 Reducing external contact just makes it that much harder for developers to have and share opinions, and going faster is
-not going to matter if there is no value in what you are coding. The above link also discusses attempts at clumping
+not going to matter if there is no value in what you are coding. And reducing contact with customers can 
+[burn out](https://www.reddit.com/r/ProductManagement/comments/puvgha/product_manager_burnout/)
+product managers.
+
+The above link also discusses attempts at clumping
 meetings to give more uninterrupted time but as [Paul Graham](http://www.paulgraham.com/makersschedule.html) describes
 a day with even a single scheduled meeting is not the same.
 
