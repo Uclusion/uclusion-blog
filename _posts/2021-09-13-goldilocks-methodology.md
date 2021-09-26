@@ -59,7 +59,7 @@ open office agree it's dead (and now propose
 developer remote work was old enough to have a book written about it eight years ago, and open source was 
 already important last century.
 
-We evan have people commonly extolling the virtues of Kanban boards based on 1970s factory work!
+We even have people commonly extolling the virtues of Kanban boards based on 1970s factory work!
 
 
 <img src="{{ site.baseurl }}/assets/images/kanban.png" alt="Kanban" style="width: 90%;" />
@@ -132,9 +132,9 @@ For most development teams the sources of information to judge a new way to work
 * New sales - hard to use since it's an extremely lagging indicator
 * Existing customers - very tricky, see below
 
-Consider two recent changes released by Intellij. The first allows coding together(Code with Me) and the second presents your Git 
-diff as if it were another file in the editor(Git Diff). Code with Me might, like many B2B features, require years for user 
-uptake. The inline Git Diff, like many UI changes, will have 100% uptake immediately but won't reveal anything about 
+Consider two recent changes released by Intellij. The first allows coding together (Code with Me) and the second presents your Git 
+diff as if it were another file in the editor (Git Diff). Code with Me might, like many B2B features, require years for user 
+uptake. The Git Diff, like many UI changes, will have 100% uptake immediately but won't reveal anything about 
 value delivered until reviews come in.
 
 For code that prevents negative affects like downtime, security breaches or poor architecture / technical debt, using an 
