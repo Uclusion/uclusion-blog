@@ -74,8 +74,11 @@ Even with more recent innovation like remote work there is an open office experi
 and relentless group chat are sometimes being used.
 
 Full disclosure, we here at Uclusion built a tool to make meeting driven process obsolete, but even we are not selling
-it as a cure all. In 2021, one size fits all forever agile process is already a casualty of the pandemic. Every agile
-team needs to think more about the process and tools that will specifically work for them.
+it as a cure all.
+{% include callout.html
+content="One size fits all forever process is a casualty of the pandemic."
+type="warning" %}
+Every agile team needs to think more about the process and tools that will **specifically work for them**.
 
 ### Don't repeat the past
 However, when choosing an experiment it's important to not just repeat the past.
@@ -90,9 +93,8 @@ is also played out.
 >Once we tried a “silent day”, when only I, as the lead, was available in case someone outside our team had an urgent question. The team productivity on that day peaked — developers did so much work. I would be happy to do days like that at least once a sprint but most of team members preferred to keep comm channels open.
 
 Reducing external contact just makes it that much harder for developers to have and share opinions, and going faster is
-not going to matter if there is no value in what you are coding. And reducing contact with customers can 
-[burn out](https://www.reddit.com/r/ProductManagement/comments/puvgha/product_manager_burnout/)
-product managers.
+not going to matter if there is no value in what you are coding. And reducing developer contact with customers can 
+[burn out product managers](https://www.reddit.com/r/ProductManagement/comments/puvgha/product_manager_burnout/).
 
 The above link also discusses attempts at clumping
 meetings to give more uninterrupted time but as [Paul Graham](http://www.paulgraham.com/makersschedule.html) describes
