@@ -145,8 +145,8 @@ That leads to  the MVP idea -
 we don't have to worry too much about value delivered by code if we can get feedback from a very cheap investment or
 just asking on a forum.
 
-Unfortunately, even after trying Code with Me, I still don't know if I will use it, and I can give you no userful
-information if you ask me about something that doesn't even exist yet. However, I can tell you that releasing a half baked "MVP" 
+Unfortunately, even after trying Code with Me, I still don't know if I will use it, and I can give you no useful
+information if you ask me about something that doesn't even exist yet. However, I can tell you that releasing a half-baked "MVP" 
 definitely won't get you any information - the ante is higher than that.
 
 ### What about direct feedback from end users?
