@@ -67,7 +67,8 @@ We even have people commonly extolling the virtues of Kanban boards based on 197
 Even with more recent innovations like remote work there is an open office experiment feel to the way Zoom calls 
 and relentless group chat are sometimes being used.
 
-Full disclosure, we here at Uclusion built a tool to make meeting driven process obsolete, but even we are not selling
+Full disclosure, we here at Uclusion [built a tool]({{site.baseurl}}/agile/startup/2021/09/27/what-is-uclusion.html)
+to make meeting driven process obsolete, but even we are not selling
 it as a cure all.
 {% include callout.html
 content="One size fits all forever process is a casualty of the pandemic."
