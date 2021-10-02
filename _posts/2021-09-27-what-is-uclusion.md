@@ -11,6 +11,22 @@ Uclusion was built with a different point of view. Years of working remotely tau
 work whether you are in the office or not. We believe meetings are fundamentally flawed for most development
 team communication, and we created Uclusion to provide an alternative.
 
+## An Asynchronous Flow
+The alternative daily flow that Uclusion allows is like this:
+1. Get stories approved before you start them and help approve other's stories.
+2. Pause stories that are blocked or require input and help others with their paused.
+3. Get feedback on stories and give feedback on other's stories.
+4. Maintain a status display that shows exactly where you are on all your stories.
+5. Propose project level suggestions and decisions and respond to other's proposals.
+
+All of these activities are what needs to happen **daily** in order to keep an agile project on track and 
+[avoid writing unused code]({{site.baseurl}}/agile/2021/09/13/goldilocks-methodology.html). Even the 
+[Scrum guide](https://scrumguides.org/scrum-guide.html) is clear on this point:
+>The Daily Scrum is not the only time Developers are allowed to adjust their plan. They often meet throughout the day for more detailed discussions about adapting or re-planning the rest of the Sprint’s work.
+
+The face-to-face / open office solution to this problem imagines that developers can be available for all of these 
+impromptu meetings and also continue to code at a high level.
+
 ## Why Most Meetings Don't Work for Developers
 Meetings are a very good tool for brainstorming but for questions, status, feedback, suggestions, or approval they
 have two fatal flaws:
@@ -19,9 +35,9 @@ have two fatal flaws:
 
 As a simple example of how these flaws are fatal let's take writing this blog. My process for writing it with Ben is:
 1. Approval that the blog needed to be written - online / asynchronous
-2. Every two days or so publish the blog to him and notify him that I need feedback - online / asynchronous
-3. Ben reads the blog and comments - online / asynchronous
-4. If I need help after his feedback then we brainstorm - short meeting / real time
+2. Every two days or so publish the blog to him and notify him that I need feedback and Ben reads the blog and 
+comments - online / asynchronous
+3. If I need help after his feedback then we brainstorm - short meeting / real time
 
 Now suppose I had to use meetings for the same process.
 1. Approval meeting - There will need to be an agenda for the meeting so my blog might not even be included. If included
@@ -47,8 +63,9 @@ quoting the Agile Manifesto's face-to-face principle! If Star Wars technology be
 
 But simply moving a meeting online doesn't guarantee success either. For instance, I was on a team had a spreadsheet
 where we voted on priorities. A few of us assigned ourselves the top item but unfortunately the spreadsheet didn't
-record the certainty or reasons behind the votes. It turned out this project's popularity was a result of recent
-incidents in production and those incidents stopped and our code was never deployed.
+record the certainty or reasons behind the votes or give us a way to change the plan later. It turned out this 
+project's popularity was a result of recent incidents in production and those incidents stopped and our code was never 
+deployed.
 
 ## Reducing the Cost of Collaboration
 Any simple implementation of a meeting in an app will solve meeting's first problem - that they are point in time. It's
