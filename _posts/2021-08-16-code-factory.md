@@ -4,7 +4,6 @@ title:  "Escaping Code Factory"
 author: david
 image: assets/images/code-factory.jpg
 categories: [ agile ]
-featured: true
 ---
 Code factories grow from a belief that developers perform better when directed as much as possible.
 
