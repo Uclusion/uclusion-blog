@@ -1,25 +1,32 @@
 ---
 layout: post
-title:  "What Is Uclusion"
+title:  "What Is Product Generation?"
 author: david
 categories: [ agile, startup ]
 image: assets/images/Uclusion_Logo_FullColor_Lg.svg
 featured: true
 ---
-There are many blogs these days explaining why a distributed team or remote work requires you have fewer meetings.
-Uclusion was built with a different point of view. Years of working remotely taught us that there was a better way to
-work whether you are in the office or not. We believe meetings are fundamentally flawed for most development
-team communication, and we created Uclusion to provide an alternative.
+Product generation includes all activities required to build a product. The daily routine of a software developer
+typically includes much more than just coding. Even including code reviews and reading and updating tickets still
+ignores much of the work a developer does.
+
+When my co-founder, Ben, and I started looking at tools available to developers a strange pattern emerged. There are
+developer specific tools for coding, code reviews, bug tracking and reporting like Kanban boards. For the rest of what
+a developer does there are only generic tools like email, chat and meetings.
+
+In fact we stumbled for a long time even on the terminology for what a developer does. We needed a term for the larger
+picture of a software developer's work activities and so coined "product generation". Therefore, the missing category
+of software designed for developers are "product gen tools".
 
 ## An Asynchronous Flow
-The alternative daily flow that Uclusion allows is like this:
-1. Get stories approved before you start them and help approve other's stories.
-2. Pause stories that are blocked or require input and help others with their paused.
-3. Get feedback on stories and give feedback on other's stories.
-4. Maintain a status display that shows exactly where you are on all your stories.
-5. Propose project level suggestions and decisions and respond to other's proposals.
+The daily flow that Uclusion allows for product generation is like this:
+1. Create questions, suggestions, todos and unassigned jobs and build towards assigned jobs.
+2. Pause jobs that are blocked or require input and help others with their paused.
+3. Get feedback on jobs and give feedback on other's jobs.
+4. Work from an inbox that tracks all of 1 - 3.
+5. See a status display that shows exactly where you are on all the above.
 
-All of these activities are what needs to happen **daily** in order to keep an agile project on track and 
+All of these activities are what needs to happen **daily** in order to stay agile and 
 [avoid writing unused code]({{site.baseurl}}/agile/2021/09/13/goldilocks-methodology.html). Even the 
 [Scrum guide](https://scrumguides.org/scrum-guide.html) is clear on this point:
 >The Daily Scrum is not the only time Developers are allowed to adjust their plan. They often meet throughout the day for more detailed discussions about adapting or re-planning the rest of the Sprint’s work.
@@ -71,17 +78,22 @@ deployed.
 Any simple implementation of a meeting in an app will solve meeting's first problem - that they are point in time. It's
 the second problem, too expensive, that requires more complex software.
 
-For Uclusion to implement agile project management without all the meetings, we have to take all the drudge work
+For Uclusion to implement product generation without all the meetings, we have to take all the drudge work
 out of developer communication. In order to do this we have some design principles:
 1. Uclusion knows as much as possible about what is happening in data input into it. For instance, unlike a generic
-Kanban board, you cannot create workflow stages that are just a label like Todo or Done. If the software doesn't 
+Kanban board, you have workflow stages that are not just a label like Todo or Done. If the software doesn't 
 understand as much of the context as possible then drudge work cannot be automated and communication costs remain high.
-2. Notifications must be sophisticated. Since Uclusion understand most of the actions a user can take, it can be smart
+2. Notifications must be sophisticated. Since Uclusion understand the actions a user can take, it can be smart
 about who is notified, with what severity and when to automatically remove the notification.
 3. Nothing should require immediate action. Uclusion has pipelined waiting stages like 'Requires Input' and 'Blocked'
 and a continuous approval process. That way the development team is not forced to choose between to respond to 
 everything immediately and risking making teammates idle.
 4. Status should come as a result of just using Uclusion instead of being its own separate activity.
 
-To see the results of these principles video is better:
-<iframe width="514px" height="289px" src="https://www.youtube.com/embed/tzuJ0xuJTQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Why is product generation important?
+Software developers are businessmen. I say this in the sense that it is not at all trivial to produce value as a
+software developer. There is no assembly line approach that guarantees you are moving the needle forward.
+
+Most of the tools a software developer uses reflect the ever increasing difficulty and competition we face. Process and
+product generation cannot be any different if we are to overcome the very large hurdles that software development
+projects face.

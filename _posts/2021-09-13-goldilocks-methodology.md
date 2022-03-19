@@ -4,7 +4,6 @@ title:  "What's your next agile experiment?"
 author: david
 image: assets/images/goldilocks.jpg
 categories: [ agile ]
-featured: true
 ---
 Agile requires you to do three things:
 1. You commit to eliminating wasted work
