@@ -6,15 +6,14 @@ categories: [ agile, startup ]
 image: assets/images/Uclusion_Logo_FullColor_Lg.svg
 featured: true
 ---
-Product generation includes all activities required to build a product. The daily routine of a software developer
-typically includes much more than just coding. Even including code reviews and reading and updating tickets still
-ignores much of the work a developer does.
+The daily routine of a software developer typically includes much more than just coding. Even including code reviews 
+and reading and updating tickets still ignores much of the work a developer does.
 
 When my co-founder, Ben, and I started looking at tools available to developers a strange pattern emerged. There are
 developer specific tools for coding, code reviews, bug tracking and reporting like Kanban boards. For the rest of what
 a developer does there are only generic tools like email, chat and meetings.
 
-In fact we stumbled for a long time even on the terminology for what a developer does. We needed a term for the larger
+In fact, we stumbled for a long time even on the terminology for what a developer does. We needed a term for the larger
 picture of a software developer's work activities and so coined "product generation". Therefore, the missing category
 of software designed for developers are "product gen tools".
 
@@ -75,8 +74,8 @@ project's popularity was a result of recent incidents in production and those in
 deployed.
 
 ## Reducing the Cost of Collaboration
-Any simple implementation of a meeting in an app will solve meeting's first problem - that they are point in time. It's
-the second problem, too expensive, that requires more complex software.
+Even a long email chain partially solves the point in time problem. It's the second problem, too expensive, that 
+requires more complex software.
 
 For Uclusion to implement product generation without all the meetings, we have to take all the drudge work
 out of developer communication. In order to do this we have some design principles:
