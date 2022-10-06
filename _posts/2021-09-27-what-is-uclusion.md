@@ -36,9 +36,8 @@ The solution for meetings not being an effective tool has so far been - more mee
 
 * Spreading communication across a hodge podge of tools designed for other purposes, ends up with someone building
   the wrong thing or the wrong way.
-* Neither in house nor customized generic tools can take on the complexity curated workflows for product generation.
+* Neither in house nor customized generic tools can take on the complexity of curated workflows for product generation.
 * To allow participation in parallel approval, reviews, grooming and design decisions on your own time, Uclusion
 organizes and displays everything perfectly.
 
-The greatest contribution Uclusion makes is to put the emphasis on the real work of being a developer instead of
-status and chat.
+The greatest contribution Uclusion makes is to put the emphasis on product generation instead of status and chat.
