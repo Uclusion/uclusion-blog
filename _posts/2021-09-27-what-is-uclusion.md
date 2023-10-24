@@ -7,12 +7,12 @@ image: assets/images/Uclusion_Logo_FullColor_Lg.svg
 featured: true
 ---
 When my co-founder, Ben, and I started looking at tools available to developers a strange pattern emerged. There are
-developer specific tools for coding, code reviews, bug tracking and reporting like Kanban boards. For the rest of what
-a developer does there are only generic tools like email, chat and meetings.
+developer specific tools for coding, code reviews and on call rotation, but for the rest of what a developer does there 
+are only generic tools like Kanban boards (originally used in factories), chat, and meetings.
 
 In fact, we stumbled even on terminology for the rest of what a developer does and so coined "product generation". 
-The face-to-face / open office product generation solution imagines that developers can be available for unlimited 
-meetings and also continue to code at a high level.
+The traditional face-to-face / open office product generation solution imagines that developers can be available for 
+unlimited meetings and also continue to code at a high level.
 
 ## Why Most Meetings Don't Work for Developers
 Brainstorming is useful but in general developer meetings have two fatal flaws: too much on the fly thinking 
