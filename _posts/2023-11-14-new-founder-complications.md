@@ -53,7 +53,7 @@ founder will always have less than me.
 
 ## How do we work together?
 Barely under the surface of the [remote work debate]({{ site.baseurl }}/agile/startup/2021/11/02/useless-5.html) lurks
-the cap table trust issue writ large. We want to work *with* others not for them.
+the cap table issue writ large. We want to work *with* others not for them.
 
 Ironically the way in which we work together has become much, much more important than any one product contribution.
 This is especially true in tech which is nearly 8% of the workforce and growing.
@@ -67,5 +67,4 @@ how jobs work.
 
 > When companies are removing managers, it makes the career path forward not quite as clear.
 
-No actually it's the opposite flattening makes the career path **more** clear - keep actually contributing to be
-rewarded.
+No actually it's the opposite flattening makes the career path **more** clear - keep contributing to be rewarded.
