@@ -8,7 +8,7 @@ image: assets/images/shares.jpg
 Long story short Uclusion has a demonstrably superior product and is searching for another co-founder but startup 
 structure makes it difficult.
 
-My previous startup before Uclusion also ran into trust trouble. Founder shares were divided very
+My previous startup before Uclusion also ran into equity trouble. Founder shares were divided very
 unequally and even with name brand VC involvement one founder became paranoid enough to carry around the cap table on
 his thumb drive.
 
