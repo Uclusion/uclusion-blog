@@ -67,8 +67,8 @@ how jobs work.
 No actually it's the opposite flattening makes the career path **more** clear - keep contributing to be rewarded.
 
 Google has an average of [one manager per twenty workers](https://www.leadersleague.com/en/news/google-freedom-with-strings-attached), 
-compared to the American average ratio of 1:7. That's a difficult number to quantify as there is pure HR type management,
-product management, coding managers, project managers, etc.
+compared to the American average ratio of 1:7. Though that's a difficult number to quantify as there is pure HR type 
+management, product management, coding managers, project managers, etc.
 
 Of course the startup way of doing things is more productive but management bloat is introduced by the 
 cap table. Employees with greater ownership are trusted more than those that are not vesting valuable stock shares.
@@ -81,7 +81,7 @@ Again back to Uclusion's seemingly simpler two person case. A new founder would 
 "at will". Employed at will would mean, in theory, I watch at all times and dismiss my fellow founder if necessary.
 
 However, is managing a founder really anymore effective than rolling the dice and hoping for the best? The more people 
-involved the more complex the problem gets. As a math grad student once told me, "We don't even understand two 
+involved the more difficult the problem gets. As a math grad student once told me, "We don't even understand two 
 dimensions and some people want to study four."
 
 Nor is the problem unique to the private sector. In science credit in a discovery is the cap table equivalent making the
@@ -90,6 +90,25 @@ Now as any discovery requires more and more people scientific progress bogs down
 
 The strict dichotomy between working for someone and working with them also plagues the world of open source for profit.
 Uclusion uses products like [material ui](https://mui.com/about/) and [serverless](https://www.serverless.com/about)
-that must thread a needle of trust between founders, employees, and community of contributors.
+that must thread a needle of trust between founders, employees, and a community of contributors.
 
-Complex work cannot be micromanaged, but you can ride the wave of good will that attends any useful work.
+Micromanagement doesn't work for complexity because it reduces the available creativity and feedback. Creativity and 
+feedback are the life's blood for handling complexity and reducing it invariably increases the time lost in a 
+wilderness of unproductive approaches.
+
+## The useful work exception
+As dismal as cap table issues are there is still a partial way around them. People like doing useful work and are
+willing to bend the normals rules of compensation to be involved with it. So open source and Wikipedia can exist.
+
+This exception can also be applied in for profit development, but it requires more consensus that the work done is
+beneficial. In software development customer feedback comes very late in the cycle. A vision for an MVP or feature might
+take months or years to reach the level necessary for customers to provide guidance.
+
+Before that happens you need feedback from the development team or, at a minimum, buy in from the team in order to
+get the useful work exception from cap table issues.
+
+Uclusion was designed to help give a development team certainty of the work they are doing in a flattened environment.
+Designed to allow status reporting without micromanagement, planning where people work together instead of for
+someone, and to allow questions and creativity without sacrificing focus.
+
+I welcome you to check out the sandbox demo that shows these principles and, if you like it, consider joining us.
