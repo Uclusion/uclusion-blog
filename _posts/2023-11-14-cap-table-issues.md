@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Increasing developer engagement with Uclusion"
+title:  "Enjoy software development more with Uclusion"
 author: david
 categories: [ startup ]
 image: assets/images/shares.jpg
@@ -72,7 +72,7 @@ that provides context and quick action buttons.
 
 A PM or tech lead can create a job or bug and let the team flush it out and assign or vote or comment on jobs or bugs 
 that others in the team create. Status on jobs is required, but it's also self-directed as developers can change
-estimates as they learn more.
+estimates or pause jobs for assistance.
 
 Signing up starts a sandbox demo where you can be part of a team using Uclusion. Please see if it more
 matches the way you want to work.
