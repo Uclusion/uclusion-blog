@@ -11,7 +11,7 @@ preventing innovation.
 
 In Uclusion, we started with a bootstrapped, two person 50 / 50 equity structure but even equal 
 equity is no guarantee. First someone may contribute more and over a prolonged period that will generate 
-friction. Or alternatively there can be a divide in the roles that people perform.
+friction. Or there can be a divide in the roles that people perform.
 
 Larry Page and Sergey Brin had [Scott Hassan](https://en.wikipedia.org/wiki/Scott_Hassan) cut out and then Eric Schmidt cut in as chairman and CEO of
 Google after only three years. Even going back to Hewlett and Packard, Hewlett was drafted into World War II and
