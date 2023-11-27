@@ -20,7 +20,7 @@ Packard was not and Packard was president after incorporation and Hewlett was no
 Plus, traditional startup four year vesting in an environment where the [average time to exit is eight years](https://techcrunch.com/2020/10/12/4-year-founder-vesting-is-dead)
 doesn't make any sense except as part of a trend of lack of innovation in work structure.
 
-Most companies can no longer split the cap table pie in equal portions, but developer engagement can still be driven
+Most companies can no longer give significant portions of cap table pie, but developer engagement can still be driven
 by an environment where people work *with* others not for them.
 
 ## Why work environment matters
