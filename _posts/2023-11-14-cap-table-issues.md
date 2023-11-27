@@ -23,7 +23,7 @@ doesn't make any sense except as part of a trend of lack of innovation in work s
 Most companies can no longer give significant portions of cap table pie, but developer engagement can still be driven
 by an environment where people work *with* others not for them.
 
-## Why work environment matters
+## Beyond equity
 Open source and Wikipedia can exist because people are willing to bend the normals rules of compensation when they buy
 in. Product managers spend a lot of time trying to get that buy in, but that can easily collapse into giving orders. A
 PM that has to give detailed orders is dead in the water in with the level of speed and complexity required to build
