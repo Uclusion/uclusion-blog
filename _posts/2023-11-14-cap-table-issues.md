@@ -9,7 +9,7 @@ Stock options have long been tech's secret sauce for keeping software developers
 all problems. In my previous startup founder shares were divided very unequally and that ended up sowing discord and 
 preventing innovation. 
 
-In Uclusion, we started with a bootstrapped, two person 50 / 50 equity structure but even equal 
+In Uclusion, we started with a bootstrapped, two person 50 / 50 equity structure but even high 
 equity is no guarantee. First someone may contribute more and over a prolonged period that will generate 
 friction. Or there can be a divide in the roles that people perform.
 
