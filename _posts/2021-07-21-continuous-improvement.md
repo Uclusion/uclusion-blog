@@ -3,7 +3,7 @@ layout: post
 title:  "Reclaim Your Retro!"
 author: ben
 image: assets/images/bad-architecture.jpg
-categories: [ agile ]
+categories: [ startup ]
 ---
 **TL;DR**: Your team needs to drop retrospective meetings and use that time for self-organized improvement.
 
@@ -17,7 +17,7 @@ To make that work your project management / communications tool must help avoid 
 agenda, a second to decide on priorities, a third to approve implementations, a fourth for review and a fifth to 
 answer questions. 
 3. Mandatory meetings don't result in self-organized work as we explain in 
-[another blog]({{site.baseurl}}/agile/2021/07/07/face-to-face.html). You can make self-organizing a principle of your 
+[another blog]({{site.baseurl}}/startup/2021/07/07/face-to-face.html). You can make self-organizing a principle of your 
 organization but mandating _how_ to self-organize is as autocratic as it gets.
 
 As a result most retros become about chatting about the last iteration instead of getting improvement stories assigned 

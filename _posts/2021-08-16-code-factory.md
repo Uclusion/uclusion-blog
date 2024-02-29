@@ -3,7 +3,7 @@ layout: post
 title:  "Escaping Code Factory"
 author: david
 image: assets/images/code-factory.jpg
-categories: [ agile ]
+categories: [ startup ]
 ---
 Code factories grow from a belief that developers perform better when directed as much as possible.
 
@@ -124,7 +124,7 @@ Google Doc, but you can do better.
 4. The new process can run in parallel but could be extended to all work.
 
 ## Good luck
-It's a big step so you can check out [Ben's blog]({{site.baseurl}}/agile/2021/09/01/1-on-autonomy.html) on why escaping
+It's a big step so you can check out [Ben's blog]({{site.baseurl}}/startup/2021/09/01/1-on-autonomy.html) on why escaping
 code factory is so important to your career. Additionally:
 
 {% include callout.html

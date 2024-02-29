@@ -3,7 +3,7 @@ layout: post
 title:  "What's your next agile experiment?"
 author: david
 image: assets/images/goldilocks.jpg
-categories: [ agile ]
+categories: [ startup ]
 ---
 Agile requires you to do three things:
 1. You commit to eliminating wasted work
@@ -11,7 +11,7 @@ Agile requires you to do three things:
 3. You let development teams judge the outcome of those experiments
 
 If you miss any of the three, you will not get the benefits of agile, and should consider more of a
-[code factory]({{site.baseurl}}/agile/2021/08/16/code-factory.html) process with less overhead and
+[code factory]({{site.baseurl}}/startup/2021/08/16/code-factory.html) process with less overhead and
 confusion.
 
 ## Why you need to commit to eliminating waste
@@ -34,7 +34,7 @@ Once code is introduced it's very difficult to remove from the system even if it
 a way to remove it, you have to continue to pay for the support, maintenance and testing of code that might only be 
 used by a single, small customer. 
 
-Then there is the toll taken on developer morale or [quitting]({{site.baseurl}}/agile/2021/09/01/1-on-autonomy.html). 
+Then there is the toll taken on developer morale or [quitting]({{site.baseurl}}/startup/2021/09/01/1-on-autonomy.html). 
 You are 5% behind your competitor, but you might be 10 or 20% behind a best in class employer. This means a developer could 
 have 10 to 20% more pay or free time working somewhere else, and be learning a better way of working as well.
 
@@ -66,7 +66,7 @@ We even have people commonly extolling the virtues of Kanban boards based on 197
 Even with more recent innovations like remote work there is an open office experiment feel to the way Zoom calls 
 and relentless group chat are sometimes being used.
 
-Full disclosure, we here at Uclusion [built a tool]({{site.baseurl}}/agile/startup/2021/09/27/what-is-uclusion.html)
+Full disclosure, we here at Uclusion [built a tool]({{site.baseurl}}/startup/2021/09/27/what-is-uclusion.html)
 to make meeting driven process obsolete, but even we are not selling
 it as a cure all.
 {% include callout.html
@@ -97,8 +97,6 @@ a day with even a single scheduled meeting is not the same.
 Another experiment to avoid is encouraging senior developers to mostly work alone. The current state of developer
 communications tools makes dropping collaboration seem reasonable, but long term anyone, even a CTO or product manager, 
 who makes decisions by themselves will generate a lot of unused code.
-
-For examples of experiments to try, see [Beyond Code Factory]({{site.baseurl}}/agile/2021/08/31/3-code-factory.html).
 
 ## Why you need to let development teams judge the outcome of those experiments
 >You cannot hold people responsible for results if you supervise their methods. You then become responsible for 

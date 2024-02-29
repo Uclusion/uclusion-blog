@@ -2,7 +2,7 @@
 layout: post
 title:  "Don't Let Mandatory Developer Meetings Suck You In"
 author: david
-categories: [ agile ]
+categories: [ startup ]
 image: assets/images/blackhole.jpeg
 ---
 Last century's way of doing things isn't just annoying; it's dangerous.
@@ -46,10 +46,10 @@ reviews are self-organizing. Developers decide for themselves when asynchronous
 is sufficient and when to call a meeting.
 
 As you can read in our blogs, that's not the case for
-[planning]({{ site.baseurl }}/agile/2021/06/29/planning.html), 
-[retrospective]({{ site.baseurl }}/agile/2020/11/15/less-ceremony.html),
+[planning]({{ site.baseurl }}/startup/2021/06/29/planning.html), 
+[retrospective]({{ site.baseurl }}/startup/2020/11/15/less-ceremony.html),
 [daily]({{ site.baseurl }}/startup/remote/2021/02/15/standup.html) and
-[Sprint review]({{ site.baseurl }}/agile/startup/2020/12/04/demo.html) 
+[Sprint review]({{ site.baseurl }}/startup/startup/2020/12/04/demo.html) 
 ceremonies. Even if a development team takes all ceremonies as suggestions, they
 will still need the right asynchronous tool to explore alternatives.
 

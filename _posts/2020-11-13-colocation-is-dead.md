@@ -2,7 +2,7 @@
 layout: post
 title:  "Colocation is dead"
 author: ben
-categories: [ agile, remote ]
+categories: [ remote ]
 image: assets/images/emptyOffice.jpg
 ---
 

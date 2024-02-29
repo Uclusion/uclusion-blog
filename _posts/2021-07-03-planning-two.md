@@ -2,7 +2,7 @@
 layout: post
 title:  "How Planning Meetings Can Endanger Your Software Developer Career - Part Two"
 author: david
-categories: [ agile ]
+categories: [ startup ]
 image: assets/images/meetings.jpg
 ---
 This one gets wonky. 
@@ -12,7 +12,7 @@ Let's unpack what the definition of planning meeting means for your career.
 >The Product Owner proposes how the product could increase its value and utility in the current Sprint. The whole Scrum Team then collaborates to define a Sprint Goal that communicates why the Sprint is valuable to stakeholders. The Sprint Goal must be finalized prior to the end of Sprint Planning.
 
 #### You're responsible
-See [part one]({{ site.baseurl }}/agile/2021/06/29/planning.html) of this series for
+See [part one]({{ site.baseurl }}/startup/2021/06/29/planning.html) of this series for
 a higher level take on agile and responsibility.
 
 >The Product Owner proposes how the product could increase its value and utility in the current Sprint.

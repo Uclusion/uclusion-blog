@@ -2,7 +2,7 @@
 layout: post
 title:  "The Risk of Believing in Easy Software Development"
 author: david
-categories: [ agile ]
+categories: [ startup ]
 ---
 There are fields like medicine, research, construction and entertainment where its widely excepted that any one 
 project will be difficult and you do the best we can with the process and technology available. Then there are other 

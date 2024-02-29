@@ -3,7 +3,7 @@ layout: post
 title:  "Don't code in bad environments"
 author: ben
 image: assets/images/autonomy.jpg
-categories: [ agile ]
+categories: [ startup ]
 ---
 Looking back on my 19 years as a developer with some very long stints in positions, I can say this with some certainty:
 If you want to remain relevant as a developer, you either have the autonomy to completely change how you do things, 
@@ -36,7 +36,7 @@ it not mattering if the developer environment is reasonable.
 
 ### How to get autonomy if you don't have it
 Leave. Find a new position that offers it and be sure to ask the questions in David's 
-[code factory]({{site.baseurl}}/agile/2021/08/16/code-factory.html) blog to make *sure* they offer it. 
+[code factory]({{site.baseurl}}/startup/2021/08/16/code-factory.html) blog to make *sure* they offer it. 
 
 If you stay you will need a side project but that's not a quick fix:
 * A side project for money is conservatively a 50 / 50 engineering marketing split.

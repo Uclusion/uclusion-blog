@@ -43,7 +43,7 @@ But companies can choose to trust employees that aren't stock endowed and report
 No flattening makes the career path **more** clear - keep contributing to be rewarded.
 
 In 2023 any advantage in employee engagement can [make a huge difference](https://www.cnbc.com/2023/10/02/-employee-happiness-has-hit-a-3-year-low-new-research-shows.html) to 
-the bottom line and [hybrid work]({{ site.baseurl }}/agile/startup/2021/11/02/useless-5.html) and flattening are just 
+the bottom line and [hybrid work]({{ site.baseurl }}/startup/startup/2021/11/02/useless-5.html) and flattening are just 
 two ways to reduce micromanaging.
 
 ## Scrum, Slack, Jira and products like them reduce engagement

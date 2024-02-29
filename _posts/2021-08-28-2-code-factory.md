@@ -3,10 +3,10 @@ layout: post
 title:  "Preventing Code Factory"
 author: david
 image: assets/images/code-factory.jpg
-categories: [ agile ]
+categories: [ startup ]
 ---
 It was 2003 and I was working with a consulting firm doing software for Stanford IT. It was pure 
-[code factory]({{site.baseurl}}/agile/2021/08/16/code-factory.html) (first blog in this series). Minimal contact with 
+[code factory]({{site.baseurl}}/startup/2021/08/16/code-factory.html) (first blog in this series). Minimal contact with 
 the customer, specs were given to me for each page of the application and while there was a team of us working together, 
 none of us interacted much.
 
@@ -64,7 +64,4 @@ has risen. It's naive to think that any simple organizational structure will suf
 competitive endeavour.
 
 **Preventing code factory requires teams have the agency to make sure their code produces value for customers.** If that
-isn't somehow part of the culture than any existing developer autonomy can disappear. 
-
-But where does that responsibility end? We look at that issue in our third blog in this series
-[Beyond Code Factory]({{site.baseurl}}/agile/2021/08/31/3-code-factory.html).
+isn't somehow part of the culture than any existing developer autonomy can disappear.
