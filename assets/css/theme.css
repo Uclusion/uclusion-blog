@@ -185,6 +185,9 @@ section.recent-posts {
 .listfeaturedtag .card-block {
 	padding-left:0;
 }
+.card-block-custom {
+    padding-left: 0;
+}
 .listfeaturedtag h2.card-title,.listrecent h2.card-title {
 	font-size:1.3rem;
 	font-weight:500;
@@ -430,8 +433,11 @@ blockquote {
 .featured-image {
     display: block;
     margin-bottom: 2rem;
-    max-width: 45rem;
+    max-width: 35rem;
     box-shadow: 0 6px 10px 0 rgba(0,0,0,0.1);
+}
+.featured-box-image {
+    max-width: 30rem;
 }
 .article-post img, .article-post iframe {
     box-shadow:0 6px 10px 0 rgba(0,0,0,0.1);
@@ -490,7 +496,9 @@ blockquote {
 		margin-top:30px;
 	}
 	.listfeaturedtag .card-block {
-		padding:20px;
+        padding-left: 0;
+        padding-right: 20px;
+		padding-bottom:20px;
 	}
 }
 @media (max-width:1024px) {
