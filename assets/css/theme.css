@@ -188,6 +188,11 @@ section.recent-posts {
 .card-block-custom {
     padding-left: 0;
 }
+.vid {
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
 .listfeaturedtag h2.card-title,.listrecent h2.card-title {
 	font-size:1.3rem;
 	font-weight:500;
