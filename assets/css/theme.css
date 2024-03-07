@@ -192,6 +192,7 @@ section.recent-posts {
     display: block;
     object-fit: cover;
     object-position: center;
+    margin-bottom: 1rem;
 }
 .listfeaturedtag h2.card-title,.listrecent h2.card-title {
 	font-size:1.3rem;
