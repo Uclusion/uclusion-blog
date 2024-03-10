@@ -16,7 +16,7 @@ type="warning" %}
 In sales a cold meeting is with an unknown client but for a developer it's having to weigh in real time on 
 previously unknown decisions.
 
-**TL;DR**: signup for [Uclusion](https://uclusion.com) and immediately be put into a sandbox demo (shown below)
+**TL;DR**: signup for [Uclusion](https://uclusion.com) and immediately be in a sandbox demo (shown below)
 with a team whose decisions start asynchronously.
 
 ## Job approval
