@@ -9,8 +9,8 @@ Whether you are joining the growing number of companies moving to 4-day work wee
 a lighter Friday, or are already at 4 days and want to do better than Jira, Slack and Scrum,
 increasing your pipeline of agreed upon work without increasing meetings is your objective.
 
-**TL;DR**: signup for [Uclusion](https://uclusion.com) and immediately be put into a sandbox demo (shown below)
-that has a team doing just that.
+**TL;DR**: signup for [Uclusion](https://uclusion.com) and immediately be put into a sandbox demo (a very small sample shown below)
+with a team doing just that.
 
 ## Job approval
 A job in Uclusion is an assignable description of work and after assignment the team receives inbox notification to 
@@ -67,8 +67,7 @@ Your browser does not support the video tag.
 
 Instead of review, you can also change the estimated completion date and the team will see the new estimate.
 
-**We hope you will consider [Uclusion](https://uclusion.com) for your team's development communication and maximize 
-uninterrupted hours coding.**
+**We hope you will consider [Uclusion](https://uclusion.com) and enjoy dozens more features like above.**
 
 
 

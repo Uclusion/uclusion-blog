@@ -1,10 +1,27 @@
 ---
 layout: post
-title:  "Avoid cold meetings with Uclusion"
+title:  "No Scrum master, standups, sprints, or cold meetings with Uclusion"
 author: david
 image: assets/images/goldilocks.jpg
 categories: [ startup ]
 ---
+**TL;DR**: signup for [Uclusion](https://uclusion.com) and immediately be in a sandbox demo (a very small sample shown 
+below) with a team enjoying a modern development process.
+
+## No Scrum master, standups, or sprints
+Most of the readers of this blog have already replaced the Scrum master with
+a developer or manager facilitator, the standup with a less regular meeting augmented
+by putting status into Slack, and sprints with a Kanban board.
+
+{% include callout.html
+content="Just slimming down Scrum isn't enough to put your team on a modern development process."
+type="warning" %}
+
+Scrum was formalized in 2002 and Kanban comes from Japanese factory work in the 1970s - both long before an application
+like Uclusion could be conceived of, much less written. As with any other developer tool set what your team really needs 
+is up-to-date automation to help reduce overhead and keep focus.
+
+## No cold meetings
 To its credit holacracy has a meeting [process](https://www.holacracy.org/constitution/5-0/#art32) whose agenda cannot 
 be dominated by a minority of the attendees. However, just as with Scrum, Kanban, etc., regular cold meetings will 
 always be awful.
@@ -15,9 +32,6 @@ type="warning" %}
 
 In sales a cold meeting is with an unknown client but for a developer it's having to weigh in real time on 
 previously unknown decisions.
-
-**TL;DR**: signup for [Uclusion](https://uclusion.com) and immediately be in a sandbox demo (shown below)
-with a team whose decisions start asynchronously.
 
 ## Job approval
 You're a developer with an idea that needs coding, and you want the team's opinion on whether the idea adds value.
@@ -71,5 +85,4 @@ Your browser does not support the video tag.
 
 This estimate can be changed at any time and a notification of the change will be sent to the group.
 
-**We hope you will consider [Uclusion](https://uclusion.com) for your team's development communication and maximize
-uninterrupted hours coding.**
+**We hope you will consider [Uclusion](https://uclusion.com) and enjoy dozens more features like above.**
