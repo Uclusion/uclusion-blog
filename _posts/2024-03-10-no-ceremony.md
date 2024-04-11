@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "No Scrum master, standups, sprints, or cold meetings with Uclusion"
+title:  "Avoid overusing meetings with Uclusion"
 author: david
 image: assets/images/goldilocks.jpg
 categories: [ startup ]
@@ -8,73 +8,49 @@ categories: [ startup ]
 **TL;DR**: signup for [Uclusion](https://uclusion.com) and immediately be in a sandbox demo (a very small sample shown 
 below) with a team enjoying a modern development process.
 
-## No Scrum master, standups, or sprints
-Most of the readers of this blog have already replaced the Scrum master with
-a developer or manager facilitator, the standup with a less regular meeting augmented
-by putting status into Slack, and sprints with a Kanban board.
+## Asynchronous support for deciding what to do
+A lot of the code a team writes will not be useful or have to be rewritten a better way later. It's the number one 
+problem of almost any developer. Most teams have three tools they can use to 
+prevent [code factory](/startup/2021/08/16/code-factory.html) - meetings, design documents, and code reviews.
 
-{% include callout.html
-content="Just slimming down Scrum isn't enough to put your team on a modern development process."
-type="warning" %}
+The only process workflow tooling that developers have currently is around code reviews and a little
+bit for design documents and that has successfully reduced a lot of meetings. However, important workflows like
+  - job approval
+  - job review
+  - job assistance
+  - proposal discussion
 
-Scrum was formalized in 2002 and Kanban comes from Japanese factory work in the 1970s - both long before an application
-like Uclusion could be conceived of, much less written. As with any other developer tool set what your team really needs 
-is up-to-date automation to help reduce overhead and keep focus.
-
-## No cold meetings
-To its credit holacracy has a meeting [process](https://www.holacracy.org/constitution/5-0/#art32) whose agenda cannot 
-be dominated by a minority of the attendees. However, just as with Scrum, Kanban, etc., regular cold meetings will 
-always be awful.
-
-{% include callout.html
-content="A cold meeting is one which forces decision-making without preparation."
-type="warning" %}
-
-In sales a cold meeting is with an unknown client but for a developer it's having to weigh in real time on 
-previously unknown decisions.
-
-## Job approval
-You're a developer with an idea that needs coding, and you want the team's opinion on whether the idea adds value.
+deserve alternatives to meetings also. Part of that tooling is a process aware inbox:
 
 <video class="vid" width="740" height="400" autoplay muted loop>
   <source src="{{ site.baseurl }}/assets/images/approval.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
-With Uclusion you have a good chance of getting the approvals you want without a meeting but if there is a
-meeting everyone has already thought about your proposal and basic questions have been answered asynchronously.
-
-Forcing the team to decide on your idea a few minutes after seeing it for the first time is going to be stressful
-for you and everyone else <b>and with Uclusion that won't happen</b>.
-
-## Job clarification
-Uclusion questions and suggestions put you in charge of an asynchronous implementation decision.
+Unstructured comments with mentions and group chat are too rudimentary to even beat meetings for this purpose.
 
 <video class="vid" width="740" height="400" autoplay muted loop>
   <source src="{{ site.baseurl }}/assets/images/voteQuestion.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
-Even if someone proposes their own implementation option, it can't be voted on until you move the
-option from proposed.
+Plus the input from these workflows must also power status views.
 
-## Warm status
-Where are we on coding X is a typical cold meeting question that bogs down the whole meeting with answers that are out 
-of date soon after the meeting is over. A Kanban board captures done or not done but that's not a real status.
+## An alternative to mandatory daily meetings
+A second category of workflow tooling is necessary to prevent administrivia meetings:
 
-### Collaboration driven status
-When a job assignee opens a question, suggestion, or blocker in his job the job automatically
-moves to Assistance Needed.
+  - self assigning jobs / bugs 
+  - job estimation 
+  - team status view 
+  - what I owe / what others owe me views
+
+Here the team status view knows when a job needs assistance:
 
 <video class="vid" width="740" height="400" autoplay muted loop>
   <source src="{{ site.baseurl }}/assets/images/swimlanes.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
-The help hopefully comes outside a meeting but even if not the meeting doesn't have to waste time
-establishing what jobs need help and why.
-
-### Up-to-date estimates
 After a few days with no estimate or an expired estimate, Uclusion enforces the input of an estimated completion date 
 on any accepted job. If one is not provided the job is automatically moved back to the approval stage.
 
