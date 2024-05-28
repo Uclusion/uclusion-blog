@@ -37,8 +37,8 @@ for that question:
 Your browser does not support the video tag.
 </video>
 
-Plus the input from these workflows also powers status views. A job with an open question is 
-marked that way automatically when the question is created.
+There are many more workflows for helping decision-making in Uclusion. Plus the input from these workflows also powers 
+status views.
 
 ## An alternative to mandatory daily meetings
 A second category of workflow tooling is necessary to prevent administrivia meetings:
@@ -48,17 +48,19 @@ A second category of workflow tooling is necessary to prevent administrivia meet
   - team status view 
   - what I owe / what others owe me views
 
-Here the team status view knows when a job needs assistance:
+Below are a couple of examples but there are many, many more.
+
+When a question, suggestion or blocker is opened in a job, the job is automatically moved to needs assistance stage:
 
 <video class="vid" width="1200" height="600" autoplay muted loop>
   <source src="{{ site.baseurl }}/assets/images/swimlanes.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
-After a few days with no estimate or an expired estimate, Uclusion enforces the input of an estimated completion date 
-on any accepted job. If one is not provided the job is automatically moved back to the approval stage.
+Similarly, after a few days in approved stage with no estimate or an expired estimate, Uclusion enforces the input of 
+an estimated completion date. If one is not provided the job is automatically moved back to the assigned stage.
 
-<video class="vid" width="740" height="400" autoplay muted loop>
+<video class="vid" width="1200" height="600" autoplay muted loop>
   <source src="{{ site.baseurl }}/assets/images/estimate.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
