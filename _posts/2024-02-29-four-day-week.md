@@ -16,7 +16,7 @@ with a team doing just that.
 A job in Uclusion is an assignable description of work and after assignment the team receives inbox notification to 
 approve or block.
 
-<video class="vid" width="740" height="400" autoplay muted loop>
+<video class="vid" width="1200" height="600" autoplay muted loop>
   <source src="{{ site.baseurl }}/assets/images/approval.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -28,7 +28,7 @@ started.
 Jobs with approval may need team input on questions or implementation ideas. That input comes 
 by creating a question or suggestion inside the job. 
 
-<video class="vid" width="740" height="400" autoplay muted loop>
+<video class="vid" width="1200" height="600" autoplay muted loop>
   <source src="{{ site.baseurl }}/assets/images/voteQuestion.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -39,7 +39,7 @@ This inbox notification also automatically goes away if the question or suggesti
 When a job assignee opens a question, suggestion, or blocker in his job the job automatically
 moves to Assistance Needed.
 
-<video class="vid" width="740" height="400" autoplay muted loop>
+<video class="vid" width="1200" height="600" autoplay muted loop>
   <source src="{{ site.baseurl }}/assets/images/swimlanes.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -60,7 +60,7 @@ handling.
 ## Feedback without meetings
 When you open a progress report in Uclusion, the notification prompts teammates for review:
 
-<video class="vid" width="740" height="400" autoplay muted loop>
+<video class="vid" width="1200" height="600" autoplay muted loop>
   <source src="{{ site.baseurl }}/assets/images/review.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
