@@ -14,27 +14,31 @@ problem of almost any developer. Most teams have three tools they can use to
 prevent [code factory](/startup/2021/08/16/code-factory.html) - meetings, design documents, and code reviews.
 
 The only process workflow tooling that developers have currently is around code reviews and a little
-bit for design documents and that has successfully reduced a lot of meetings. However, important workflows like
+bit for design documents and that's bettern than nothing. However, important workflows like
   - job approval
   - job review
   - job assistance
   - proposal discussion
 
-deserve alternatives to meetings also. Part of that tooling is a process aware inbox:
+deserve the deeper thought that comes outside of meetings also. Below you see an asynchronous way for the team to 
+approve each others assignments and a notification system that helps process approvals:
 
-<video class="vid" width="740" height="400" autoplay muted loop>
+<video class="vid" width="1200" height="600" autoplay muted loop>
   <source src="{{ site.baseurl }}/assets/images/approval.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
-Unstructured comments with mentions and group chat are too rudimentary to even beat meetings for this purpose.
+Unstructured comments with mentions and group chat are too rudimentary to even beat meetings for 
+this purpose. When a question is asked the team needs an asynchronous way to add and vote on options
+for that question:
 
-<video class="vid" width="740" height="400" autoplay muted loop>
+<video class="vid" width="1200" height="600" autoplay muted loop>
   <source src="{{ site.baseurl }}/assets/images/voteQuestion.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
-Plus the input from these workflows must also power status views.
+Plus the input from these workflows also powers status views. A job with an open question is 
+marked that way automatically when the question is created.
 
 ## An alternative to mandatory daily meetings
 A second category of workflow tooling is necessary to prevent administrivia meetings:
@@ -46,7 +50,7 @@ A second category of workflow tooling is necessary to prevent administrivia meet
 
 Here the team status view knows when a job needs assistance:
 
-<video class="vid" width="740" height="400" autoplay muted loop>
+<video class="vid" width="1200" height="600" autoplay muted loop>
   <source src="{{ site.baseurl }}/assets/images/swimlanes.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
