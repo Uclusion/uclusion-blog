@@ -24,7 +24,7 @@ deserve the deeper thought that comes outside of meetings also. Below you see an
 approve each others assignments and a notification system that helps process approvals:
 
 <video class="vid" width="1200" height="600" autoplay muted loop>
-  <source src="{{ site.baseurl }}/assets/images/approval.mp4" type="video/mp4">
+  <source src="{{ site.baseurl }}/assets/images/approvalMobile.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
@@ -33,7 +33,7 @@ this purpose. When a question is asked the team needs an asynchronous way to add
 for that question:
 
 <video class="vid" width="1200" height="600" autoplay muted loop>
-  <source src="{{ site.baseurl }}/assets/images/voteQuestion.mp4" type="video/mp4">
+  <source src="{{ site.baseurl }}/assets/images/voteQuestionMobile.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
@@ -53,7 +53,7 @@ Below are a couple of examples but there are many, many more.
 When a question, suggestion or blocker is opened in a job, the job is automatically moved to needs assistance stage:
 
 <video class="vid" width="1200" height="600" autoplay muted loop>
-  <source src="{{ site.baseurl }}/assets/images/swimlanes.mp4" type="video/mp4">
+  <source src="{{ site.baseurl }}/assets/images/swimlanesMobile.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
@@ -61,7 +61,7 @@ Similarly, after a few days in approved stage with no estimate or an expired est
 an estimated completion date. If one is not provided the job is automatically moved back to the assigned stage.
 
 <video class="vid" width="1200" height="600" autoplay muted loop>
-  <source src="{{ site.baseurl }}/assets/images/estimate.mp4" type="video/mp4">
+  <source src="{{ site.baseurl }}/assets/images/estimateMobile.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
