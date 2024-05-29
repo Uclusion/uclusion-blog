@@ -200,6 +200,23 @@ section.recent-posts {
     margin-bottom: 1rem;
     border-radius: 15px;
 }
+@media (max-width:768px) {
+    .vid {
+        display: none;
+    }
+}
+.vid-mobile {
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+}
+@media (min-width:961px) {
+    .vid-mobile {
+        display: none;
+    }
+}
 .listfeaturedtag h2.card-title,.listrecent h2.card-title {
 	font-size:1.3rem;
 	font-weight:500;
