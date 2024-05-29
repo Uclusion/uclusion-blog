@@ -8,6 +8,11 @@ body {
     font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
     overflow-x: hidden;
 }
+@media (max-width:768px) {
+    body {
+        max-width:768px
+    }
+}
 .mainheading {
 	padding: 0rem 0rem 1rem 0;
 }
@@ -443,6 +448,11 @@ blockquote {
     max-width: 35rem;
     box-shadow: 0 6px 10px 0 rgba(0,0,0,0.1);
 }
+@media (max-width:768px) {
+    .featured-image {
+        max-width: 22rem;
+    }
+}
 .featured-box-image {
     max-width: 30rem;
 }
@@ -482,6 +492,16 @@ blockquote {
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
+}
+@media (max-width:768px) {
+    .full-width {
+        width: unset;
+        position: unset;
+        left: unset;
+        right: unset;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }
 @media (max-width:999px) {
 	.listfeaturedtag .wrapthumbnail, .listfeaturedtag .col-md-7 {
