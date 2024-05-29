@@ -10,7 +10,12 @@ body {
 }
 @media (max-width:768px) {
     body {
-        max-width:768px
+        max-width:22rem
+    }
+}
+@media (max-width:961px) {
+    body {
+        max-width:961px
     }
 }
 .mainheading {
@@ -200,7 +205,7 @@ section.recent-posts {
     margin-bottom: 1rem;
     border-radius: 15px;
 }
-@media (max-width:768px) {
+@media (max-width:961px) {
     .vid {
         display: none;
     }
@@ -465,7 +470,7 @@ blockquote {
     max-width: 35rem;
     box-shadow: 0 6px 10px 0 rgba(0,0,0,0.1);
 }
-@media (max-width:768px) {
+@media (max-width:999px) {
     .featured-image {
         max-width: 22rem;
     }
@@ -510,7 +515,7 @@ blockquote {
     margin-left: -50vw;
     margin-right: -50vw;
 }
-@media (max-width:768px) {
+@media (max-width:999px) {
     .full-width {
         width: unset;
         position: unset;
