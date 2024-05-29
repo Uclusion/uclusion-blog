@@ -17,6 +17,11 @@ A job in Uclusion is an assignable description of work and after assignment the 
 approve or block.
 
 <video class="vid" width="1200" height="600" autoplay muted loop>
+  <source src="{{ site.baseurl }}/assets/images/approval.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+<video class="vid-mobile" width="340" height="600" muted loop controls>
   <source src="{{ site.baseurl }}/assets/images/approvalMobile.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -29,6 +34,11 @@ Jobs with approval may need team input on questions or implementation ideas. Tha
 by creating a question or suggestion inside the job. 
 
 <video class="vid" width="1200" height="600" autoplay muted loop>
+  <source src="{{ site.baseurl }}/assets/images/voteQuestion.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+<video class="vid-mobile" width="340" height="600" muted loop controls>
   <source src="{{ site.baseurl }}/assets/images/voteQuestionMobile.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -40,10 +50,14 @@ When a job assignee opens a question, suggestion, or blocker in his job the job 
 moves to Assistance Needed.
 
 <video class="vid" width="1200" height="600" autoplay muted loop>
-  <source src="{{ site.baseurl }}/assets/images/swimlanesMobile.mp4" type="video/mp4">
+  <source src="{{ site.baseurl }}/assets/images/swimlanes.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
+<video class="vid-mobile" width="340" height="600" muted loop controls>
+  <source src="{{ site.baseurl }}/assets/images/swimlanesMobile.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 So the Uclusion swimlanes show status at a glance that an ordinary board cannot.
 
 ## Uclusion inbox organized
@@ -61,6 +75,11 @@ handling.
 When you open a progress report in Uclusion, the notification prompts teammates for review:
 
 <video class="vid" width="1200" height="600" autoplay muted loop>
+  <source src="{{ site.baseurl }}/assets/images/review.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+<video class="vid-mobile" width="340" height="600" muted loop controls>
   <source src="{{ site.baseurl }}/assets/images/reviewMobile.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
