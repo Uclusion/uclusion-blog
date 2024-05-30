@@ -48,10 +48,10 @@ two ways to reduce micromanaging.
 
 ## Scrum, Slack, Jira and products like them reduce engagement
 Scrum encourages synchronous consensus building during time pressured meetings - frequently without advance preparation. 
-The concept of a "sprint" was intended to fix organizations that wanted to plan every detail of a project for 
-months or years. But the original problem was not detailed long term planning, it was forcing plans on developers 
-without their input. Scrum ends up encouraging forcing plans in one to three week chunks, and even asking for up front 
-estimates on those chunks.
+The concept of a "sprint" was invented to fix organizations before Scrum that wanted to plan every detail of a project 
+for months or years. But the original problem before Scrum was not detailed long term planning, it was forcing plans on 
+developers without their input. Scrum ends up encouraging forcing plans in one to three week chunks, and even asking 
+for up front, unchangeable, estimates on those chunks.
 
 Similarly synchronous communication in Slack again needlessly increases a developers real time burden. Contrary to its
 name Slack makes everything urgent and difficult to process while doing complex work.
@@ -65,6 +65,14 @@ Uclusion is built ground up around feedback. At first, we imagined that feedback
 but that's just too slow. If you have to wait for customers to explain in detail how your product should work then you 
 are in even worse shape then waiting for PM orders.
 
+There is nothing wrong with customer feedback - it's a question of how often you can afford to go to the well. If you 
+ask the customer on every little point instead of using internal discussion first, you will surely burn out their help. 
+It will also take too long as scheduling time with the customer isn't easy.
+
+Or sometimes you get a single point of contact for the customer that is available a lot but that single person is not 
+as good as using your internal team for feedback as well. However you look at it squandering valuable input from the
+team coding the details of the business logic and presentation layer is bad.
+
 So instead Uclusion allows a development team to give all kinds of feedback - on questions, on suggestions, in response
 to a high level review request, and certainty that a job is worth doing. Each kind of feedback is supported by a
 structured type (IE you create a question not a generic comment), built-in Uclusion workflow and an inbox notification 
@@ -74,5 +82,5 @@ A PM or tech lead can create a job or bug and let the team flush it out and assi
 that others in the team create. Status on jobs is required, but it's also self-directed as developers can change
 estimates or pause jobs for assistance.
 
-Signing up starts a sandbox demo where you can be part of a team using Uclusion. Please see if it more
-matches the way you want to work.
+[Signing up](https://production.uclusion.com/?utm_campaign=blog#signup) starts a sandbox demo where you can be part of 
+a team using Uclusion. Please see if it more matches the way you want to work.
