@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Avoid overusing meetings with Uclusion"
-author: david
+author: ben
 image: assets/images/goldilocks.jpg
 categories: [ startup ]
 ---
