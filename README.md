@@ -22,3 +22,11 @@ Copyright (C) 2019 WowThemes.net.
 
 To start:
 bundle exec jekyll serve
+
+For video:
+ffmpeg -i approval.mp4 -vf "scale=2*trunc(iw/2):-2,setsar=1" -profile:v main -pix_fmt yuv420p approvalMobile.mp4
+ffmpeg -i estimate.mp4 -vf "scale=2*trunc(iw/2):-2,setsar=1" -profile:v main -pix_fmt yuv420p estimateMobile.mp4
+ffmpeg -i review.mp4 -vf "scale=2*trunc(iw/2):-2,setsar=1" -profile:v main -pix_fmt yuv420p reviewMobile.mp4
+ffmpeg -i swimlanes.mp4 -vf "scale=2*trunc(iw/2):-2,setsar=1" -profile:v main -pix_fmt yuv420p swimlanesMobile.mp4
+ffmpeg -i voteQuestion.mp4 -vf "scale=2*trunc(iw/2):-2,setsar=1" -profile:v main -pix_fmt yuv420p voteQuestionMobile.mp4
+
