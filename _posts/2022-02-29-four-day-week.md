@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Preparing for a four day work week with Uclusion"
-author: david
+author: ben
 categories: [ startup ]
 image: assets/images/fourdayweek.jpg
 ---
