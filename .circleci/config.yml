@@ -10,7 +10,7 @@ jobs:
     environment:
       BUNDLE_PATH: ~/repo/vendor/bundle
     docker:
-      - image: cimg/ruby:3.0
+      - image: cimg/ruby:3.2
     steps:
       - checkout
       - run:
