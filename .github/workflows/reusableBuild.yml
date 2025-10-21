@@ -27,10 +27,11 @@ jobs:
           aws-region: us-west-2
 
       - name: Install Bundler
-        run: gem install bundler -v '2.1.4'
+        run: sudo gem install bundler -v '2.1.4'
 
       - name: Install dependencies & Deploy
         run: |
+          bundle config path vendor/bundle
           bundle install
           bundle exec jekyll build
           aws s3 sync --delete vendor/bundle/ s3://uclusion-blog-${{ inputs.environment }}
