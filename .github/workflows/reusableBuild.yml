@@ -26,6 +26,9 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-west-2
 
+      - name: Install Bundler
+        run: gem install bundler -v '2.1.4'
+
       - name: Install dependencies & Deploy
         run: |
           bundle install
