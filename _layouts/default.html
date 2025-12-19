@@ -30,7 +30,23 @@
 
 </head>
 
-
+<script>
+	function removeIframeNotAllowedNotice() {
+	  const notice = document.getElementById('iframe-not-allowed-notice');
+	  const kludge = document.getElementById('iframe-not-allowed-notice-kludge');
+	  if (window.self !== window.top) {
+		if (notice) {
+			// Not in an iframe, so remove the element
+			notice.remove();
+		}
+	  } else if (kludge) {
+		kludge.remove();
+	  }
+	}
+	window.addEventListener('load', (event) => {
+		removeIframeNotAllowedNotice();
+	});
+  </script>
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 <body class="{{ layout }}">
@@ -38,7 +54,8 @@
 
 <!-- Begin Menu Navigation
 ================================================== -->
-<header class="navbar navbar-toggleable-md navbar-light bg-white fixed-top mediumnavigation">
+<div id="iframe-not-allowed-notice-kludge" style='margin-top: -85px;'></div>
+<header id="iframe-not-allowed-notice" class="navbar navbar-toggleable-md navbar-light bg-white fixed-top mediumnavigation">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsWow" aria-controls="navbarsWow" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
