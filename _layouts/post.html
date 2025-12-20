@@ -16,7 +16,7 @@ post_class: post-template
 			<div class="mainheading">
 
                 <!-- Post Categories -->
-                <div class="after-post-tags">
+                <div id="after-post-tags-kludge" class="after-post-tags">
                     <ul class="tags">
                         {% assign sortedCategories = page.categories | sort %}
                         {% for category in sortedCategories %}
@@ -27,6 +27,10 @@ post_class: post-template
                     </ul>
                 </div>
                 <!-- End Categories -->
+
+                <div id="back-kludge" class="after-post-tags" style="margin-bottom: 2rem;">
+                    <a href="{{ site.baseurl }}/"><< Back</a>
+                </div>
 
                 <!-- Post Title -->
 				<h1 class="posttitle">{{ page.title }}</h1>
@@ -78,7 +82,7 @@ post_class: post-template
 						<img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
 					</div>
 					<div class="col-md-10">
-						<a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
+						<a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a>
 						<span class="author-description">{{ author.description }}</span>
 					</div>
 				</div>
@@ -91,9 +95,6 @@ post_class: post-template
 
 		</div>
 		<!-- End Post -->
-
-
-
 	</div>
 
 <!-- End Article
