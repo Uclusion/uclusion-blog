@@ -34,11 +34,17 @@
 	function removeIframeNotAllowedNotice() {
 	  const notice = document.getElementById('iframe-not-allowed-notice');
 	  const kludge = document.getElementById('iframe-not-allowed-notice-kludge');
+      const allPosts = document.getElementsByClassName('section-title');
 	  if (window.self !== window.top) {
 		if (notice) {
 			// Not in an iframe, so remove the element
 			notice.remove();
 		}
+        if (allPosts) {
+            for (let i = 0; i < allPosts.length; i++) {
+                allPosts[i].remove();
+            }
+        }
 	  } else if (kludge) {
 		kludge.remove();
 	  }
@@ -54,7 +60,7 @@
 
 <!-- Begin Menu Navigation
 ================================================== -->
-<div id="iframe-not-allowed-notice-kludge" style='margin-top: -85px;'></div>
+<div id="iframe-not-allowed-notice-kludge" style='margin-top: -75px;'></div>
 <header id="iframe-not-allowed-notice" class="navbar navbar-toggleable-md navbar-light bg-white fixed-top mediumnavigation">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsWow" aria-controls="navbarsWow" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
