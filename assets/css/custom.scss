@@ -8,6 +8,30 @@
 	"syntax"
 ;
 
+/* header tweaks (J-all-306): smaller logo, MAIN WEBSITE beside it, tighter padding */
+.mediumnavigation {
+	padding: 0.75rem 1rem;
+}
+.mediumnavigation .navbar-brand {
+	display: inline-flex;
+	align-items: center;
+	font-size: 0.9rem; /* same base as the nav items so brand text matches */
+}
+.mediumnavigation .navbar-brand img {
+	max-height: 50px;
+}
+.mediumnavigation .navbar-brand .brand-text {
+	font-weight: 500;
+	color: #333;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 0.94em; /* matches .nav-link exactly */
+}
+.site-content {
+	padding-top: 1rem;
+	margin-top: 50px;
+}
+
 /* callout styles*/
 
 .bs-callout {
