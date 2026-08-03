@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#ffffff"/>
+  <text x="600" y="56" text-anchor="middle" font-family="DejaVu Sans, Verdana, sans-serif" font-size="38" font-weight="bold" fill="#3F6B72">Typed Collaboration</text>
+
+  <!-- panel labels -->
+  <text x="290" y="98" text-anchor="middle" font-family="DejaVu Sans, Verdana, sans-serif" font-size="17" fill="#6b7280">Untyped — every message is a string</text>
+  <text x="910" y="98" text-anchor="middle" font-family="DejaVu Sans, Verdana, sans-serif" font-size="17" fill="#3F6B72">Typed — state anyone (or any AI) can act on</text>
+
+  <!-- left: untyped chat -->
+  <rect x="70" y="110" width="440" height="440" rx="14" fill="#f4f5f7" stroke="#dcdfe3" stroke-width="2"/>
+  <g>
+    <rect x="90" y="130" width="280" height="44" rx="12" fill="#d7dbdf"/>
+    <rect x="106" y="142" width="240" height="7" rx="3.5" fill="#aeb4ba"/>
+    <rect x="106" y="156" width="150" height="7" rx="3.5" fill="#aeb4ba"/>
+
+    <rect x="170" y="194" width="320" height="44" rx="12" fill="#c8cdd2"/>
+    <rect x="186" y="206" width="280" height="7" rx="3.5" fill="#a2a9b0"/>
+    <rect x="186" y="220" width="190" height="7" rx="3.5" fill="#a2a9b0"/>
+
+    <rect x="90" y="258" width="240" height="44" rx="12" fill="#d7dbdf"/>
+    <rect x="106" y="270" width="200" height="7" rx="3.5" fill="#aeb4ba"/>
+    <rect x="106" y="284" width="120" height="7" rx="3.5" fill="#aeb4ba"/>
+
+    <rect x="190" y="322" width="300" height="44" rx="12" fill="#c8cdd2"/>
+    <rect x="206" y="334" width="260" height="7" rx="3.5" fill="#a2a9b0"/>
+    <rect x="206" y="348" width="170" height="7" rx="3.5" fill="#a2a9b0"/>
+
+    <rect x="90" y="386" width="260" height="44" rx="12" fill="#d7dbdf"/>
+    <rect x="106" y="398" width="220" height="7" rx="3.5" fill="#aeb4ba"/>
+    <rect x="106" y="412" width="140" height="7" rx="3.5" fill="#aeb4ba"/>
+
+    <rect x="180" y="450" width="310" height="44" rx="12" fill="#c8cdd2"/>
+    <rect x="196" y="462" width="270" height="7" rx="3.5" fill="#a2a9b0"/>
+    <rect x="196" y="476" width="180" height="7" rx="3.5" fill="#a2a9b0"/>
+  </g>
+
+  <!-- arrow -->
+  <text x="600" y="308" text-anchor="middle" font-family="DejaVu Sans, Verdana, sans-serif" font-size="17" font-style="italic" fill="#3F6B72">give it a type</text>
+  <line x1="524" y1="330" x2="662" y2="330" stroke="#3F6B72" stroke-width="4"/>
+  <polygon points="662,320 682,330 662,340" fill="#3F6B72"/>
+
+  <!-- right: typed artifacts -->
+  <rect x="690" y="110" width="440" height="440" rx="14" fill="#f2f7f8" stroke="#cfdfe2" stroke-width="2"/>
+
+  <!-- question card -->
+  <rect x="710" y="130" width="400" height="108" rx="10" fill="#ffffff" stroke="#d3dbde" stroke-width="1.5"/>
+  <rect x="710" y="130" width="6" height="108" rx="3" fill="#3F6B72"/>
+  <rect x="726" y="142" width="92" height="22" rx="11" fill="#3F6B72"/>
+  <text x="772" y="158" text-anchor="middle" font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">QUESTION</text>
+  <text x="830" y="158" font-family="DejaVu Sans, Verdana, sans-serif" font-size="14" fill="#6b7280">blocks the work until answered</text>
+  <rect x="726" y="180" width="200" height="32" rx="16" fill="#e5eff1" stroke="#3F6B72" stroke-width="1.5"/>
+  <text x="826" y="201" text-anchor="middle" font-family="DejaVu Sans, Verdana, sans-serif" font-size="14" fill="#3F6B72">Option A · 75% certain</text>
+  <rect x="938" y="180" width="120" height="32" rx="16" fill="#ffffff" stroke="#b6c6ca" stroke-width="1.5"/>
+  <text x="998" y="201" text-anchor="middle" font-family="DejaVu Sans, Verdana, sans-serif" font-size="14" fill="#6b7280">Option B</text>
+
+  <!-- suggestion card -->
+  <rect x="710" y="247" width="400" height="64" rx="10" fill="#ffffff" stroke="#d3dbde" stroke-width="1.5"/>
+  <rect x="710" y="247" width="6" height="64" rx="3" fill="#316BBE"/>
+  <rect x="726" y="259" width="106" height="22" rx="11" fill="#316BBE"/>
+  <text x="779" y="275" text-anchor="middle" font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">SUGGESTION</text>
+  <text x="726" y="299" font-family="DejaVu Sans, Verdana, sans-serif" font-size="14" fill="#6b7280">explicitly accepted or rejected</text>
+  <circle cx="1080" cy="279" r="14" fill="#e8f3e9" stroke="#2E7D32" stroke-width="2"/>
+  <line x1="1073" y1="279" x2="1078" y2="285" stroke="#2E7D32" stroke-width="3" stroke-linecap="round"/>
+  <line x1="1078" y1="285" x2="1088" y2="272" stroke="#2E7D32" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- task card -->
+  <rect x="710" y="320" width="400" height="64" rx="10" fill="#ffffff" stroke="#d3dbde" stroke-width="1.5"/>
+  <rect x="710" y="320" width="6" height="64" rx="3" fill="#2E7D32"/>
+  <rect x="726" y="332" width="56" height="22" rx="11" fill="#2E7D32"/>
+  <text x="754" y="348" text-anchor="middle" font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">TASK</text>
+  <text x="726" y="372" font-family="DejaVu Sans, Verdana, sans-serif" font-size="14" fill="#6b7280">done is a state, not a memory</text>
+  <rect x="1066" y="341" width="24" height="24" rx="6" fill="#e8f3e9" stroke="#2E7D32" stroke-width="2"/>
+  <line x1="1071" y1="353" x2="1076" y2="359" stroke="#2E7D32" stroke-width="3" stroke-linecap="round"/>
+  <line x1="1076" y1="359" x2="1086" y2="346" stroke="#2E7D32" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- blocker card -->
+  <rect x="710" y="393" width="400" height="64" rx="10" fill="#ffffff" stroke="#d3dbde" stroke-width="1.5"/>
+  <rect x="710" y="393" width="6" height="64" rx="3" fill="#C62828"/>
+  <rect x="726" y="405" width="84" height="22" rx="11" fill="#C62828"/>
+  <text x="768" y="421" text-anchor="middle" font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">BLOCKER</text>
+  <text x="726" y="445" font-family="DejaVu Sans, Verdana, sans-serif" font-size="14" fill="#6b7280">gates the work until resolved</text>
+  <polygon points="1071,413 1087,413 1094,420 1094,432 1087,439 1071,439 1064,432 1064,420" fill="#fdecea" stroke="#C62828" stroke-width="2"/>
+  <rect x="1071" y="423" width="16" height="5" rx="2.5" fill="#C62828"/>
+
+  <!-- note card -->
+  <rect x="710" y="466" width="400" height="64" rx="10" fill="#ffffff" stroke="#d3dbde" stroke-width="1.5"/>
+  <rect x="710" y="466" width="6" height="64" rx="3" fill="#B26A00"/>
+  <rect x="726" y="478" width="56" height="22" rx="11" fill="#B26A00"/>
+  <text x="754" y="494" text-anchor="middle" font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">NOTE</text>
+  <text x="726" y="518" font-family="DejaVu Sans, Verdana, sans-serif" font-size="14" fill="#6b7280">context stored where the work is</text>
+  <circle cx="1078" cy="498" r="9" fill="#fff4e0" stroke="#B26A00" stroke-width="2"/>
+  <line x1="1078" y1="507" x2="1078" y2="520" stroke="#B26A00" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
