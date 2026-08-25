@@ -37,11 +37,12 @@ The installed bootstrap is deliberately small. It tells the harness when to load
 
 Its core sequence is straightforward:
 
-1. Read the job and the durable decisions around it.
+1. Select the job or independently executable task and read its current intent/design capsule.
 2. Turn unsettled choices into separate questions with real options.
-3. Explain the proposed design, including internal state, formats, and failure behavior.
-4. Let the human answer before implementation edits begin.
-5. Implement the settled design, validate it, and request review.
+3. If the capsule is absent, write one stand-alone system story from the settled premises before editing.
+4. Keep that capsule current when intent or design changes.
+5. Implement the settled contract and validate it under separately approved test and security boundaries.
+6. Request review by naming the capsule and reporting only what the implementation did differently or in addition.
 
 A Uclusion coding agent is instructed by, "Your work is judged not solely by completion but also by whether your human partner understands and approves of what you do."
 
@@ -57,13 +58,36 @@ When the agent asks a qualifying question, the job moves to **Requires Input**. 
 
 This is [typed collaboration]({{ site.baseurl }}/engineering/2026/08/03/typed-collaboration.html): a question is not merely a paragraph that sounds inquisitive. It has a type, an owner, a lifecycle, and an effect on what can happen next.
 
+The capsule gives the design the same durable treatment. It is not a list of answers or components. It tells the
+end-to-end story: what each actor does, what the person observes at completion, where state lives, how handoffs and
+failures work, what is excluded, and which verification was approved. Every material claim traces back to human
+direction, a settled answer, an approved plan, or a hard source constraint.
+
+That distinction came from a real failure. An agent-led setup design correctly described enrollment, credentials,
+workspace creation, and client reconnects. Successive replacement designs still lost the terminal experience. The
+person remained on a permissions page with no route into the new workspace, and the restarted agent did not begin
+first-session onboarding. The components were present. The user's outcome had disappeared between revisions.
+
+Uclusion now keeps one current capsule for the selected implementation target. A task capsule stands alone for that
+task instead of silently inheriting a job capsule. A known design change replaces the complete capsule before more
+affected edits. The former body later appears as an ordinary archive note, so it remains human-readable without
+competing with the current contract in agent context.
+
+If a human edits the capsule, an Updated event wakes the connected agent. It reloads the new contract, closes its
+obsolete review of the former implementation, and reconciles work before continuing. The next review does not repeat
+the whole design. It names the current capsule and lists only omissions, changed behavior, additions, or scope
+expansion. If implementation matches the capsule, the report says there are no implementation deltas.
+
+The capsule does not grant permission by existing. Job stage, tests and builds, security work, deployment, commits,
+and pushes keep their own approval boundaries.
+
 ## Then we integration-test the whole thing with real agents
 
 A conventional test can prove that an MCP tool returns a job or that a Poke reaches a proxy. It cannot prove that a fresh coding agent, under its current default model and harness instructions, will collaborate at the moment those pressures collide.
 
 The executable [live-agent acceptance suite](https://github.com/Uclusion/nodejs_sdk/blob/master/testAgentDev/README.md#L1-L13) publishes the exact [Claude Code, Codex, and Cursor scenario matrix](https://github.com/Uclusion/nodejs_sdk/blob/master/testAgentDev/matrix.js#L1-L33). Raw run artifacts are not published.
 
-We run [two Codex-only question-gate scenarios](https://github.com/Uclusion/nodejs_sdk/blob/master/testAgentDev/questionGateScenarios.js#L1-L40): one with explicit choices and one with implied choices. In the harder case, Codex is handed an [underspecified rate-limiter job](https://github.com/Uclusion/nodejs_sdk/blob/master/testAgentDev/questionGateFixture.js#L39-L67) without being told, in that prompt, to produce a design disclosure. Passing is [measured from durable state](https://github.com/Uclusion/nodejs_sdk/blob/master/testAgentDev/questionGateFixture.js#L465-L534): the implementation task must remain untouched, the job must be locked for input, each hidden architectural fork must have its own optioned question, and already-settled premises must not be reopened as choices.
+We run [two Codex-only question-gate scenarios](https://github.com/Uclusion/nodejs_sdk/blob/master/testAgentDev/questionGateScenarios.js#L1-L40): one with explicit choices and one with implied choices. In the harder case, Codex is handed an [underspecified rate-limiter job](https://github.com/Uclusion/nodejs_sdk/blob/master/testAgentDev/questionGateFixture.js#L39-L67) without being told, in that prompt, to stop and expose its hidden choices before editing. Passing is [measured from durable state](https://github.com/Uclusion/nodejs_sdk/blob/master/testAgentDev/questionGateFixture.js#L465-L534): the implementation task must remain untouched, the job must be locked for input, each hidden architectural fork must have its own optioned question, and already-settled premises must not be reopened as choices.
 
 That is why we use real clients. We are testing the behavior produced by the model, its harness, our instructions, our tools, and our state machine together. Any one layer can change the result.
 
