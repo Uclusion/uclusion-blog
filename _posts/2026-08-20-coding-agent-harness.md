@@ -35,14 +35,13 @@ Uclusion does not alter OpenAI's or Anthropic's private prompts. It adds a colla
 
 The installed bootstrap is deliberately small. It tells the harness when to load a more complete workflow. That workflow is public; you can read [the current Uclusion skill on GitHub](https://github.com/Uclusion/uclusion_web_ui/blob/master/public/scripts/skills/uclusion/SKILL.md) instead of relying on a quotation here that will go stale.
 
-Its core sequence is straightforward:
+Its core sequence:
 
-1. Select the job or independently executable task and read its current intent/design capsule.
-2. Turn unsettled choices into separate questions with real options.
-3. If the capsule is absent, write one stand-alone system story from the settled premises before editing.
-4. Keep that capsule current when intent or design changes.
-5. Implement the settled contract and validate it under separately approved test and security boundaries.
-6. Request review by naming the capsule and reporting only what the implementation did differently or in addition.
+1. Turn unsettled choices into separate questions with real options.
+2. If the design note is absent, write one stand-alone system story from the settled premises before editing.
+3. Keep that design current.
+4. Implement the settled contract and validate it under separately approved test and security boundaries.
+5. Request review by naming the design note and reporting only what the implementation did differently or in addition.
 
 A Uclusion coding agent is instructed by, "Your work is judged not solely by completion but also by whether your human partner understands and approves of what you do."
 
@@ -50,38 +49,15 @@ That is runtime counterpressure against the combined default behavior of the mod
 
 ## A prompt is not enough
 
-We have [written before]({{ site.baseurl }}/engineering/2026/01/21/ai.html) that a rules file can improve almost any coding setup. But instructions alone are fragile. Context gets compacted. Sessions restart. A question in chat scrolls away. A model can say it understands a gate and then edit past it.
+We have [written before]({{ site.baseurl }}/engineering/2026/01/21/ai.html) that a rules file can improve almost any coding setup. But instructions alone are fragile. So Uclusion represents the workflow as state, not just prose.
 
-So Uclusion represents the workflow as state, not just prose.
-
-When the agent asks a qualifying question, the job moves to **Requires Input**. Implementation is locked until a current human assignee answers and the agent resolves the question. Options, votes, rejected alternatives, and reasons remain attached to the job for the next session. When the human responds, Poke AI wakes the connected terminal and reloads the current state. The agent can continue investigating while it waits, but it cannot make the blocked implementation decision disappear by writing code.
+When the agent asks a qualifying question, the job moves to **Requires Input**. Implementation is locked until a current human assignee answers and the agent resolves the question. When the human responds, Poke AI wakes the connected terminal and reloads the current state.
 
 This is [typed collaboration]({{ site.baseurl }}/engineering/2026/08/03/typed-collaboration.html): a question is not merely a paragraph that sounds inquisitive. It has a type, an owner, a lifecycle, and an effect on what can happen next.
 
-The capsule gives the design the same durable treatment. It is not a list of answers or components. It tells the
-end-to-end story: what each actor does, what the person observes at completion, where state lives, how handoffs and
-failures work, what is excluded, and which verification was approved. Every material claim traces back to human
-direction, a settled answer, an approved plan, or a hard source constraint.
+The design note tells the end-to-end story: every material claim traces back to human direction, a settled answer, an approved plan, or a hard source constraint. Forcing a design note makes both human and AI aware of the contract and anything done outside of it.
 
-That distinction came from a real failure. An agent-led setup design correctly described enrollment, credentials,
-workspace creation, and client reconnects. Successive replacement designs still lost the terminal experience. The
-person remained on a permissions page with no route into the new workspace, and the restarted agent did not begin
-first-session onboarding. The components were present. The user's outcome had disappeared between revisions.
-
-Uclusion now keeps one current capsule for the selected implementation target. A task capsule stands alone for that
-task instead of silently inheriting a job capsule. A known design change replaces the complete capsule before more
-affected edits. The former body later appears as an ordinary archive note, so it remains human-readable without
-competing with the current contract in agent context.
-
-If a human edits the capsule, an Updated event wakes the connected agent. It reloads the new contract, closes its
-obsolete review of the former implementation, and reconciles work before continuing. The next review does not repeat
-the whole design. It names the current capsule and lists only omissions, changed behavior, additions, or scope
-expansion. If implementation matches the capsule, the report says there are no implementation deltas.
-
-The capsule does not grant permission by existing. Job stage, tests and builds, security work, deployment, commits,
-and pushes keep their own approval boundaries.
-
-## Then we integration-test the whole thing with real agents
+## Then we test the whole thing with real agents
 
 A conventional test can prove that an MCP tool returns a job or that a Poke reaches a proxy. It cannot prove that a fresh coding agent, under its current default model and harness instructions, will collaborate at the moment those pressures collide.
 
@@ -91,7 +67,7 @@ We run [two Codex-only question-gate scenarios](https://github.com/Uclusion/node
 
 That is why we use real clients. We are testing the behavior produced by the model, its harness, our instructions, our tools, and our state machine together. Any one layer can change the result.
 
-## What this does—and does not—claim
+## What this does and does not do
 
 Uclusion does not retrain the model. It makes collaboration an explicit part of the runtime contract. When one of those tested behaviors drifts, the gate tells us before customers do.
 
