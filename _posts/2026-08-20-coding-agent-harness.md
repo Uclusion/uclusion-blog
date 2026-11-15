@@ -1,76 +1,59 @@
 ---
 layout: post
-title:  "Building and testing human in the loop behavior"
+title:  "How an agent spends tokens"
 author: david
 image: assets/images/ai-collaboration.png
 categories: [ engineering ]
+last_modified_at: 2026-11-13
 ---
-Coding models are trained to be useful. Coding harnesses turn that usefulness into momentum: inspect the repo, make a reasonable assumption, edit the code, run the tests, keep going.
+A coding agent repeatedly asks a model what to do next. Each request supplies context: instructions, conversation history, tool definitions and results. 
+Until it is compacted the context only grows and the entire context gets sent on every request. The costs add up at market rates as multiples of 
+three kinds of tokens.
 
-If I ask for rate limiting, an agent can immediately choose a token bucket, decide where its state lives, invent a retry response, and ship a polished implementation. The code may be good. The collaboration was not. Three decisions just became expensive facts before I knew they existed.
+| Kind of token | What it counts |
+| --- | --- |
+| Fresh input | Prompt tokens processed without a cache hit. |
+| Cached input | Prompt tokens whose previously computed state can be reused. They still cost but at a lower rate. |
+| Output | Tokens the model generates, including its replies and tool-call arguments. These typically cost the most. |
 
-The model is only half the system. The harness around it decides what context the model sees, which actions feel normal, when it should stop, and whether a human gets a meaningful turn before the code does.
+OpenAI's [prompt-caching guide](https://developers.openai.com/api/docs/guides/prompt-caching) explains caching and its accounting.
+Anthropic's [prompt-caching guide](https://platform.claude.com/docs/en/build-with-claude/prompt-caching) explains how caching works for Claude. In both
+cases the trick is that although cached tokens are billed at a reduced rate compared to fresh, they are billed every time the agent makes a call to 
+the model. So fresh input added at the beginning of a session will be charged once as fresh and then again as cached on every model call until
+a compaction event.
 
-## The harness is already steering
+Output can also be billed more than once as the output of a subagent can be the input of a parent agent.
 
-This pressure is not hidden. Public prompt guidance says it plainly.
+## Subagents can reduce cached input
 
-OpenAI's [Codex prompting guide](https://developers.openai.com/cookbook/examples/gpt-5/codex_prompting_guide) recommends:
+Consider a repository search that produces pages of paths, code and rejected leads. The original parent agent needs the conclusion, but not every search result in all its later requests. A helper can do that exploration in its own context and return a concise result. The parent's subsequent input then carries the result instead of the whole exploration.
 
-> “Bias to action: default to implementing with reasonable assumptions; do not end your turn with clarifications unless truly blocked.”
+Some helpers are best one and done as you avoid using their bloated context again. Other helpers may have a lifecycle as their context is useful for a
+time to answer further questions.
 
-Anthropic's published [core system prompt for Claude Opus 5](https://platform.claude.com/docs/en/release-notes/system-prompts#claude-opus-5) on claude.ai and its mobile apps says Claude:
+## How MCP adds to context
 
-> “tries to address even an ambiguous query before asking for clarification.”
+MCP, the Model Context Protocol, connects a coding client to external tools and data. Its [tools specification](https://modelcontextprotocol.io/specification/2025-06-18/server/tools) defines tool discovery, descriptions, argument schemas and returned content. The protocol traffic and the model's context are different things: the client decides what to put in a model request.
 
-Anthropic explicitly says these published system-prompt updates do not apply to the Claude API, so this is not a claim about Claude Code's private harness. It shows pressure at a different layer: the chat product tells Claude to address ambiguity before asking for clarification. Separate current OpenAI model guidance defines explicit [approval boundaries](https://developers.openai.com/api/docs/guides/latest-model#define-autonomy-and-approval-boundaries) for destructive, external, costly, or scope-expanding actions.
+For example, fetching a catalog with `tools/list` does not by itself prove that every schema enters every prompt. A client may supply definitions upfront or discover a relevant subset when needed. Anthropic's [analysis of MCP context costs](https://www.anthropic.com/research/code-execution-with-mcp) distinguishes the cost of tool definitions from the intermediate results passed through the model.
 
-The sources sit at different layers, but the tension is the same. Instructions that prize momentum can turn clarification into friction. “Use a reasonable assumption” is often exactly right for a variable name. It is wrong for a product choice whose consequences spread through the system.
+However MCP connects to every subagent so a bloated catalog definition can impact context size. Claude Code can [lazy load a server's tools](https://code.claude.com/docs/en/mcp#defer-a-servers-tools) with `"alwaysLoad": false`. [Codex also lazy loads tools](https://github.com/openai/codex/pull/29486) when its model and provider support tool search, and exposes them directly otherwise. 
 
-Human-in-the-loop cannot mean a human reviews whatever the agent happened to build. The human needs to be in the loop while the work is still cheap to change.
+Fetching the full MCP catalog makes its definitions available to the client; it does not itself put the entire catalog into the model's context. With deferred tool search enabled, [Claude Code](https://code.claude.com/docs/en/mcp#scale-with-mcp-tool-search) and [Codex](https://github.com/openai/codex/blob/rust-v0.169.0/codex-rs/core/src/tools/handlers/tool_search.rs#L237) load definitions for matching candidates as needed. 
 
-## We modify the instruction stack around the model
+However making lazy loading tools work requires a subagent know its restricted set of tools in order to avoid loading the entire catalog.
 
-Uclusion does not alter OpenAI's or Anthropic's private prompts. It adds a collaboration protocol to the global or project-level instruction stack that Codex, Claude Code, and Cursor already load.
+## Making an agent collaborate is hard
+By default AI agents do not work well with humans:
+* A turn can end without any indication of what the human is supposed to do
+* Every message from an external system causes a model call so redundant or irrelevant messages are expensive
+* Default AI prompts encourage too much independence
+* External system operations must avoid reading redundant data and causing expensive cached input
+* The default timer that wakes up an agent, [wait implementation](https://github.com/openai/codex/blob/69231e119bfca0b14453515e97d99688ce1c47c9/codex-rs/core/src/tools/handlers/multi_agents_v2/wait.rs#L54-L107), must be tuned to avoid too many model calls
 
-The installed bootstrap is deliberately small. It tells the harness when to load a more complete workflow. That workflow is public; you can read [the current Uclusion skill on GitHub](https://github.com/Uclusion/uclusion_web_ui/blob/master/public/scripts/skills/uclusion/SKILL.md) instead of relying on a quotation here that will go stale.
+Any memory that an agent saves and injects into every context must be carefully monitored. No memory and the agent must be told the same thing
+over and over. Too much memory and again cached input token costs swamp the model calls. 
 
-Its core sequence:
-
-1. Turn unsettled choices into separate questions with real options.
-2. If the design note is absent, write one stand-alone system story from the settled premises before editing.
-3. Keep that design current.
-4. Implement the settled contract and validate it under separately approved test and security boundaries.
-5. Request review by naming the design note and reporting only what the implementation did differently or in addition.
-
-A Uclusion coding agent is instructed by, "Your work is judged not solely by completion but also by whether your human partner understands and approves of what you do."
-
-That is runtime counterpressure against the combined default behavior of the model and harness: retain the agent's ability to act, while changing what counts as forward progress. It changes the workflow, not the model's training.
-
-## A prompt is not enough
-
-We have [written before]({{ site.baseurl }}/engineering/2026/01/21/ai.html) that a rules file can improve almost any coding setup. But instructions alone are fragile. So Uclusion represents the workflow as state, not just prose.
-
-When the agent asks a qualifying question, the job moves to **Requires Input**. Implementation is locked until a current human assignee answers and the agent resolves the question. When the human responds, Poke AI wakes the connected terminal and reloads the current state.
-
-This is [typed collaboration]({{ site.baseurl }}/engineering/2026/08/03/typed-collaboration.html): a question is not merely a paragraph that sounds inquisitive. It has a type, an owner, a lifecycle, and an effect on what can happen next.
-
-The design note tells the end-to-end story: every material claim traces back to human direction, a settled answer, an approved plan, or a hard source constraint. Forcing a design note makes both human and AI aware of the contract and anything done outside of it.
-
-## Then we test the whole thing with real agents
-
-A conventional test can prove that an MCP tool returns a job or that a Poke reaches a proxy. It cannot prove that a fresh coding agent, under its current default model and harness instructions, will collaborate at the moment those pressures collide.
-
-The executable [live-agent acceptance suite](https://github.com/Uclusion/nodejs_sdk/blob/master/testAgentDev/README.md#L1-L13) publishes the exact [Claude Code, Codex, and Cursor scenario matrix](https://github.com/Uclusion/nodejs_sdk/blob/master/testAgentDev/matrix.js#L1-L33). Raw run artifacts are not published.
-
-We run [two Codex-only question-gate scenarios](https://github.com/Uclusion/nodejs_sdk/blob/master/testAgentDev/questionGateScenarios.js#L1-L40): one with explicit choices and one with implied choices. In the harder case, Codex is handed an [underspecified rate-limiter job](https://github.com/Uclusion/nodejs_sdk/blob/master/testAgentDev/questionGateFixture.js#L39-L67) without being told, in that prompt, to stop and expose its hidden choices before editing. Passing is [measured from durable state](https://github.com/Uclusion/nodejs_sdk/blob/master/testAgentDev/questionGateFixture.js#L465-L534): the implementation task must remain untouched, the job must be locked for input, each hidden architectural fork must have its own optioned question, and already-settled premises must not be reopened as choices.
-
-That is why we use real clients. We are testing the behavior produced by the model, its harness, our instructions, our tools, and our state machine together. Any one layer can change the result.
-
-## What this does and does not do
-
-Uclusion does not retrain the model. It makes collaboration an explicit part of the runtime contract. When one of those tested behaviors drifts, the gate tells us before customers do.
-
-A system that treats understanding, questioning, deciding, implementing, and reviewing as different kinds of progress becomes a much better teammate.
+These are the constraints behind Uclusion's integration. Its [workflow roles](https://github.com/Uclusion/uclusion_web_ui/blob/ab53cb2278c3fec9e84c7f34c98c93b577e4f9fa/public/scripts/skills/uclusion/README.md) scope instructions and helper work around maintained decisions, while its MCP proxy and [native Codex delivery](https://github.com/Uclusion/uclusion_web_ui/blob/ab53cb2278c3fec9e84c7f34c98c93b577e4f9fa/public/scripts/uclusionCodexNative.py) routes external updates to the conversations responsible for the work.
 
 [Signing up](https://uclusion.com) is free.

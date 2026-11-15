@@ -32,6 +32,15 @@
 	margin-top: 50px;
 }
 
+.article-post > table {
+	margin-bottom: 1.5rem;
+
+	th, td {
+		padding-left: 0.75rem;
+		padding-right: 0.75rem;
+	}
+}
+
 /* callout styles*/
 
 .bs-callout {
