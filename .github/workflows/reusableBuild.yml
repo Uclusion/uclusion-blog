@@ -19,6 +19,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v6
         with:
@@ -26,12 +31,9 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-west-2
 
-      - name: Install Bundler
-        run: sudo gem install bundler -v '2.1.4'
-
       - name: Install dependencies & Deploy
         run: |
-          bundle config path _site/vendor/bundle
+          bundle config set --local path _site/vendor/bundle
           bundle install
           bundle exec jekyll build
           aws s3 sync --delete _site/ s3://uclusion-blog-${{ inputs.environment }}

@@ -17,4 +17,6 @@ group :jekyll_plugins do
     gem 'jekyll-seo-tag'
     gem 'jekyll-archives'
 end
+# Ruby 3.3's bundled logger is incompatible with Jekyll 4.1.
+gem "logger", "~> 1.7"
 gem "webrick", "~> 1.9"
